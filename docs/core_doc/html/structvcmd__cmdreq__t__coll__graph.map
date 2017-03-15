@@ -1,0 +1,7 @@
+<map id="vcmd_cmdreq_t" name="vcmd_cmdreq_t">
+<area shape="rect" id="node2" href="$structvnode__client__cmdio__t.html" title="{vnode_client_cmdio_t\n|+ iotype\l+ @1\l|}" alt="" coords="92,211,240,303"/>
+<area shape="rect" id="node3" href="$structstdio__pty__t.html" title="{stdio_pty_t\n|+ masterfd\l+ slavefd\l|}" alt="" coords="5,13,92,105"/>
+<area shape="rect" id="node4" href="$structstdio__fd__t.html" title="{stdio_fd_t\n|+ infd\l+ outfd\l+ errfd\l|}" alt="" coords="116,5,195,112"/>
+<area shape="rect" id="node5" href="$structstdio__pipe__t.html" title="{stdio_pipe_t\n|+ infd\l+ outfd\l+ errfd\l|}" alt="" coords="219,5,311,112"/>
+<area shape="rect" id="node6" href="$structvnode__client.html" title="{vnode_client\n|+ serverfd\l+ data\l+ cmdid\l|+ TAILQ_HEAD()\l}" alt="" coords="287,204,413,311"/>
+</map>

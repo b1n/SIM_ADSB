@@ -1,0 +1,128 @@
+\hypertarget{classcorens3_1_1obj_1_1_core_ns3_net}{\section{corens3.\+obj.\+Core\+Ns3\+Net Class Reference}
+\label{classcorens3_1_1obj_1_1_core_ns3_net}\index{corens3.\+obj.\+Core\+Ns3\+Net@{corens3.\+obj.\+Core\+Ns3\+Net}}
+}
+
+
+Inheritance diagram for corens3.\+obj.\+Core\+Ns3\+Net\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=550pt]{classcorens3_1_1obj_1_1_core_ns3_net__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for corens3.\+obj.\+Core\+Ns3\+Net\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=550pt]{classcorens3_1_1obj_1_1_core_ns3_net__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classcorens3_1_1obj_1_1_core_ns3_net_a7b7059d1424c61861c4d3535bbbcecd4}{def {\bfseries \+\_\+\+\_\+init\+\_\+\+\_\+}}\label{classcorens3_1_1obj_1_1_core_ns3_net_a7b7059d1424c61861c4d3535bbbcecd4}
+
+\item 
+def \hyperlink{classcorens3_1_1obj_1_1_core_ns3_net_a9fee980b7e99143bffdb9095bcb28df8}{attach}
+\item 
+def \hyperlink{classcorens3_1_1obj_1_1_core_ns3_net_a41affaca635832739a4855ee15d68894}{getns3dev}
+\item 
+def \hyperlink{classcorens3_1_1obj_1_1_core_ns3_net_a2caeea7d1befca32bf526ee448901846}{findns3dev}
+\item 
+def \hyperlink{classcorens3_1_1obj_1_1_core_ns3_net_a84e99d6561684153d586e60867eefe2a}{shutdown}
+\item 
+def \hyperlink{classcorens3_1_1obj_1_1_core_ns3_net_acf6bbab2bd0684cd3313c9b5ed3ba1d7}{usecorepositions}
+\item 
+\hypertarget{classcorens3_1_1obj_1_1_core_ns3_net_a38b3e42fc5eb4cecf33550efad611960}{def {\bfseries setns3position}}\label{classcorens3_1_1obj_1_1_core_ns3_net_a38b3e42fc5eb4cecf33550efad611960}
+
+\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classcorens3_1_1obj_1_1_core_ns3_net_afe5d840c161bc13ee008ac77642fcaf5}{{\bfseries tapbridge}}\label{classcorens3_1_1obj_1_1_core_ns3_net_afe5d840c161bc13ee008ac77642fcaf5}
+
+\end{DoxyCompactItemize}
+\subsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classcorens3_1_1obj_1_1_core_ns3_net_a3de81344cb9b5e73598c728172c8ad5a}{{\bfseries apitype} = coreapi.\+C\+O\+R\+E\+\_\+\+N\+O\+D\+E\+\_\+\+W\+L\+A\+N}\label{classcorens3_1_1obj_1_1_core_ns3_net_a3de81344cb9b5e73598c728172c8ad5a}
+
+\item 
+\hypertarget{classcorens3_1_1obj_1_1_core_ns3_net_a3af54dd82c0066d87b0e70932a285e0c}{{\bfseries linktype} = coreapi.\+C\+O\+R\+E\+\_\+\+L\+I\+N\+K\+\_\+\+W\+I\+R\+E\+L\+E\+S\+S}\label{classcorens3_1_1obj_1_1_core_ns3_net_a3af54dd82c0066d87b0e70932a285e0c}
+
+\item 
+\hypertarget{classcorens3_1_1obj_1_1_core_ns3_net_aec1aaa2c0334d193b73f7e4b3dcaaff4}{string {\bfseries type} = \char`\"{}wlan\char`\"{}}\label{classcorens3_1_1obj_1_1_core_ns3_net_aec1aaa2c0334d193b73f7e4b3dcaaff4}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\begin{DoxyVerb}The CoreNs3Net is a helper PyCoreNet object. Networks are represented
+entirely in simulation with the TunTap device bridging the emulated and
+simulated worlds.
+\end{DoxyVerb}
+ 
+
+\subsection{Member Function Documentation}
+\hypertarget{classcorens3_1_1obj_1_1_core_ns3_net_a9fee980b7e99143bffdb9095bcb28df8}{\index{corens3\+::obj\+::\+Core\+Ns3\+Net@{corens3\+::obj\+::\+Core\+Ns3\+Net}!attach@{attach}}
+\index{attach@{attach}!corens3\+::obj\+::\+Core\+Ns3\+Net@{corens3\+::obj\+::\+Core\+Ns3\+Net}}
+\subsubsection[{attach}]{\setlength{\rightskip}{0pt plus 5cm}def corens3.\+obj.\+Core\+Ns3\+Net.\+attach (
+\begin{DoxyParamCaption}
+\item[{}]{self, }
+\item[{}]{netif}
+\end{DoxyParamCaption}
+)}}\label{classcorens3_1_1obj_1_1_core_ns3_net_a9fee980b7e99143bffdb9095bcb28df8}
+\begin{DoxyVerb}Invoked from netif.attach(). Create a TAP device using the TapBridge
+object. Call getns3dev() to get model-specific device.
+\end{DoxyVerb}
+ \hypertarget{classcorens3_1_1obj_1_1_core_ns3_net_a2caeea7d1befca32bf526ee448901846}{\index{corens3\+::obj\+::\+Core\+Ns3\+Net@{corens3\+::obj\+::\+Core\+Ns3\+Net}!findns3dev@{findns3dev}}
+\index{findns3dev@{findns3dev}!corens3\+::obj\+::\+Core\+Ns3\+Net@{corens3\+::obj\+::\+Core\+Ns3\+Net}}
+\subsubsection[{findns3dev}]{\setlength{\rightskip}{0pt plus 5cm}def corens3.\+obj.\+Core\+Ns3\+Net.\+findns3dev (
+\begin{DoxyParamCaption}
+\item[{}]{self, }
+\item[{}]{node}
+\end{DoxyParamCaption}
+)}}\label{classcorens3_1_1obj_1_1_core_ns3_net_a2caeea7d1befca32bf526ee448901846}
+\begin{DoxyVerb}Given a node, return the interface and ns3 device associated with
+this network.
+\end{DoxyVerb}
+ \hypertarget{classcorens3_1_1obj_1_1_core_ns3_net_a41affaca635832739a4855ee15d68894}{\index{corens3\+::obj\+::\+Core\+Ns3\+Net@{corens3\+::obj\+::\+Core\+Ns3\+Net}!getns3dev@{getns3dev}}
+\index{getns3dev@{getns3dev}!corens3\+::obj\+::\+Core\+Ns3\+Net@{corens3\+::obj\+::\+Core\+Ns3\+Net}}
+\subsubsection[{getns3dev}]{\setlength{\rightskip}{0pt plus 5cm}def corens3.\+obj.\+Core\+Ns3\+Net.\+getns3dev (
+\begin{DoxyParamCaption}
+\item[{}]{self, }
+\item[{}]{node}
+\end{DoxyParamCaption}
+)}}\label{classcorens3_1_1obj_1_1_core_ns3_net_a41affaca635832739a4855ee15d68894}
+\begin{DoxyVerb}Implement depending on network helper. Install this network onto
+the given node and return the device. Register the ns3 device into
+self._ns3devs
+\end{DoxyVerb}
+ \hypertarget{classcorens3_1_1obj_1_1_core_ns3_net_a84e99d6561684153d586e60867eefe2a}{\index{corens3\+::obj\+::\+Core\+Ns3\+Net@{corens3\+::obj\+::\+Core\+Ns3\+Net}!shutdown@{shutdown}}
+\index{shutdown@{shutdown}!corens3\+::obj\+::\+Core\+Ns3\+Net@{corens3\+::obj\+::\+Core\+Ns3\+Net}}
+\subsubsection[{shutdown}]{\setlength{\rightskip}{0pt plus 5cm}def corens3.\+obj.\+Core\+Ns3\+Net.\+shutdown (
+\begin{DoxyParamCaption}
+\item[{}]{self}
+\end{DoxyParamCaption}
+)}}\label{classcorens3_1_1obj_1_1_core_ns3_net_a84e99d6561684153d586e60867eefe2a}
+\begin{DoxyVerb}Session.shutdown() will invoke this.
+\end{DoxyVerb}
+ \hypertarget{classcorens3_1_1obj_1_1_core_ns3_net_acf6bbab2bd0684cd3313c9b5ed3ba1d7}{\index{corens3\+::obj\+::\+Core\+Ns3\+Net@{corens3\+::obj\+::\+Core\+Ns3\+Net}!usecorepositions@{usecorepositions}}
+\index{usecorepositions@{usecorepositions}!corens3\+::obj\+::\+Core\+Ns3\+Net@{corens3\+::obj\+::\+Core\+Ns3\+Net}}
+\subsubsection[{usecorepositions}]{\setlength{\rightskip}{0pt plus 5cm}def corens3.\+obj.\+Core\+Ns3\+Net.\+usecorepositions (
+\begin{DoxyParamCaption}
+\item[{}]{self}
+\end{DoxyParamCaption}
+)}}\label{classcorens3_1_1obj_1_1_core_ns3_net_acf6bbab2bd0684cd3313c9b5ed3ba1d7}
+\begin{DoxyVerb}Set position callbacks for interfaces on this net so the CORE GUI
+can update the ns-3 node position when moved with the mouse.
+\end{DoxyVerb}
+ 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+daemon/ns3/corens3/obj.\+py\end{DoxyCompactItemize}

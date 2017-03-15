@@ -1,0 +1,11 @@
+<map id="core.services.xorp.XorpService" name="core.services.xorp.XorpService">
+<area shape="rect" id="node4" href="$classcore_1_1services_1_1xorp_1_1_xorp_bgp.html" title="{core.services.xorp.XorpBgp\n||+ generatexorpconfig()\l}" alt="" coords="5,557,188,635"/>
+<area shape="rect" id="node5" href="$classcore_1_1services_1_1xorp_1_1_xorp_olsr.html" title="{core.services.xorp.XorpOlsr\n||+ generatexorpconfig()\l}" alt="" coords="213,557,397,635"/>
+<area shape="rect" id="node6" href="$classcore_1_1services_1_1xorp_1_1_xorp_ospfv2.html" title="{core.services.xorp.XorpOspfv2\n||+ generatexorpconfig()\l}" alt="" coords="421,557,623,635"/>
+<area shape="rect" id="node7" href="$classcore_1_1services_1_1xorp_1_1_xorp_ospfv3.html" title="{core.services.xorp.XorpOspfv3\n||+ generatexorpconfig()\l}" alt="" coords="647,557,850,635"/>
+<area shape="rect" id="node8" href="$classcore_1_1services_1_1xorp_1_1_xorp_pim_sm4.html" title="{core.services.xorp.XorpPimSm4\n||+ generatexorpconfig()\l}" alt="" coords="874,557,1085,635"/>
+<area shape="rect" id="node9" href="$classcore_1_1services_1_1xorp_1_1_xorp_pim_sm6.html" title="{core.services.xorp.XorpPimSm6\n||+ generatexorpconfig()\l}" alt="" coords="1109,557,1319,635"/>
+<area shape="rect" id="node10" href="$classcore_1_1services_1_1xorp_1_1_xorp_rip.html" title="{core.services.xorp.XorpRip\n||+ generatexorpconfig()\l}" alt="" coords="1344,557,1524,635"/>
+<area shape="rect" id="node11" href="$classcore_1_1services_1_1xorp_1_1_xorp_ripng.html" title="{core.services.xorp.XorpRipng\n||+ generatexorpconfig()\l}" alt="" coords="1549,557,1743,635"/>
+<area shape="rect" id="node2" href="$classcore_1_1service_1_1_core_service.html" title="{core.service.CoreService\n|+ keys\l|+ __init__()\l+ getconfigfilenames()\l+ generateconfig()\l+ getstartup()\l+ getvalidate()\l+ tovaluelist()\l+ fromvaluelist()\l+ setvalue()\l}" alt="" coords="779,131,948,311"/>
+</map>

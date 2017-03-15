@@ -1,0 +1,5 @@
+<map id="core.bsd.nodes.TunnelNode" name="core.bsd.nodes.TunnelNode">
+<area shape="rect" id="node2" href="$classcore_1_1bsd_1_1vnet_1_1_netgraph_net.html" title="{core.bsd.vnet.NetgraphNet\n|+ policy\l+ name\l+ ngname\l+ ngid\l+ verbose\l+ up\l+ ngtype\l+ nghooks\l|+ __init__()\l+ startup()\l+ shutdown()\l+ attach()\l+ detach()\l+ linked()\l+ unlink()\l+ link()\l+ linknet()\l+ linkconfig()\l}" alt="" coords="9,777,187,1089"/>
+<area shape="rect" id="node3" href="$classcore_1_1coreobj_1_1_py_core_net.html" title="{core.coreobj.PyCoreNet\n|+ linktype\l|+ __init__()\l+ attach()\l+ detach()\l+ netifparamstolink()\l+ tolinkmsgs()\l}" alt="" coords="17,593,179,729"/>
+<area shape="rect" id="node4" href="$classcore_1_1coreobj_1_1_py_core_obj.html" title="{core.coreobj.PyCoreObj\n|+ session\l+ objid\l+ name\l+ ifindex\l+ canvas\l+ icon\l+ opaque\l+ verbose\l+ position\l+ apitype\l|+ __init__()\l+ startup()\l+ shutdown()\l+ setposition()\l+ getposition()\l+ ifname()\l+ netifs()\l+ numnetif()\l+ getifindex()\l+ newifindex()\l+ tonodemsg()\l+ tolinkmsgs()\l+ info()\l+ warn()\l+ exception()\l}" alt="" coords="17,131,179,545"/>
+</map>

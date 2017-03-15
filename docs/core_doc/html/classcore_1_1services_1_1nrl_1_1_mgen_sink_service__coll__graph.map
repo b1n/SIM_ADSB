@@ -1,0 +1,4 @@
+<map id="core.services.nrl.MgenSinkService" name="core.services.nrl.MgenSinkService">
+<area shape="rect" id="node2" href="$classcore_1_1services_1_1nrl_1_1_nrl_service.html" title="{core.services.nrl.NrlService\n||+ generateconfig()\l+ firstipv4prefix()\l}" alt="" coords="5,359,188,451"/>
+<area shape="rect" id="node3" href="$classcore_1_1service_1_1_core_service.html" title="{core.service.CoreService\n|+ keys\l|+ __init__()\l+ getconfigfilenames()\l+ generateconfig()\l+ getstartup()\l+ getvalidate()\l+ tovaluelist()\l+ fromvaluelist()\l+ setvalue()\l}" alt="" coords="12,131,181,311"/>
+</map>

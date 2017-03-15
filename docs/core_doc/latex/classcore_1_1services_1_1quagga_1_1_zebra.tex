@@ -1,0 +1,108 @@
+\hypertarget{classcore_1_1services_1_1quagga_1_1_zebra}{\section{core.\+services.\+quagga.\+Zebra Class Reference}
+\label{classcore_1_1services_1_1quagga_1_1_zebra}\index{core.\+services.\+quagga.\+Zebra@{core.\+services.\+quagga.\+Zebra}}
+}
+
+
+Inheritance diagram for core.\+services.\+quagga.\+Zebra\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=217pt]{classcore_1_1services_1_1quagga_1_1_zebra__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for core.\+services.\+quagga.\+Zebra\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=217pt]{classcore_1_1services_1_1quagga_1_1_zebra__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+def \hyperlink{classcore_1_1services_1_1quagga_1_1_zebra_ad00a68644ef1db34251ced2bd84b470a}{generateconfig}
+\item 
+def \hyperlink{classcore_1_1services_1_1quagga_1_1_zebra_a4e251500d8a092a9eaf6f0e1bccf685b}{generate\+Vtysh\+Conf}
+\item 
+def \hyperlink{classcore_1_1services_1_1quagga_1_1_zebra_aa6d2206229a63f73d722271247b6a072}{generate\+Quagga\+Conf}
+\item 
+def \hyperlink{classcore_1_1services_1_1quagga_1_1_zebra_ac651416f328aa7341372fe950f21ffa0}{generate\+Quagga\+Boot}
+\end{DoxyCompactItemize}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+def \hyperlink{classcore_1_1services_1_1quagga_1_1_zebra_a215413d8d42ec0f82f71243012e6fc9a}{addrstr}
+\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Detailed Description}
+\begin{DoxyVerb}\end{DoxyVerb}
+ 
+
+\subsection{Member Function Documentation}
+\hypertarget{classcore_1_1services_1_1quagga_1_1_zebra_a215413d8d42ec0f82f71243012e6fc9a}{\index{core\+::services\+::quagga\+::\+Zebra@{core\+::services\+::quagga\+::\+Zebra}!addrstr@{addrstr}}
+\index{addrstr@{addrstr}!core\+::services\+::quagga\+::\+Zebra@{core\+::services\+::quagga\+::\+Zebra}}
+\subsubsection[{addrstr}]{\setlength{\rightskip}{0pt plus 5cm}def core.\+services.\+quagga.\+Zebra.\+addrstr (
+\begin{DoxyParamCaption}
+\item[{}]{x}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{classcore_1_1services_1_1quagga_1_1_zebra_a215413d8d42ec0f82f71243012e6fc9a}
+\begin{DoxyVerb}helper for mapping IP addresses to zebra config statements
+\end{DoxyVerb}
+ \hypertarget{classcore_1_1services_1_1quagga_1_1_zebra_ad00a68644ef1db34251ced2bd84b470a}{\index{core\+::services\+::quagga\+::\+Zebra@{core\+::services\+::quagga\+::\+Zebra}!generateconfig@{generateconfig}}
+\index{generateconfig@{generateconfig}!core\+::services\+::quagga\+::\+Zebra@{core\+::services\+::quagga\+::\+Zebra}}
+\subsubsection[{generateconfig}]{\setlength{\rightskip}{0pt plus 5cm}def core.\+services.\+quagga.\+Zebra.\+generateconfig (
+\begin{DoxyParamCaption}
+\item[{}]{cls, }
+\item[{}]{node, }
+\item[{}]{filename, }
+\item[{}]{services}
+\end{DoxyParamCaption}
+)}}\label{classcore_1_1services_1_1quagga_1_1_zebra_ad00a68644ef1db34251ced2bd84b470a}
+\begin{DoxyVerb}Return the Quagga.conf or quaggaboot.sh file contents.
+\end{DoxyVerb}
+ \hypertarget{classcore_1_1services_1_1quagga_1_1_zebra_ac651416f328aa7341372fe950f21ffa0}{\index{core\+::services\+::quagga\+::\+Zebra@{core\+::services\+::quagga\+::\+Zebra}!generate\+Quagga\+Boot@{generate\+Quagga\+Boot}}
+\index{generate\+Quagga\+Boot@{generate\+Quagga\+Boot}!core\+::services\+::quagga\+::\+Zebra@{core\+::services\+::quagga\+::\+Zebra}}
+\subsubsection[{generate\+Quagga\+Boot}]{\setlength{\rightskip}{0pt plus 5cm}def core.\+services.\+quagga.\+Zebra.\+generate\+Quagga\+Boot (
+\begin{DoxyParamCaption}
+\item[{}]{cls, }
+\item[{}]{node, }
+\item[{}]{services}
+\end{DoxyParamCaption}
+)}}\label{classcore_1_1services_1_1quagga_1_1_zebra_ac651416f328aa7341372fe950f21ffa0}
+\begin{DoxyVerb}Generate a shell script used to boot the Quagga daemons.
+\end{DoxyVerb}
+ \hypertarget{classcore_1_1services_1_1quagga_1_1_zebra_aa6d2206229a63f73d722271247b6a072}{\index{core\+::services\+::quagga\+::\+Zebra@{core\+::services\+::quagga\+::\+Zebra}!generate\+Quagga\+Conf@{generate\+Quagga\+Conf}}
+\index{generate\+Quagga\+Conf@{generate\+Quagga\+Conf}!core\+::services\+::quagga\+::\+Zebra@{core\+::services\+::quagga\+::\+Zebra}}
+\subsubsection[{generate\+Quagga\+Conf}]{\setlength{\rightskip}{0pt plus 5cm}def core.\+services.\+quagga.\+Zebra.\+generate\+Quagga\+Conf (
+\begin{DoxyParamCaption}
+\item[{}]{cls, }
+\item[{}]{node, }
+\item[{}]{services}
+\end{DoxyParamCaption}
+)}}\label{classcore_1_1services_1_1quagga_1_1_zebra_aa6d2206229a63f73d722271247b6a072}
+\begin{DoxyVerb}Returns configuration file text. Other services that depend on zebra
+   will have generatequaggaifcconfig() and generatequaggaconfig()
+   hooks that are invoked here.
+\end{DoxyVerb}
+ \hypertarget{classcore_1_1services_1_1quagga_1_1_zebra_a4e251500d8a092a9eaf6f0e1bccf685b}{\index{core\+::services\+::quagga\+::\+Zebra@{core\+::services\+::quagga\+::\+Zebra}!generate\+Vtysh\+Conf@{generate\+Vtysh\+Conf}}
+\index{generate\+Vtysh\+Conf@{generate\+Vtysh\+Conf}!core\+::services\+::quagga\+::\+Zebra@{core\+::services\+::quagga\+::\+Zebra}}
+\subsubsection[{generate\+Vtysh\+Conf}]{\setlength{\rightskip}{0pt plus 5cm}def core.\+services.\+quagga.\+Zebra.\+generate\+Vtysh\+Conf (
+\begin{DoxyParamCaption}
+\item[{}]{cls, }
+\item[{}]{node, }
+\item[{}]{services}
+\end{DoxyParamCaption}
+)}}\label{classcore_1_1services_1_1quagga_1_1_zebra_a4e251500d8a092a9eaf6f0e1bccf685b}
+\begin{DoxyVerb}Returns configuration file text.
+\end{DoxyVerb}
+ 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+daemon/core/services/quagga.\+py\end{DoxyCompactItemize}

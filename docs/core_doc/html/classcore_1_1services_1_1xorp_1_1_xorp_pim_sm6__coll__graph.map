@@ -1,0 +1,4 @@
+<map id="core.services.xorp.XorpPimSm6" name="core.services.xorp.XorpPimSm6">
+<area shape="rect" id="node2" href="$classcore_1_1services_1_1xorp_1_1_xorp_service.html" title="{core.services.xorp.XorpService\n||+ generateconfig()\l+ generatexorpconfig()\l+ fea()\l+ mfea()\l+ policyexportconnected()\l+ routerid()\l}" alt="" coords="9,359,213,509"/>
+<area shape="rect" id="node3" href="$classcore_1_1service_1_1_core_service.html" title="{core.service.CoreService\n|+ keys\l|+ __init__()\l+ getconfigfilenames()\l+ generateconfig()\l+ getstartup()\l+ getvalidate()\l+ tovaluelist()\l+ fromvaluelist()\l+ setvalue()\l}" alt="" coords="26,131,195,311"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="core.mobility.WayPointMobility" name="core.mobility.WayPointMobility">
+<area shape="rect" id="node5" href="$classcore_1_1mobility_1_1_ns2_scripted_mobility.html" title="{core.mobility.Ns2Scripted\lMobility\n|+ file\l+ refresh_ms\l+ loop\l+ autostart\l+ script_start\l+ script_pause\l+ script_stop\l+ nodemap\l+ state\l|+ __init__()\l+ configure_mob()\l+ readscriptfile()\l+ findfile()\l+ parsemap()\l+ map()\l+ startup()\l+ start()\l+ run()\l+ pause()\l+ stop()\l+ statescript()\l}" alt="" coords="21,1137,193,1508"/>
+<area shape="rect" id="node2" href="$classcore_1_1mobility_1_1_wireless_model.html" title="{core.mobility.WirelessModel\n|+ verbose\l|+ __init__()\l+ tolinkmsgs()\l+ update()\l+ updateconfig()\l}" alt="" coords="13,432,200,553"/>
+<area shape="rect" id="node3" href="$classcore_1_1conf_1_1_configurable.html" title="{core.conf.Configurable\n|+ session\l+ objid\l|+ __init__()\l+ reset()\l+ register()\l+ getdefaultvalues()\l+ getnames()\l+ configure()\l+ toconfmsg()\l+ valueof()\l+ getkeyvaluelist()\l+ booltooffon()\l+ offontobool()\l+ haskeyvalues()\l}" alt="" coords="30,131,183,384"/>
+</map>

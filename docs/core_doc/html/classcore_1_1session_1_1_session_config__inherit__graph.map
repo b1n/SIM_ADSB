@@ -1,0 +1,4 @@
+<map id="core.session.SessionConfig" name="core.session.SessionConfig">
+<area shape="rect" id="node2" href="$classcore_1_1conf_1_1_configurable_manager.html" title="{core.conf.ConfigurableManager\n|+ session\l+ configs\l|+ __init__()\l+ configure()\l+ configure_request()\l+ configure_reset()\l+ configure_values()\l+ configure_values_keyvalues()\l+ reset()\l+ setconfig()\l+ getconfig()\l+ getallconfigs()\l+ clearconfig()\l+ setconfig_keyvalues()\l+ getmodels()\l+ info()\l+ warn()\l}" alt="" coords="5,131,212,428"/>
+<area shape="rect" id="node4" href="$classcore_1_1conf_1_1_configurable.html" title="{core.conf.Configurable\n|+ session\l+ objid\l|+ __init__()\l+ reset()\l+ register()\l+ getdefaultvalues()\l+ getnames()\l+ configure()\l+ toconfmsg()\l+ valueof()\l+ getkeyvaluelist()\l+ booltooffon()\l+ offontobool()\l+ haskeyvalues()\l}" alt="" coords="236,153,389,406"/>
+</map>

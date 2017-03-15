@@ -1,0 +1,87 @@
+\hypertarget{classcorens3_1_1obj_1_1_core_ns3_node}{\section{corens3.\+obj.\+Core\+Ns3\+Node Class Reference}
+\label{classcorens3_1_1obj_1_1_core_ns3_node}\index{corens3.\+obj.\+Core\+Ns3\+Node@{corens3.\+obj.\+Core\+Ns3\+Node}}
+}
+
+
+Inheritance diagram for corens3.\+obj.\+Core\+Ns3\+Node\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=550pt]{classcorens3_1_1obj_1_1_core_ns3_node__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for corens3.\+obj.\+Core\+Ns3\+Node\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=550pt]{classcorens3_1_1obj_1_1_core_ns3_node__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classcorens3_1_1obj_1_1_core_ns3_node_ab1d1b3862c49febd255578d1d4d2b084}{def {\bfseries \+\_\+\+\_\+init\+\_\+\+\_\+}}\label{classcorens3_1_1obj_1_1_core_ns3_node_ab1d1b3862c49febd255578d1d4d2b084}
+
+\item 
+def \hyperlink{classcorens3_1_1obj_1_1_core_ns3_node_a9c892c9793923f9cb0d7793df17b63ea}{newnetif}
+\item 
+def \hyperlink{classcorens3_1_1obj_1_1_core_ns3_node_a4e397c05798ffff1fa94b13587ad8321}{getns3position}
+\item 
+def \hyperlink{classcorens3_1_1obj_1_1_core_ns3_node_a5dd46991b5d18bcab27fa728ab2ca25d}{setns3position}
+\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Detailed Description}
+\begin{DoxyVerb}The CoreNs3Node is both a CoreNode backed by a network namespace and
+an ns-3 Node simulator object. When linked to simulated networks, the TunTap
+device will be used.
+\end{DoxyVerb}
+ 
+
+\subsection{Member Function Documentation}
+\hypertarget{classcorens3_1_1obj_1_1_core_ns3_node_a4e397c05798ffff1fa94b13587ad8321}{\index{corens3\+::obj\+::\+Core\+Ns3\+Node@{corens3\+::obj\+::\+Core\+Ns3\+Node}!getns3position@{getns3position}}
+\index{getns3position@{getns3position}!corens3\+::obj\+::\+Core\+Ns3\+Node@{corens3\+::obj\+::\+Core\+Ns3\+Node}}
+\subsubsection[{getns3position}]{\setlength{\rightskip}{0pt plus 5cm}def corens3.\+obj.\+Core\+Ns3\+Node.\+getns3position (
+\begin{DoxyParamCaption}
+\item[{}]{self}
+\end{DoxyParamCaption}
+)}}\label{classcorens3_1_1obj_1_1_core_ns3_node_a4e397c05798ffff1fa94b13587ad8321}
+\begin{DoxyVerb}Return the ns-3 (x, y, z) position of a node.
+\end{DoxyVerb}
+ \hypertarget{classcorens3_1_1obj_1_1_core_ns3_node_a9c892c9793923f9cb0d7793df17b63ea}{\index{corens3\+::obj\+::\+Core\+Ns3\+Node@{corens3\+::obj\+::\+Core\+Ns3\+Node}!newnetif@{newnetif}}
+\index{newnetif@{newnetif}!corens3\+::obj\+::\+Core\+Ns3\+Node@{corens3\+::obj\+::\+Core\+Ns3\+Node}}
+\subsubsection[{newnetif}]{\setlength{\rightskip}{0pt plus 5cm}def corens3.\+obj.\+Core\+Ns3\+Node.\+newnetif (
+\begin{DoxyParamCaption}
+\item[{}]{self, }
+\item[{}]{net = {\ttfamily None}, }
+\item[{}]{addrlist = {\ttfamily \mbox{[}\mbox{]}}, }
+\item[{}]{hwaddr = {\ttfamily None}, }
+\item[{}]{ifindex = {\ttfamily None}, }
+\item[{}]{ifname = {\ttfamily None}}
+\end{DoxyParamCaption}
+)}}\label{classcorens3_1_1obj_1_1_core_ns3_node_a9c892c9793923f9cb0d7793df17b63ea}
+\begin{DoxyVerb}Add a network interface. If we are attaching to a CoreNs3Net, this
+will be a TunTap. Otherwise dispatch to CoreNode.newnetif().
+\end{DoxyVerb}
+ \hypertarget{classcorens3_1_1obj_1_1_core_ns3_node_a5dd46991b5d18bcab27fa728ab2ca25d}{\index{corens3\+::obj\+::\+Core\+Ns3\+Node@{corens3\+::obj\+::\+Core\+Ns3\+Node}!setns3position@{setns3position}}
+\index{setns3position@{setns3position}!corens3\+::obj\+::\+Core\+Ns3\+Node@{corens3\+::obj\+::\+Core\+Ns3\+Node}}
+\subsubsection[{setns3position}]{\setlength{\rightskip}{0pt plus 5cm}def corens3.\+obj.\+Core\+Ns3\+Node.\+setns3position (
+\begin{DoxyParamCaption}
+\item[{}]{self, }
+\item[{}]{x, }
+\item[{}]{y, }
+\item[{}]{z}
+\end{DoxyParamCaption}
+)}}\label{classcorens3_1_1obj_1_1_core_ns3_node_a5dd46991b5d18bcab27fa728ab2ca25d}
+\begin{DoxyVerb}Set the ns-3 (x, y, z) position of a node.
+\end{DoxyVerb}
+ 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+daemon/ns3/corens3/obj.\+py\end{DoxyCompactItemize}

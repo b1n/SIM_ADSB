@@ -1,0 +1,115 @@
+\hypertarget{classwlanemanetests_1_1_client_server_cmd}{\section{wlanemanetests.\+Client\+Server\+Cmd Class Reference}
+\label{classwlanemanetests_1_1_client_server_cmd}\index{wlanemanetests.\+Client\+Server\+Cmd@{wlanemanetests.\+Client\+Server\+Cmd}}
+}
+
+
+Inheritance diagram for wlanemanetests.\+Client\+Server\+Cmd\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=550pt]{classwlanemanetests_1_1_client_server_cmd__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for wlanemanetests.\+Client\+Server\+Cmd\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=288pt]{classwlanemanetests_1_1_client_server_cmd__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+def \hyperlink{classwlanemanetests_1_1_client_server_cmd_a6147b9c996e41c83f8ebbb81f5aee5be}{\+\_\+\+\_\+init\+\_\+\+\_\+}
+\item 
+def \hyperlink{classwlanemanetests_1_1_client_server_cmd_ac5c400fc3217b84d5e708486fe160bea}{run}
+\item 
+def \hyperlink{classwlanemanetests_1_1_client_server_cmd_a3c60da372a7c98838e9fdf0ce7a9e9cf}{client\+\_\+open}
+\item 
+def \hyperlink{classwlanemanetests_1_1_client_server_cmd_af9f71c30e89e355a343a6c1df78e599a}{parse}
+\item 
+def \hyperlink{classwlanemanetests_1_1_client_server_cmd_a10ed475cfd9e8db2e7cd52a0310af91b}{cleanup}
+\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classwlanemanetests_1_1_client_server_cmd_a874b7f85c3316c69f940bebb4afea9d7}{{\bfseries client\+\_\+node}}\label{classwlanemanetests_1_1_client_server_cmd_a874b7f85c3316c69f940bebb4afea9d7}
+
+\item 
+\hypertarget{classwlanemanetests_1_1_client_server_cmd_a43ec35ad1998a901f7a789c8b93698f6}{{\bfseries client\+\_\+err}}\label{classwlanemanetests_1_1_client_server_cmd_a43ec35ad1998a901f7a789c8b93698f6}
+
+\end{DoxyCompactItemize}
+\subsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classwlanemanetests_1_1_client_server_cmd_a6540d3c6444bca3589109c138db8a235}{string {\bfseries args} = \char`\"{}\char`\"{}}\label{classwlanemanetests_1_1_client_server_cmd_a6540d3c6444bca3589109c138db8a235}
+
+\item 
+\hypertarget{classwlanemanetests_1_1_client_server_cmd_ab612f0a4e42a37fdf10a1943fa4c73b0}{string {\bfseries client\+\_\+args} = \char`\"{}\char`\"{}}\label{classwlanemanetests_1_1_client_server_cmd_ab612f0a4e42a37fdf10a1943fa4c73b0}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\begin{DoxyVerb}Helper class for running a command on a node and parsing the result. \end{DoxyVerb}
+ 
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{classwlanemanetests_1_1_client_server_cmd_a6147b9c996e41c83f8ebbb81f5aee5be}{\index{wlanemanetests\+::\+Client\+Server\+Cmd@{wlanemanetests\+::\+Client\+Server\+Cmd}!\+\_\+\+\_\+init\+\_\+\+\_\+@{\+\_\+\+\_\+init\+\_\+\+\_\+}}
+\index{\+\_\+\+\_\+init\+\_\+\+\_\+@{\+\_\+\+\_\+init\+\_\+\+\_\+}!wlanemanetests\+::\+Client\+Server\+Cmd@{wlanemanetests\+::\+Client\+Server\+Cmd}}
+\subsubsection[{\+\_\+\+\_\+init\+\_\+\+\_\+}]{\setlength{\rightskip}{0pt plus 5cm}def wlanemanetests.\+Client\+Server\+Cmd.\+\_\+\+\_\+init\+\_\+\+\_\+ (
+\begin{DoxyParamCaption}
+\item[{}]{self, }
+\item[{}]{node, }
+\item[{}]{client\+\_\+node, }
+\item[{}]{verbose = {\ttfamily False}}
+\end{DoxyParamCaption}
+)}}\label{classwlanemanetests_1_1_client_server_cmd_a6147b9c996e41c83f8ebbb81f5aee5be}
+\begin{DoxyVerb}Initialize with two CoreNodes, node is the server \end{DoxyVerb}
+ 
+
+\subsection{Member Function Documentation}
+\hypertarget{classwlanemanetests_1_1_client_server_cmd_a10ed475cfd9e8db2e7cd52a0310af91b}{\index{wlanemanetests\+::\+Client\+Server\+Cmd@{wlanemanetests\+::\+Client\+Server\+Cmd}!cleanup@{cleanup}}
+\index{cleanup@{cleanup}!wlanemanetests\+::\+Client\+Server\+Cmd@{wlanemanetests\+::\+Client\+Server\+Cmd}}
+\subsubsection[{cleanup}]{\setlength{\rightskip}{0pt plus 5cm}def wlanemanetests.\+Client\+Server\+Cmd.\+cleanup (
+\begin{DoxyParamCaption}
+\item[{}]{self}
+\end{DoxyParamCaption}
+)}}\label{classwlanemanetests_1_1_client_server_cmd_a10ed475cfd9e8db2e7cd52a0310af91b}
+\begin{DoxyVerb}Close the Popen channels.\end{DoxyVerb}
+ \hypertarget{classwlanemanetests_1_1_client_server_cmd_a3c60da372a7c98838e9fdf0ce7a9e9cf}{\index{wlanemanetests\+::\+Client\+Server\+Cmd@{wlanemanetests\+::\+Client\+Server\+Cmd}!client\+\_\+open@{client\+\_\+open}}
+\index{client\+\_\+open@{client\+\_\+open}!wlanemanetests\+::\+Client\+Server\+Cmd@{wlanemanetests\+::\+Client\+Server\+Cmd}}
+\subsubsection[{client\+\_\+open}]{\setlength{\rightskip}{0pt plus 5cm}def wlanemanetests.\+Client\+Server\+Cmd.\+client\+\_\+open (
+\begin{DoxyParamCaption}
+\item[{}]{self}
+\end{DoxyParamCaption}
+)}}\label{classwlanemanetests_1_1_client_server_cmd_a3c60da372a7c98838e9fdf0ce7a9e9cf}
+\begin{DoxyVerb}Exceute call to client_node.popen(). \end{DoxyVerb}
+ \hypertarget{classwlanemanetests_1_1_client_server_cmd_af9f71c30e89e355a343a6c1df78e599a}{\index{wlanemanetests\+::\+Client\+Server\+Cmd@{wlanemanetests\+::\+Client\+Server\+Cmd}!parse@{parse}}
+\index{parse@{parse}!wlanemanetests\+::\+Client\+Server\+Cmd@{wlanemanetests\+::\+Client\+Server\+Cmd}}
+\subsubsection[{parse}]{\setlength{\rightskip}{0pt plus 5cm}def wlanemanetests.\+Client\+Server\+Cmd.\+parse (
+\begin{DoxyParamCaption}
+\item[{}]{self}
+\end{DoxyParamCaption}
+)}}\label{classwlanemanetests_1_1_client_server_cmd_af9f71c30e89e355a343a6c1df78e599a}
+\begin{DoxyVerb}This method is overloaded by child classes and should return some
+    result.
+\end{DoxyVerb}
+ \hypertarget{classwlanemanetests_1_1_client_server_cmd_ac5c400fc3217b84d5e708486fe160bea}{\index{wlanemanetests\+::\+Client\+Server\+Cmd@{wlanemanetests\+::\+Client\+Server\+Cmd}!run@{run}}
+\index{run@{run}!wlanemanetests\+::\+Client\+Server\+Cmd@{wlanemanetests\+::\+Client\+Server\+Cmd}}
+\subsubsection[{run}]{\setlength{\rightskip}{0pt plus 5cm}def wlanemanetests.\+Client\+Server\+Cmd.\+run (
+\begin{DoxyParamCaption}
+\item[{}]{self}
+\end{DoxyParamCaption}
+)}}\label{classwlanemanetests_1_1_client_server_cmd_ac5c400fc3217b84d5e708486fe160bea}
+\begin{DoxyVerb}Run the server command, then the client command, then
+kill the server \end{DoxyVerb}
+ 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+daemon/examples/netns/wlanemanetests.\+py\end{DoxyCompactItemize}

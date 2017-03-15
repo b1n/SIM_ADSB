@@ -1,0 +1,8 @@
+<map id="core.services.bird.BirdService" name="core.services.bird.BirdService">
+<area shape="rect" id="node4" href="$classcore_1_1services_1_1bird_1_1_bird_bgp.html" title="{core.services.bird.BirdBgp\n||+ generatebirdconfig()\l}" alt="" coords="5,499,180,576"/>
+<area shape="rect" id="node5" href="$classcore_1_1services_1_1bird_1_1_bird_ospf.html" title="{core.services.bird.BirdOspf\n||+ generatebirdconfig()\l}" alt="" coords="204,499,384,576"/>
+<area shape="rect" id="node6" href="$classcore_1_1services_1_1bird_1_1_bird_radv.html" title="{core.services.bird.BirdRadv\n||+ generatebirdconfig()\l}" alt="" coords="408,499,591,576"/>
+<area shape="rect" id="node7" href="$classcore_1_1services_1_1bird_1_1_bird_rip.html" title="{core.services.bird.BirdRip\n||+ generatebirdconfig()\l}" alt="" coords="615,499,787,576"/>
+<area shape="rect" id="node8" href="$classcore_1_1services_1_1bird_1_1_bird_static.html" title="{core.services.bird.BirdStatic\n||+ generatebirdconfig()\l}" alt="" coords="811,499,998,576"/>
+<area shape="rect" id="node2" href="$classcore_1_1service_1_1_core_service.html" title="{core.service.CoreService\n|+ keys\l|+ __init__()\l+ getconfigfilenames()\l+ generateconfig()\l+ getstartup()\l+ getvalidate()\l+ tovaluelist()\l+ fromvaluelist()\l+ setvalue()\l}" alt="" coords="415,131,584,311"/>
+</map>

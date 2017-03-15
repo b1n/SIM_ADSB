@@ -1,0 +1,4 @@
+<map id="vcmd_delclientreq_t" name="vcmd_delclientreq_t">
+<area shape="rect" id="node2" href="$structvcmdentry.html" title="{vcmdentry\n||}" alt="" coords="33,344,116,421"/>
+<area shape="rect" id="node3" href="$structvnode__client.html" title="{vnode_client\n|+ serverfd\l+ data\l+ cmdid\l|+ TAILQ_HEAD()\l}" alt="" coords="12,175,137,281"/>
+</map>

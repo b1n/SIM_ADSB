@@ -1,0 +1,76 @@
+\hypertarget{classcore_1_1services_1_1quagga_1_1_ospfv2}{\section{core.\+services.\+quagga.\+Ospfv2 Class Reference}
+\label{classcore_1_1services_1_1quagga_1_1_ospfv2}\index{core.\+services.\+quagga.\+Ospfv2@{core.\+services.\+quagga.\+Ospfv2}}
+}
+
+
+Inheritance diagram for core.\+services.\+quagga.\+Ospfv2\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=550pt]{classcore_1_1services_1_1quagga_1_1_ospfv2__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for core.\+services.\+quagga.\+Ospfv2\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=550pt]{classcore_1_1services_1_1quagga_1_1_ospfv2__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classcore_1_1services_1_1quagga_1_1_ospfv2_a230d1f7ae9ec0684ca6e7b5f53a6ce6e}{def {\bfseries generatequaggaconfig}}\label{classcore_1_1services_1_1quagga_1_1_ospfv2_a230d1f7ae9ec0684ca6e7b5f53a6ce6e}
+
+\item 
+\hypertarget{classcore_1_1services_1_1quagga_1_1_ospfv2_a09fdd2acd4058b977189230eb3d38a9a}{def {\bfseries generatequaggaifcconfig}}\label{classcore_1_1services_1_1quagga_1_1_ospfv2_a09fdd2acd4058b977189230eb3d38a9a}
+
+\end{DoxyCompactItemize}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+def \hyperlink{classcore_1_1services_1_1quagga_1_1_ospfv2_a38ffdb04b3cda17f79b993fc77a3859f}{mtucheck}
+\item 
+def \hyperlink{classcore_1_1services_1_1quagga_1_1_ospfv2_a267de8a7b2563ceb2dfde5bd654e5ba6}{ptpcheck}
+\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Detailed Description}
+\begin{DoxyVerb}The OSPFv2 service provides IPv4 routing for wired networks. It does
+    not build its own configuration file but has hooks for adding to the
+    unified Quagga.conf file.
+\end{DoxyVerb}
+ 
+
+\subsection{Member Function Documentation}
+\hypertarget{classcore_1_1services_1_1quagga_1_1_ospfv2_a38ffdb04b3cda17f79b993fc77a3859f}{\index{core\+::services\+::quagga\+::\+Ospfv2@{core\+::services\+::quagga\+::\+Ospfv2}!mtucheck@{mtucheck}}
+\index{mtucheck@{mtucheck}!core\+::services\+::quagga\+::\+Ospfv2@{core\+::services\+::quagga\+::\+Ospfv2}}
+\subsubsection[{mtucheck}]{\setlength{\rightskip}{0pt plus 5cm}def core.\+services.\+quagga.\+Ospfv2.\+mtucheck (
+\begin{DoxyParamCaption}
+\item[{}]{ifc}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{classcore_1_1services_1_1quagga_1_1_ospfv2_a38ffdb04b3cda17f79b993fc77a3859f}
+\begin{DoxyVerb}Helper to detect MTU mismatch and add the appropriate OSPF
+mtu-ignore command. This is needed when e.g. a node is linked via a
+GreTap device.
+\end{DoxyVerb}
+ \hypertarget{classcore_1_1services_1_1quagga_1_1_ospfv2_a267de8a7b2563ceb2dfde5bd654e5ba6}{\index{core\+::services\+::quagga\+::\+Ospfv2@{core\+::services\+::quagga\+::\+Ospfv2}!ptpcheck@{ptpcheck}}
+\index{ptpcheck@{ptpcheck}!core\+::services\+::quagga\+::\+Ospfv2@{core\+::services\+::quagga\+::\+Ospfv2}}
+\subsubsection[{ptpcheck}]{\setlength{\rightskip}{0pt plus 5cm}def core.\+services.\+quagga.\+Ospfv2.\+ptpcheck (
+\begin{DoxyParamCaption}
+\item[{}]{ifc}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{classcore_1_1services_1_1quagga_1_1_ospfv2_a267de8a7b2563ceb2dfde5bd654e5ba6}
+\begin{DoxyVerb}Helper to detect whether interface is connected to a notional
+point-to-point link.
+\end{DoxyVerb}
+ 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+daemon/core/services/quagga.\+py\end{DoxyCompactItemize}

@@ -1,0 +1,7 @@
+<map id="corens3.obj.CoreNs3Net" name="corens3.obj.CoreNs3Net">
+<area shape="rect" id="node5" href="$classcorens3_1_1obj_1_1_ns3_lte_net.html" title="{corens3.obj.Ns3LteNet\n|+ lte\l+ enbnodes\l+ dlsubchannels\l+ ulsubchannels\l|+ __init__()\l+ setsubchannels()\l+ setnodeb()\l+ linknodeb()\l+ getns3dev()\l+ attach()\l}" alt="" coords="5,1035,161,1229"/>
+<area shape="rect" id="node6" href="$classcorens3_1_1obj_1_1_ns3_wifi_net.html" title="{corens3.obj.Ns3WifiNet\n|+ wifi\l+ mac\l+ phy\l|+ __init__()\l+ getns3dev()\l}" alt="" coords="185,1071,347,1193"/>
+<area shape="rect" id="node7" href="$classcorens3_1_1obj_1_1_ns3_wimax_net.html" title="{corens3.obj.Ns3WimaxNet\n|+ wimax\l+ scheduler\l+ phy\l+ bsnodes\l|+ __init__()\l+ setbasestation()\l+ getns3dev()\l+ addflow()\l+ ipv4netifaddr()\l}" alt="" coords="371,1042,550,1222"/>
+<area shape="rect" id="node2" href="$classcore_1_1coreobj_1_1_py_core_net.html" title="{core.coreobj.PyCoreNet\n|+ linktype\l|+ __init__()\l+ attach()\l+ detach()\l+ netifparamstolink()\l+ tolinkmsgs()\l}" alt="" coords="185,593,347,729"/>
+<area shape="rect" id="node3" href="$classcore_1_1coreobj_1_1_py_core_obj.html" title="{core.coreobj.PyCoreObj\n|+ session\l+ objid\l+ name\l+ ifindex\l+ canvas\l+ icon\l+ opaque\l+ verbose\l+ position\l+ apitype\l|+ __init__()\l+ startup()\l+ shutdown()\l+ setposition()\l+ getposition()\l+ ifname()\l+ netifs()\l+ numnetif()\l+ getifindex()\l+ newifindex()\l+ tonodemsg()\l+ tolinkmsgs()\l+ info()\l+ warn()\l+ exception()\l}" alt="" coords="185,131,347,545"/>
+</map>

@@ -1,0 +1,61 @@
+\hypertarget{classcore_1_1services_1_1nrl_1_1_nrl_service}{\section{core.\+services.\+nrl.\+Nrl\+Service Class Reference}
+\label{classcore_1_1services_1_1nrl_1_1_nrl_service}\index{core.\+services.\+nrl.\+Nrl\+Service@{core.\+services.\+nrl.\+Nrl\+Service}}
+}
+
+
+Inheritance diagram for core.\+services.\+nrl.\+Nrl\+Service\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classcore_1_1services_1_1nrl_1_1_nrl_service__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for core.\+services.\+nrl.\+Nrl\+Service\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=217pt]{classcore_1_1services_1_1nrl_1_1_nrl_service__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classcore_1_1services_1_1nrl_1_1_nrl_service_a7018af150ae563397ceda5b897ef1d5a}{def {\bfseries generateconfig}}\label{classcore_1_1services_1_1nrl_1_1_nrl_service_a7018af150ae563397ceda5b897ef1d5a}
+
+\end{DoxyCompactItemize}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+def \hyperlink{classcore_1_1services_1_1nrl_1_1_nrl_service_adffc5fa3bf32f7438cc1af0b900257f8}{firstipv4prefix}
+\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Detailed Description}
+\begin{DoxyVerb}Parent class for NRL services. Defines properties and methods
+    common to NRL's routing daemons.
+\end{DoxyVerb}
+ 
+
+\subsection{Member Function Documentation}
+\hypertarget{classcore_1_1services_1_1nrl_1_1_nrl_service_adffc5fa3bf32f7438cc1af0b900257f8}{\index{core\+::services\+::nrl\+::\+Nrl\+Service@{core\+::services\+::nrl\+::\+Nrl\+Service}!firstipv4prefix@{firstipv4prefix}}
+\index{firstipv4prefix@{firstipv4prefix}!core\+::services\+::nrl\+::\+Nrl\+Service@{core\+::services\+::nrl\+::\+Nrl\+Service}}
+\subsubsection[{firstipv4prefix}]{\setlength{\rightskip}{0pt plus 5cm}def core.\+services.\+nrl.\+Nrl\+Service.\+firstipv4prefix (
+\begin{DoxyParamCaption}
+\item[{}]{node, }
+\item[{}]{prefixlen = {\ttfamily 24}}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{classcore_1_1services_1_1nrl_1_1_nrl_service_adffc5fa3bf32f7438cc1af0b900257f8}
+\begin{DoxyVerb}Similar to QuaggaService.routerid(). Helper to return the first IPv4
+prefix of a node, using the supplied prefix length. This ignores the
+interface's prefix length, so e.g. '/32' can turn into '/24'.
+\end{DoxyVerb}
+ 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+daemon/core/services/nrl.\+py\end{DoxyCompactItemize}

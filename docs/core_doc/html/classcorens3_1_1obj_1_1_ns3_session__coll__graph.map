@@ -1,0 +1,3 @@
+<map id="corens3.obj.Ns3Session" name="corens3.obj.Ns3Session">
+<area shape="rect" id="node2" href="$classcore_1_1session_1_1_session.html" title="{core.session.Session\n|+ sessionid\l+ sessiondir\l+ name\l+ filename\l+ thumbnail\l+ user\l+ node_count\l+ evq\l+ cfg\l+ server\land 10 more...\l|+ __init__()\l+ addsession()\l+ delsession()\l+ atexit()\l+ shutdown()\l+ isconnected()\l+ connect()\l+ disconnect()\l+ broadcast()\l+ broadcastraw()\land 53 more...\l}" alt="" coords="27,131,173,501"/>
+</map>

@@ -1,0 +1,104 @@
+\hypertarget{classcore_1_1bsd_1_1vnet_1_1_netgraph_pipe_net}{\section{core.\+bsd.\+vnet.\+Netgraph\+Pipe\+Net Class Reference}
+\label{classcore_1_1bsd_1_1vnet_1_1_netgraph_pipe_net}\index{core.\+bsd.\+vnet.\+Netgraph\+Pipe\+Net@{core.\+bsd.\+vnet.\+Netgraph\+Pipe\+Net}}
+}
+
+
+Inheritance diagram for core.\+bsd.\+vnet.\+Netgraph\+Pipe\+Net\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=550pt]{classcore_1_1bsd_1_1vnet_1_1_netgraph_pipe_net__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for core.\+bsd.\+vnet.\+Netgraph\+Pipe\+Net\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=550pt]{classcore_1_1bsd_1_1vnet_1_1_netgraph_pipe_net__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classcore_1_1bsd_1_1vnet_1_1_netgraph_pipe_net_a66371a5ebd93660bcd524386bb43d02c}{def {\bfseries \+\_\+\+\_\+init\+\_\+\+\_\+}}\label{classcore_1_1bsd_1_1vnet_1_1_netgraph_pipe_net_a66371a5ebd93660bcd524386bb43d02c}
+
+\item 
+def \hyperlink{classcore_1_1bsd_1_1vnet_1_1_netgraph_pipe_net_ac548ea89ea3518e42c0be6109e1b1ed4}{attach}
+\item 
+def \hyperlink{classcore_1_1bsd_1_1vnet_1_1_netgraph_pipe_net_ab6a00a3f30407994a536462eb84e5599}{attachnet}
+\item 
+def \hyperlink{classcore_1_1bsd_1_1vnet_1_1_netgraph_pipe_net_a438e4a4de088949c8dd39cba4f08979c}{gethook}
+\item 
+def \hyperlink{classcore_1_1bsd_1_1vnet_1_1_netgraph_pipe_net_ad2c48e744f15be5f48b1c0e16e0b5286}{linkconfig}
+\end{DoxyCompactItemize}
+\subsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classcore_1_1bsd_1_1vnet_1_1_netgraph_pipe_net_adaab5b3c1ee832675683711f147f8004}{string {\bfseries ngtype} = \char`\"{}pipe\char`\"{}}\label{classcore_1_1bsd_1_1vnet_1_1_netgraph_pipe_net_adaab5b3c1ee832675683711f147f8004}
+
+\item 
+\hypertarget{classcore_1_1bsd_1_1vnet_1_1_netgraph_pipe_net_aaa4887be68c9828a998e4838347ed9b9}{string {\bfseries nghooks} = \char`\"{}upper lower\char`\"{}}\label{classcore_1_1bsd_1_1vnet_1_1_netgraph_pipe_net_aaa4887be68c9828a998e4838347ed9b9}
+
+\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classcore_1_1bsd_1_1vnet_1_1_netgraph_pipe_net_ac548ea89ea3518e42c0be6109e1b1ed4}{\index{core\+::bsd\+::vnet\+::\+Netgraph\+Pipe\+Net@{core\+::bsd\+::vnet\+::\+Netgraph\+Pipe\+Net}!attach@{attach}}
+\index{attach@{attach}!core\+::bsd\+::vnet\+::\+Netgraph\+Pipe\+Net@{core\+::bsd\+::vnet\+::\+Netgraph\+Pipe\+Net}}
+\subsubsection[{attach}]{\setlength{\rightskip}{0pt plus 5cm}def core.\+bsd.\+vnet.\+Netgraph\+Pipe\+Net.\+attach (
+\begin{DoxyParamCaption}
+\item[{}]{self, }
+\item[{}]{netif}
+\end{DoxyParamCaption}
+)}}\label{classcore_1_1bsd_1_1vnet_1_1_netgraph_pipe_net_ac548ea89ea3518e42c0be6109e1b1ed4}
+\begin{DoxyVerb}Attach an interface to this pipe node.
+    The first interface is connected to the "upper" hook, the second
+    connected to the "lower" hook.
+\end{DoxyVerb}
+ \hypertarget{classcore_1_1bsd_1_1vnet_1_1_netgraph_pipe_net_ab6a00a3f30407994a536462eb84e5599}{\index{core\+::bsd\+::vnet\+::\+Netgraph\+Pipe\+Net@{core\+::bsd\+::vnet\+::\+Netgraph\+Pipe\+Net}!attachnet@{attachnet}}
+\index{attachnet@{attachnet}!core\+::bsd\+::vnet\+::\+Netgraph\+Pipe\+Net@{core\+::bsd\+::vnet\+::\+Netgraph\+Pipe\+Net}}
+\subsubsection[{attachnet}]{\setlength{\rightskip}{0pt plus 5cm}def core.\+bsd.\+vnet.\+Netgraph\+Pipe\+Net.\+attachnet (
+\begin{DoxyParamCaption}
+\item[{}]{self, }
+\item[{}]{net, }
+\item[{}]{hook}
+\end{DoxyParamCaption}
+)}}\label{classcore_1_1bsd_1_1vnet_1_1_netgraph_pipe_net_ab6a00a3f30407994a536462eb84e5599}
+\begin{DoxyVerb}Attach another NetgraphNet to this pipe node.
+\end{DoxyVerb}
+ \hypertarget{classcore_1_1bsd_1_1vnet_1_1_netgraph_pipe_net_a438e4a4de088949c8dd39cba4f08979c}{\index{core\+::bsd\+::vnet\+::\+Netgraph\+Pipe\+Net@{core\+::bsd\+::vnet\+::\+Netgraph\+Pipe\+Net}!gethook@{gethook}}
+\index{gethook@{gethook}!core\+::bsd\+::vnet\+::\+Netgraph\+Pipe\+Net@{core\+::bsd\+::vnet\+::\+Netgraph\+Pipe\+Net}}
+\subsubsection[{gethook}]{\setlength{\rightskip}{0pt plus 5cm}def core.\+bsd.\+vnet.\+Netgraph\+Pipe\+Net.\+gethook (
+\begin{DoxyParamCaption}
+\item[{}]{self}
+\end{DoxyParamCaption}
+)}}\label{classcore_1_1bsd_1_1vnet_1_1_netgraph_pipe_net_a438e4a4de088949c8dd39cba4f08979c}
+\begin{DoxyVerb}Returns the first hook (e.g. "upper") then the second hook
+    (e.g. "lower") based on the number of connections.
+\end{DoxyVerb}
+ \hypertarget{classcore_1_1bsd_1_1vnet_1_1_netgraph_pipe_net_ad2c48e744f15be5f48b1c0e16e0b5286}{\index{core\+::bsd\+::vnet\+::\+Netgraph\+Pipe\+Net@{core\+::bsd\+::vnet\+::\+Netgraph\+Pipe\+Net}!linkconfig@{linkconfig}}
+\index{linkconfig@{linkconfig}!core\+::bsd\+::vnet\+::\+Netgraph\+Pipe\+Net@{core\+::bsd\+::vnet\+::\+Netgraph\+Pipe\+Net}}
+\subsubsection[{linkconfig}]{\setlength{\rightskip}{0pt plus 5cm}def core.\+bsd.\+vnet.\+Netgraph\+Pipe\+Net.\+linkconfig (
+\begin{DoxyParamCaption}
+\item[{}]{self, }
+\item[{}]{netif, }
+\item[{}]{bw = {\ttfamily None}, }
+\item[{}]{delay = {\ttfamily None}, }
+\item[{}]{loss = {\ttfamily None}, }
+\item[{}]{duplicate = {\ttfamily None}, }
+\item[{}]{jitter = {\ttfamily None}, }
+\item[{}]{netif2 = {\ttfamily None}}
+\end{DoxyParamCaption}
+)}}\label{classcore_1_1bsd_1_1vnet_1_1_netgraph_pipe_net_ad2c48e744f15be5f48b1c0e16e0b5286}
+\begin{DoxyVerb}Set link effects by sending a Netgraph setcfg message to the pipe.
+\end{DoxyVerb}
+ 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+daemon/core/bsd/vnet.\+py\end{DoxyCompactItemize}

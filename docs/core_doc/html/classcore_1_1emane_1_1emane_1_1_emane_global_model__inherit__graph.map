@@ -1,0 +1,5 @@
+<map id="core.emane.emane.EmaneGlobalModel" name="core.emane.emane.EmaneGlobalModel">
+<area shape="rect" id="node2" href="$classcore_1_1emane_1_1emane_1_1_emane_model.html" title="{core.emane.emane.EmaneModel\n||+ configure_emane()\l+ emane074_fixup()\l+ buildnemxmlfiles()\l+ buildplatformxmlnementry()\l+ buildplatformxmltransportentry()\l+ basename()\l+ nemxmlname()\l+ shimxmlname()\l+ macxmlname()\l+ phyxmlname()\l+ update()\l+ linkconfig()\l+ valuestrtoparamlist()\l}" alt="" coords="5,601,223,855"/>
+<area shape="rect" id="node3" href="$classcore_1_1mobility_1_1_wireless_model.html" title="{core.mobility.WirelessModel\n|+ verbose\l|+ __init__()\l+ tolinkmsgs()\l+ update()\l+ updateconfig()\l}" alt="" coords="21,432,207,553"/>
+<area shape="rect" id="node4" href="$classcore_1_1conf_1_1_configurable.html" title="{core.conf.Configurable\n|+ session\l+ objid\l|+ __init__()\l+ reset()\l+ register()\l+ getdefaultvalues()\l+ getnames()\l+ configure()\l+ toconfmsg()\l+ valueof()\l+ getkeyvaluelist()\l+ booltooffon()\l+ offontobool()\l+ haskeyvalues()\l}" alt="" coords="37,131,191,384"/>
+</map>

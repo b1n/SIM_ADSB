@@ -1,0 +1,76 @@
+\hypertarget{classcore_1_1emane_1_1ieee80211abg_1_1_emane_ieee80211abg_model}{\section{core.\+emane.\+ieee80211abg.\+Emane\+Ieee80211abg\+Model Class Reference}
+\label{classcore_1_1emane_1_1ieee80211abg_1_1_emane_ieee80211abg_model}\index{core.\+emane.\+ieee80211abg.\+Emane\+Ieee80211abg\+Model@{core.\+emane.\+ieee80211abg.\+Emane\+Ieee80211abg\+Model}}
+}
+
+
+Inheritance diagram for core.\+emane.\+ieee80211abg.\+Emane\+Ieee80211abg\+Model\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=226pt]{classcore_1_1emane_1_1ieee80211abg_1_1_emane_ieee80211abg_model__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for core.\+emane.\+ieee80211abg.\+Emane\+Ieee80211abg\+Model\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=228pt]{classcore_1_1emane_1_1ieee80211abg_1_1_emane_ieee80211abg_model__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classcore_1_1emane_1_1ieee80211abg_1_1_emane_ieee80211abg_model_a6f1588d42d5311dffdf7da84b2ab3f7b}{def {\bfseries \+\_\+\+\_\+init\+\_\+\+\_\+}}\label{classcore_1_1emane_1_1ieee80211abg_1_1_emane_ieee80211abg_model_a6f1588d42d5311dffdf7da84b2ab3f7b}
+
+\item 
+def \hyperlink{classcore_1_1emane_1_1ieee80211abg_1_1_emane_ieee80211abg_model_a506082797e5179bb62b94b0b1101f1ad}{buildnemxmlfiles}
+\item 
+def \hyperlink{classcore_1_1emane_1_1ieee80211abg_1_1_emane_ieee80211abg_model_a13cf7522474198eb83646f9d0d2135ff}{get9xmacparamequivalent}
+\end{DoxyCompactItemize}
+\subsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classcore_1_1emane_1_1ieee80211abg_1_1_emane_ieee80211abg_model_a667146008f5396af6b2094dbeeebebef}{string {\bfseries xml\+\_\+path} = '/usr/share/emane/xml/models/mac/ieee80211abg'}\label{classcore_1_1emane_1_1ieee80211abg_1_1_emane_ieee80211abg_model_a667146008f5396af6b2094dbeeebebef}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classcore_1_1emane_1_1ieee80211abg_1_1_emane_ieee80211abg_model_a506082797e5179bb62b94b0b1101f1ad}{\index{core\+::emane\+::ieee80211abg\+::\+Emane\+Ieee80211abg\+Model@{core\+::emane\+::ieee80211abg\+::\+Emane\+Ieee80211abg\+Model}!buildnemxmlfiles@{buildnemxmlfiles}}
+\index{buildnemxmlfiles@{buildnemxmlfiles}!core\+::emane\+::ieee80211abg\+::\+Emane\+Ieee80211abg\+Model@{core\+::emane\+::ieee80211abg\+::\+Emane\+Ieee80211abg\+Model}}
+\subsubsection[{buildnemxmlfiles}]{\setlength{\rightskip}{0pt plus 5cm}def core.\+emane.\+ieee80211abg.\+Emane\+Ieee80211abg\+Model.\+buildnemxmlfiles (
+\begin{DoxyParamCaption}
+\item[{}]{self, }
+\item[{}]{e, }
+\item[{}]{ifc}
+\end{DoxyParamCaption}
+)}}\label{classcore_1_1emane_1_1ieee80211abg_1_1_emane_ieee80211abg_model_a506082797e5179bb62b94b0b1101f1ad}
+\begin{DoxyVerb}Build the necessary nem, mac, and phy XMLs in the given path.
+    If an individual NEM has a nonstandard config, we need to build
+    that file also. Otherwise the WLAN-wide
+    nXXemane_ieee80211abgnem.xml, nXXemane_ieee80211abgemac.xml,
+    nXXemane_ieee80211abgphy.xml are used.
+\end{DoxyVerb}
+ \hypertarget{classcore_1_1emane_1_1ieee80211abg_1_1_emane_ieee80211abg_model_a13cf7522474198eb83646f9d0d2135ff}{\index{core\+::emane\+::ieee80211abg\+::\+Emane\+Ieee80211abg\+Model@{core\+::emane\+::ieee80211abg\+::\+Emane\+Ieee80211abg\+Model}!get9xmacparamequivalent@{get9xmacparamequivalent}}
+\index{get9xmacparamequivalent@{get9xmacparamequivalent}!core\+::emane\+::ieee80211abg\+::\+Emane\+Ieee80211abg\+Model@{core\+::emane\+::ieee80211abg\+::\+Emane\+Ieee80211abg\+Model}}
+\subsubsection[{get9xmacparamequivalent}]{\setlength{\rightskip}{0pt plus 5cm}def core.\+emane.\+ieee80211abg.\+Emane\+Ieee80211abg\+Model.\+get9xmacparamequivalent (
+\begin{DoxyParamCaption}
+\item[{}]{self, }
+\item[{}]{macname, }
+\item[{}]{values}
+\end{DoxyParamCaption}
+)}}\label{classcore_1_1emane_1_1ieee80211abg_1_1_emane_ieee80211abg_model_a13cf7522474198eb83646f9d0d2135ff}
+\begin{DoxyVerb}Generate a list of 80211abg mac parameters in 0.9.x layout for a given mac parameter
+in 8.x layout.For mac category parameters, the list returned will contain the four 
+equivalent 9.x parameter and value pairs. Otherwise, the list returned will only
+contain a single name and value pair.
+\end{DoxyVerb}
+ 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+daemon/core/emane/ieee80211abg.\+py\end{DoxyCompactItemize}

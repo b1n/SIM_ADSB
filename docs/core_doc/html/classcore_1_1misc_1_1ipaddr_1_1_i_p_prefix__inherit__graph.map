@@ -1,0 +1,4 @@
+<map id="core.misc.ipaddr.IPPrefix" name="core.misc.ipaddr.IPPrefix">
+<area shape="rect" id="node3" href="$classcore_1_1misc_1_1ipaddr_1_1_i_pv4_prefix.html" title="{core.misc.ipaddr.IPv4Prefix\n||+ __init__()\l}" alt="" coords="5,447,188,524"/>
+<area shape="rect" id="node4" href="$classcore_1_1misc_1_1ipaddr_1_1_i_pv6_prefix.html" title="{core.misc.ipaddr.IPv6Prefix\n||+ __init__()\l}" alt="" coords="212,447,395,524"/>
+</map>

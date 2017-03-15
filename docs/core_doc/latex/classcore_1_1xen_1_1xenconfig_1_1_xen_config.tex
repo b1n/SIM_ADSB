@@ -1,0 +1,73 @@
+\hypertarget{classcore_1_1xen_1_1xenconfig_1_1_xen_config}{\section{core.\+xen.\+xenconfig.\+Xen\+Config Class Reference}
+\label{classcore_1_1xen_1_1xenconfig_1_1_xen_config}\index{core.\+xen.\+xenconfig.\+Xen\+Config@{core.\+xen.\+xenconfig.\+Xen\+Config}}
+}
+
+
+Inheritance diagram for core.\+xen.\+xenconfig.\+Xen\+Config\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=550pt]{classcore_1_1xen_1_1xenconfig_1_1_xen_config__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for core.\+xen.\+xenconfig.\+Xen\+Config\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=228pt]{classcore_1_1xen_1_1xenconfig_1_1_xen_config__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+def \hyperlink{classcore_1_1xen_1_1xenconfig_1_1_xen_config_ae3932a66cac50f0491a4f653653a7ba2}{configure}
+\item 
+def \hyperlink{classcore_1_1xen_1_1xenconfig_1_1_xen_config_a54ebefc86fb74cbb39551218572ecfb3}{toconfmsg}
+\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Detailed Description}
+\begin{DoxyVerb}Manage Xen configuration profiles.
+\end{DoxyVerb}
+ 
+
+\subsection{Member Function Documentation}
+\hypertarget{classcore_1_1xen_1_1xenconfig_1_1_xen_config_ae3932a66cac50f0491a4f653653a7ba2}{\index{core\+::xen\+::xenconfig\+::\+Xen\+Config@{core\+::xen\+::xenconfig\+::\+Xen\+Config}!configure@{configure}}
+\index{configure@{configure}!core\+::xen\+::xenconfig\+::\+Xen\+Config@{core\+::xen\+::xenconfig\+::\+Xen\+Config}}
+\subsubsection[{configure}]{\setlength{\rightskip}{0pt plus 5cm}def core.\+xen.\+xenconfig.\+Xen\+Config.\+configure (
+\begin{DoxyParamCaption}
+\item[{}]{cls, }
+\item[{}]{xen, }
+\item[{}]{msg}
+\end{DoxyParamCaption}
+)}}\label{classcore_1_1xen_1_1xenconfig_1_1_xen_config_ae3932a66cac50f0491a4f653653a7ba2}
+\begin{DoxyVerb}Handle configuration messages for setting up a model.
+    Similar to Configurable.configure(), but considers opaque data
+    for indicating node types.
+\end{DoxyVerb}
+ \hypertarget{classcore_1_1xen_1_1xenconfig_1_1_xen_config_a54ebefc86fb74cbb39551218572ecfb3}{\index{core\+::xen\+::xenconfig\+::\+Xen\+Config@{core\+::xen\+::xenconfig\+::\+Xen\+Config}!toconfmsg@{toconfmsg}}
+\index{toconfmsg@{toconfmsg}!core\+::xen\+::xenconfig\+::\+Xen\+Config@{core\+::xen\+::xenconfig\+::\+Xen\+Config}}
+\subsubsection[{toconfmsg}]{\setlength{\rightskip}{0pt plus 5cm}def core.\+xen.\+xenconfig.\+Xen\+Config.\+toconfmsg (
+\begin{DoxyParamCaption}
+\item[{}]{cls, }
+\item[{}]{flags, }
+\item[{}]{nodenum, }
+\item[{}]{typeflags, }
+\item[{}]{nodetype, }
+\item[{}]{values}
+\end{DoxyParamCaption}
+)}}\label{classcore_1_1xen_1_1xenconfig_1_1_xen_config_a54ebefc86fb74cbb39551218572ecfb3}
+\begin{DoxyVerb}Convert this class to a Config API message. Some TLVs are defined
+    by the class, but node number, conf type flags, and values must
+    be passed in.
+\end{DoxyVerb}
+ 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+daemon/core/xen/xenconfig.\+py\end{DoxyCompactItemize}

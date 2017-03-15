@@ -1,0 +1,3 @@
+<map id="core.api.coreapi.CoreIfaceMessage" name="core.api.coreapi.CoreIfaceMessage">
+<area shape="rect" id="node2" href="$classcore_1_1api_1_1coreapi_1_1_core_message.html" title="{core.api.coreapi.CoreMessage\n|+ rawmsg\l+ flags\l+ tlvdata\l+ hdrsiz\l+ msgtype\l+ flagmap\l+ tlvcls\l|+ __init__()\l+ unpackhdr()\l+ pack()\l+ addtlvdata()\l+ gettlv()\l+ parsedata()\l+ packtlvdata()\l+ repack()\l+ typestr()\l+ flagstr()\l+ __str__()\l+ nodenumbers()\l+ sessionnumbers()\l}" alt="" coords="5,145,204,487"/>
+</map>

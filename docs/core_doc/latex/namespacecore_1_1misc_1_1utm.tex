@@ -1,0 +1,183 @@
+\hypertarget{namespacecore_1_1misc_1_1utm}{\section{core.\+misc.\+utm Namespace Reference}
+\label{namespacecore_1_1misc_1_1utm}\index{core.\+misc.\+utm@{core.\+misc.\+utm}}
+}
+\subsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \hyperlink{classcore_1_1misc_1_1utm_1_1_out_of_range_error}{Out\+Of\+Range\+Error}
+\end{DoxyCompactItemize}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{namespacecore_1_1misc_1_1utm_ac93ab41b2ca2336d4b60d6ef7cfdb08b}{def {\bfseries to\+\_\+latlon}}\label{namespacecore_1_1misc_1_1utm_ac93ab41b2ca2336d4b60d6ef7cfdb08b}
+
+\item 
+\hypertarget{namespacecore_1_1misc_1_1utm_a88e845017868efe5f77ddd52527458d3}{def {\bfseries from\+\_\+latlon}}\label{namespacecore_1_1misc_1_1utm_a88e845017868efe5f77ddd52527458d3}
+
+\item 
+\hypertarget{namespacecore_1_1misc_1_1utm_a20648ab53a793fb1477e8d43e331ec53}{def {\bfseries latitude\+\_\+to\+\_\+zone\+\_\+letter}}\label{namespacecore_1_1misc_1_1utm_a20648ab53a793fb1477e8d43e331ec53}
+
+\item 
+\hypertarget{namespacecore_1_1misc_1_1utm_a6ee61c432aedef9c6cd0f43647361f54}{def {\bfseries latlon\+\_\+to\+\_\+zone\+\_\+number}}\label{namespacecore_1_1misc_1_1utm_a6ee61c432aedef9c6cd0f43647361f54}
+
+\item 
+\hypertarget{namespacecore_1_1misc_1_1utm_a44bb4b46db4d233d44369e80df724355}{def {\bfseries zone\+\_\+number\+\_\+to\+\_\+central\+\_\+longitude}}\label{namespacecore_1_1misc_1_1utm_a44bb4b46db4d233d44369e80df724355}
+
+\item 
+def \hyperlink{namespacecore_1_1misc_1_1utm_a4b4802f24ca6ff8fd7ae6c68425c9bdd}{haversine}
+\end{DoxyCompactItemize}
+\subsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{namespacecore_1_1misc_1_1utm_acba314876ed7eebaaa1cfd87f29eed5a}{list {\bfseries \+\_\+\+\_\+all\+\_\+\+\_\+} = \mbox{[}'to\+\_\+latlon', 'from\+\_\+latlon'\mbox{]}}\label{namespacecore_1_1misc_1_1utm_acba314876ed7eebaaa1cfd87f29eed5a}
+
+\item 
+\hypertarget{namespacecore_1_1misc_1_1utm_a75c104baf34a31e1a955f25b7d36766c}{float {\bfseries K0} = 0.\+9996}\label{namespacecore_1_1misc_1_1utm_a75c104baf34a31e1a955f25b7d36766c}
+
+\item 
+\hypertarget{namespacecore_1_1misc_1_1utm_a8163c054a8a454e2c2db0a0096dc3d49}{float {\bfseries E} = 0.\+00669438}\label{namespacecore_1_1misc_1_1utm_a8163c054a8a454e2c2db0a0096dc3d49}
+
+\item 
+\hypertarget{namespacecore_1_1misc_1_1utm_a6b831f2002ccbc067f1cc46e24ba1107}{{\bfseries E2} = E$\ast$E}\label{namespacecore_1_1misc_1_1utm_a6b831f2002ccbc067f1cc46e24ba1107}
+
+\item 
+\hypertarget{namespacecore_1_1misc_1_1utm_a2f287fc4c228e3deca8c393af1371088}{{\bfseries E3} = E2$\ast$E}\label{namespacecore_1_1misc_1_1utm_a2f287fc4c228e3deca8c393af1371088}
+
+\item 
+\hypertarget{namespacecore_1_1misc_1_1utm_af8a9a855070df4e4f14cd856fe1b3f76}{tuple {\bfseries E\+\_\+\+P2} = E/(1.\+0 -\/ E)}\label{namespacecore_1_1misc_1_1utm_af8a9a855070df4e4f14cd856fe1b3f76}
+
+\item 
+\hypertarget{namespacecore_1_1misc_1_1utm_a9b9ad3c7670ab5ddcc40ff085282bb81}{tuple {\bfseries S\+Q\+R\+T\+\_\+\+E} = math.\+sqrt(1 -\/ E)}\label{namespacecore_1_1misc_1_1utm_a9b9ad3c7670ab5ddcc40ff085282bb81}
+
+\item 
+\hypertarget{namespacecore_1_1misc_1_1utm_ad4cd1c8751bd1d8b9cc78224d5d76146}{tuple {\bfseries \+\_\+\+E} = (1 -\/ S\+Q\+R\+T\+\_\+\+E)}\label{namespacecore_1_1misc_1_1utm_ad4cd1c8751bd1d8b9cc78224d5d76146}
+
+\item 
+\hypertarget{namespacecore_1_1misc_1_1utm_aa90ba4e75714cda0688a0b8f4295fc68}{{\bfseries \+\_\+\+E3} = \+\_\+\+E$\ast$\+\_\+\+E$\ast$\+\_\+\+E}\label{namespacecore_1_1misc_1_1utm_aa90ba4e75714cda0688a0b8f4295fc68}
+
+\item 
+\hypertarget{namespacecore_1_1misc_1_1utm_a250c7ce06a1eac59ab1dad5b2d7f4629}{{\bfseries \+\_\+\+E4} = \+\_\+\+E3$\ast$\+\_\+\+E}\label{namespacecore_1_1misc_1_1utm_a250c7ce06a1eac59ab1dad5b2d7f4629}
+
+\item 
+\hypertarget{namespacecore_1_1misc_1_1utm_aa9c513a836ab78dadda2aa2039d30246}{tuple {\bfseries M1} = (1 -\/ E / 4 -\/ 3 $\ast$ E2 / 64 -\/ 5 $\ast$ E3 / 256)}\label{namespacecore_1_1misc_1_1utm_aa9c513a836ab78dadda2aa2039d30246}
+
+\item 
+\hypertarget{namespacecore_1_1misc_1_1utm_a197e9884087c39ad6d86ef1494e7e41d}{tuple {\bfseries M2} = (3 $\ast$ E / 8 + 3 $\ast$ E2 / 32 + 45 $\ast$ E3 / 1024)}\label{namespacecore_1_1misc_1_1utm_a197e9884087c39ad6d86ef1494e7e41d}
+
+\item 
+\hypertarget{namespacecore_1_1misc_1_1utm_ac688c2ec2921cc017ca0411cfed30eb9}{tuple {\bfseries M3} = (15 $\ast$ E2 / 256 + 45 $\ast$ E3 / 1024)}\label{namespacecore_1_1misc_1_1utm_ac688c2ec2921cc017ca0411cfed30eb9}
+
+\item 
+\hypertarget{namespacecore_1_1misc_1_1utm_afa46e92bab0fa997527cd815f3646897}{tuple {\bfseries M4} = (35 $\ast$ E3 / 3072)}\label{namespacecore_1_1misc_1_1utm_afa46e92bab0fa997527cd815f3646897}
+
+\item 
+\hypertarget{namespacecore_1_1misc_1_1utm_ad3170412ae927ffb2da7ef5ddbcde9b2}{tuple {\bfseries P2} = (3 $\ast$ \+\_\+\+E / 2 -\/ 27 $\ast$ \+\_\+\+E3 / 32)}\label{namespacecore_1_1misc_1_1utm_ad3170412ae927ffb2da7ef5ddbcde9b2}
+
+\item 
+\hypertarget{namespacecore_1_1misc_1_1utm_a5d565816b7eaa83f2bc75b7f778eaf09}{tuple {\bfseries P3} = (21 $\ast$ \+\_\+\+E3 / 16 -\/ 55 $\ast$ \+\_\+\+E4 / 32)}\label{namespacecore_1_1misc_1_1utm_a5d565816b7eaa83f2bc75b7f778eaf09}
+
+\item 
+\hypertarget{namespacecore_1_1misc_1_1utm_a748df623d407384d72c1186ed54aa02a}{tuple {\bfseries P4} = (151 $\ast$ \+\_\+\+E3 / 96)}\label{namespacecore_1_1misc_1_1utm_a748df623d407384d72c1186ed54aa02a}
+
+\item 
+\hypertarget{namespacecore_1_1misc_1_1utm_a08603dfded528a3c8e59cd889d4a4a72}{int {\bfseries R} = 6378137}\label{namespacecore_1_1misc_1_1utm_a08603dfded528a3c8e59cd889d4a4a72}
+
+\item 
+list {\bfseries Z\+O\+N\+E\+\_\+\+L\+E\+T\+T\+E\+R\+S}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\begin{DoxyVerb}utm
+===
+
+.. image:: https://travis-ci.org/Turbo87/utm.png
+
+Bidirectional UTM-WGS84 converter for python
+
+Usage
+-----
+
+::
+
+  import utm
+
+Convert a (latitude, longitude) tuple into an UTM coordinate::
+
+  utm.from_latlon(51.2, 7.5)
+  >>> (395201.3103811303, 5673135.241182375, 32, 'U')
+
+Convert an UTM coordinate into a (latitude, longitude) tuple::
+
+  utm.to_latlon(340000, 5710000, 32, 'U')
+  >>> (51.51852098408468, 6.693872395145327)
+
+Speed
+-----
+
+The library has been compared to the more generic pyproj library by running the
+unit test suite through pyproj instead of utm. These are the results:
+
+* with pyproj (without projection cache): 4.0 - 4.5 sec
+* with pyproj (with projection cache): 0.9 - 1.0 sec
+* with utm: 0.4 - 0.5 sec
+
+Authors
+-------
+
+* Tobias Bieniek <Tobias.Bieniek@gmx.de>
+
+License
+-------
+
+Copyright (C) 2012 Tobias Bieniek <Tobias.Bieniek@gmx.de>
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of
+this software and associated documentation files (the "Software"), to deal in
+the Software without restriction, including without limitation the rights to
+use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies
+of the Software, and to permit persons to whom the Software is furnished to do
+so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+\end{DoxyVerb}
+ 
+
+\subsection{Function Documentation}
+\hypertarget{namespacecore_1_1misc_1_1utm_a4b4802f24ca6ff8fd7ae6c68425c9bdd}{\index{core\+::misc\+::utm@{core\+::misc\+::utm}!haversine@{haversine}}
+\index{haversine@{haversine}!core\+::misc\+::utm@{core\+::misc\+::utm}}
+\subsubsection[{haversine}]{\setlength{\rightskip}{0pt plus 5cm}def core.\+misc.\+utm.\+haversine (
+\begin{DoxyParamCaption}
+\item[{}]{lon1, }
+\item[{}]{lat1, }
+\item[{}]{lon2, }
+\item[{}]{lat2}
+\end{DoxyParamCaption}
+)}}\label{namespacecore_1_1misc_1_1utm_a4b4802f24ca6ff8fd7ae6c68425c9bdd}
+\begin{DoxyVerb}Calculate the great circle distance between two points 
+on the earth (specified in decimal degrees)
+\end{DoxyVerb}
+ 
+
+\subsection{Variable Documentation}
+\hypertarget{namespacecore_1_1misc_1_1utm_afb45d04cdb8f9e7cb41e92316e6189e3}{\index{core\+::misc\+::utm@{core\+::misc\+::utm}!Z\+O\+N\+E\+\_\+\+L\+E\+T\+T\+E\+R\+S@{Z\+O\+N\+E\+\_\+\+L\+E\+T\+T\+E\+R\+S}}
+\index{Z\+O\+N\+E\+\_\+\+L\+E\+T\+T\+E\+R\+S@{Z\+O\+N\+E\+\_\+\+L\+E\+T\+T\+E\+R\+S}!core\+::misc\+::utm@{core\+::misc\+::utm}}
+\subsubsection[{Z\+O\+N\+E\+\_\+\+L\+E\+T\+T\+E\+R\+S}]{\setlength{\rightskip}{0pt plus 5cm}list core.\+misc.\+utm.\+Z\+O\+N\+E\+\_\+\+L\+E\+T\+T\+E\+R\+S}}\label{namespacecore_1_1misc_1_1utm_afb45d04cdb8f9e7cb41e92316e6189e3}
+{\bfseries Initial value\+:}
+\begin{DoxyCode}
+1 = [
+2     (84, \textcolor{keywordtype}{None}), (72, \textcolor{stringliteral}{'X'}), (64, \textcolor{stringliteral}{'W'}), (56, \textcolor{stringliteral}{'V'}), (48, \textcolor{stringliteral}{'}\textcolor{stringliteral}{U'), (40, '}T'),
+3     (32, \textcolor{stringliteral}{'S'}), (24, \textcolor{stringliteral}{'}\textcolor{stringliteral}{R'), (16, '}Q'), (8, 'P'), (0, 'N'), (-8, 'M'), (-16, 'L'),
+4     (-24, \textcolor{stringliteral}{'K'}), (-32, \textcolor{stringliteral}{'J'}), (-40, \textcolor{stringliteral}{'H'}), (-48, \textcolor{stringliteral}{'G'}), (-56, \textcolor{stringliteral}{'F'}), (-64, \textcolor{stringliteral}{'E'}),
+5     (-72, \textcolor{stringliteral}{'D'}), (-80, \textcolor{stringliteral}{'C'})
+6 ]
+\end{DoxyCode}

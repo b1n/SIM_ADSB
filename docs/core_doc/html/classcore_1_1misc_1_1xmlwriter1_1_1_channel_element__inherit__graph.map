@@ -1,0 +1,4 @@
+<map id="core.misc.xmlwriter1.ChannelElement" name="core.misc.xmlwriter1.ChannelElement">
+<area shape="rect" id="node2" href="$classcore_1_1misc_1_1xmlwriter1_1_1_named_xml_element.html" title="{core.misc.xmlwriter1.Named\lXmlElement\n|+ scenPlan\l+ coreSession\l+ id\l|+ __init__()\l+ addPoint()\l+ createAlias()\l}" alt="" coords="8,417,197,568"/>
+<area shape="rect" id="node3" href="$classcore_1_1misc_1_1xmlwriter1_1_1_xml_element.html" title="{core.misc.xmlwriter1.Xml\lElement\n|+ document\l+ parent\l+ baseEle\l|+ __init__()\l+ createElement()\l+ getTagName()\l+ createTextNode()\l+ appendChild()\l+ addParameter()\l+ setAttribute()\l+ getAttribute()\l+ add_parameter()\l}" alt="" coords="17,131,188,369"/>
+</map>

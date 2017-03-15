@@ -1,0 +1,222 @@
+\hypertarget{classcore_1_1location_1_1_core_location}{\section{core.\+location.\+Core\+Location Class Reference}
+\label{classcore_1_1location_1_1_core_location}\index{core.\+location.\+Core\+Location@{core.\+location.\+Core\+Location}}
+}
+
+
+Inheritance diagram for core.\+location.\+Core\+Location\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=550pt]{classcore_1_1location_1_1_core_location__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for core.\+location.\+Core\+Location\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=550pt]{classcore_1_1location_1_1_core_location__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classcore_1_1location_1_1_core_location_a28257ce92198a9603eb3ec6940c25c21}{def {\bfseries \+\_\+\+\_\+init\+\_\+\+\_\+}}\label{classcore_1_1location_1_1_core_location_a28257ce92198a9603eb3ec6940c25c21}
+
+\item 
+def \hyperlink{classcore_1_1location_1_1_core_location_a8e4bf5274a9701aa49cea19f22ef3bdf}{reset}
+\item 
+def \hyperlink{classcore_1_1location_1_1_core_location_ad8a40fe290ea3d9ab887213e800ea4ed}{configure\+\_\+values}
+\item 
+def \hyperlink{classcore_1_1location_1_1_core_location_aa37cbc4a001d177869d4d17f91b40e00}{px2m}
+\item 
+def \hyperlink{classcore_1_1location_1_1_core_location_a81ee18e6f38b910be43b5e16281a036b}{m2px}
+\item 
+def \hyperlink{classcore_1_1location_1_1_core_location_ac7ce57734ea6410f1c967ccd8c41cc07}{setrefgeo}
+\item 
+def \hyperlink{classcore_1_1location_1_1_core_location_aff421a8becc3f1e6dfbe293844b9e428}{getgeo}
+\item 
+def \hyperlink{classcore_1_1location_1_1_core_location_aceda178d736cbc157e7054bce6c21693}{getxyz}
+\item 
+def \hyperlink{classcore_1_1location_1_1_core_location_a029c898662e5914a94ee57573a800705}{geteastingshift}
+\item 
+def \hyperlink{classcore_1_1location_1_1_core_location_a71697023a929814514b1f732f39e469c}{getnorthingshift}
+\item 
+def \hyperlink{classcore_1_1location_1_1_core_location_ad1a40dc08ed66e4a75f674f1cfd68d3d}{getutmzoneshift}
+\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classcore_1_1location_1_1_core_location_abbf26f64a5a8d5a26b8316627056d09d}{{\bfseries zonemap}}\label{classcore_1_1location_1_1_core_location_abbf26f64a5a8d5a26b8316627056d09d}
+
+\item 
+\hypertarget{classcore_1_1location_1_1_core_location_ab5e41cda0b172142ef458a1ed3095570}{{\bfseries refxyz}}\label{classcore_1_1location_1_1_core_location_ab5e41cda0b172142ef458a1ed3095570}
+
+\item 
+\hypertarget{classcore_1_1location_1_1_core_location_ad4e5ac62cb389fcf7ee75bc4afcaf2bc}{{\bfseries refscale}}\label{classcore_1_1location_1_1_core_location_ad4e5ac62cb389fcf7ee75bc4afcaf2bc}
+
+\item 
+\hypertarget{classcore_1_1location_1_1_core_location_a21099fda3e4b3f5e53ffa8484ff83b1e}{{\bfseries zoneshifts}}\label{classcore_1_1location_1_1_core_location_a21099fda3e4b3f5e53ffa8484ff83b1e}
+
+\item 
+\hypertarget{classcore_1_1location_1_1_core_location_a08dc465a1083c7ce26b61655ed30174d}{{\bfseries refgeo}}\label{classcore_1_1location_1_1_core_location_a08dc465a1083c7ce26b61655ed30174d}
+
+\item 
+\hypertarget{classcore_1_1location_1_1_core_location_a4b678b6c25ef458b1a200e06ac99b4a0}{{\bfseries refutm}}\label{classcore_1_1location_1_1_core_location_a4b678b6c25ef458b1a200e06ac99b4a0}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\begin{DoxyVerb}Member of session class for handling global location data. This keeps
+    track of a latitude/longitude/altitude reference point and scale in
+    order to convert between X,Y and geo coordinates.
+    
+    TODO: this could be updated to use more generic 
+          Configurable/ConfigurableManager code like other Session objects
+\end{DoxyVerb}
+ 
+
+\subsection{Member Function Documentation}
+\hypertarget{classcore_1_1location_1_1_core_location_ad8a40fe290ea3d9ab887213e800ea4ed}{\index{core\+::location\+::\+Core\+Location@{core\+::location\+::\+Core\+Location}!configure\+\_\+values@{configure\+\_\+values}}
+\index{configure\+\_\+values@{configure\+\_\+values}!core\+::location\+::\+Core\+Location@{core\+::location\+::\+Core\+Location}}
+\subsubsection[{configure\+\_\+values}]{\setlength{\rightskip}{0pt plus 5cm}def core.\+location.\+Core\+Location.\+configure\+\_\+values (
+\begin{DoxyParamCaption}
+\item[{}]{self, }
+\item[{}]{msg, }
+\item[{}]{values}
+\end{DoxyParamCaption}
+)}}\label{classcore_1_1location_1_1_core_location_ad8a40fe290ea3d9ab887213e800ea4ed}
+\begin{DoxyVerb}Receive configuration message for setting the reference point
+    and scale.
+\end{DoxyVerb}
+ \hypertarget{classcore_1_1location_1_1_core_location_a029c898662e5914a94ee57573a800705}{\index{core\+::location\+::\+Core\+Location@{core\+::location\+::\+Core\+Location}!geteastingshift@{geteastingshift}}
+\index{geteastingshift@{geteastingshift}!core\+::location\+::\+Core\+Location@{core\+::location\+::\+Core\+Location}}
+\subsubsection[{geteastingshift}]{\setlength{\rightskip}{0pt plus 5cm}def core.\+location.\+Core\+Location.\+geteastingshift (
+\begin{DoxyParamCaption}
+\item[{}]{self, }
+\item[{}]{zonen, }
+\item[{}]{zonel}
+\end{DoxyParamCaption}
+)}}\label{classcore_1_1location_1_1_core_location_a029c898662e5914a94ee57573a800705}
+\begin{DoxyVerb}If the lat, lon coordinates being converted are located in a
+different UTM zone than the canvas reference point, the UTM meters
+may need to be shifted.
+This picks a reference point in the same longitudinal band 
+(UTM zone number) as the provided zone, to calculate the shift in
+meters for the x coordinate.
+\end{DoxyVerb}
+ \hypertarget{classcore_1_1location_1_1_core_location_aff421a8becc3f1e6dfbe293844b9e428}{\index{core\+::location\+::\+Core\+Location@{core\+::location\+::\+Core\+Location}!getgeo@{getgeo}}
+\index{getgeo@{getgeo}!core\+::location\+::\+Core\+Location@{core\+::location\+::\+Core\+Location}}
+\subsubsection[{getgeo}]{\setlength{\rightskip}{0pt plus 5cm}def core.\+location.\+Core\+Location.\+getgeo (
+\begin{DoxyParamCaption}
+\item[{}]{self, }
+\item[{}]{x, }
+\item[{}]{y, }
+\item[{}]{z}
+\end{DoxyParamCaption}
+)}}\label{classcore_1_1location_1_1_core_location_aff421a8becc3f1e6dfbe293844b9e428}
+\begin{DoxyVerb}Given (x, y, z) Cartesian coordinates, convert them to latitude,
+    longitude, and altitude based on the configured reference point
+    and scale.
+\end{DoxyVerb}
+ \hypertarget{classcore_1_1location_1_1_core_location_a71697023a929814514b1f732f39e469c}{\index{core\+::location\+::\+Core\+Location@{core\+::location\+::\+Core\+Location}!getnorthingshift@{getnorthingshift}}
+\index{getnorthingshift@{getnorthingshift}!core\+::location\+::\+Core\+Location@{core\+::location\+::\+Core\+Location}}
+\subsubsection[{getnorthingshift}]{\setlength{\rightskip}{0pt plus 5cm}def core.\+location.\+Core\+Location.\+getnorthingshift (
+\begin{DoxyParamCaption}
+\item[{}]{self, }
+\item[{}]{zonen, }
+\item[{}]{zonel}
+\end{DoxyParamCaption}
+)}}\label{classcore_1_1location_1_1_core_location_a71697023a929814514b1f732f39e469c}
+\begin{DoxyVerb}If the lat, lon coordinates being converted are located in a
+different UTM zone than the canvas reference point, the UTM meters
+may need to be shifted.
+This picks a reference point in the same latitude band (UTM zone letter)
+as the provided zone, to calculate the shift in meters for the
+y coordinate.
+\end{DoxyVerb}
+ \hypertarget{classcore_1_1location_1_1_core_location_ad1a40dc08ed66e4a75f674f1cfd68d3d}{\index{core\+::location\+::\+Core\+Location@{core\+::location\+::\+Core\+Location}!getutmzoneshift@{getutmzoneshift}}
+\index{getutmzoneshift@{getutmzoneshift}!core\+::location\+::\+Core\+Location@{core\+::location\+::\+Core\+Location}}
+\subsubsection[{getutmzoneshift}]{\setlength{\rightskip}{0pt plus 5cm}def core.\+location.\+Core\+Location.\+getutmzoneshift (
+\begin{DoxyParamCaption}
+\item[{}]{self, }
+\item[{}]{e, }
+\item[{}]{n}
+\end{DoxyParamCaption}
+)}}\label{classcore_1_1location_1_1_core_location_ad1a40dc08ed66e4a75f674f1cfd68d3d}
+\begin{DoxyVerb}Given UTM easting and northing values, check if they fall outside
+the reference point's zone boundary. Return the UTM coordinates in a
+different zone and the new zone if they do. Zone lettering is only
+changed when the reference point is in the opposite hemisphere.
+\end{DoxyVerb}
+ \hypertarget{classcore_1_1location_1_1_core_location_aceda178d736cbc157e7054bce6c21693}{\index{core\+::location\+::\+Core\+Location@{core\+::location\+::\+Core\+Location}!getxyz@{getxyz}}
+\index{getxyz@{getxyz}!core\+::location\+::\+Core\+Location@{core\+::location\+::\+Core\+Location}}
+\subsubsection[{getxyz}]{\setlength{\rightskip}{0pt plus 5cm}def core.\+location.\+Core\+Location.\+getxyz (
+\begin{DoxyParamCaption}
+\item[{}]{self, }
+\item[{}]{lat, }
+\item[{}]{lon, }
+\item[{}]{alt}
+\end{DoxyParamCaption}
+)}}\label{classcore_1_1location_1_1_core_location_aceda178d736cbc157e7054bce6c21693}
+\begin{DoxyVerb}Given latitude, longitude, and altitude location data, convert them
+    to (x, y, z) Cartesian coordinates based on the configured
+    reference point and scale. Lat/lon is converted to UTM meter
+    coordinates, UTM zones are accounted for, and the scale turns
+    meters to pixels.
+\end{DoxyVerb}
+ \hypertarget{classcore_1_1location_1_1_core_location_a81ee18e6f38b910be43b5e16281a036b}{\index{core\+::location\+::\+Core\+Location@{core\+::location\+::\+Core\+Location}!m2px@{m2px}}
+\index{m2px@{m2px}!core\+::location\+::\+Core\+Location@{core\+::location\+::\+Core\+Location}}
+\subsubsection[{m2px}]{\setlength{\rightskip}{0pt plus 5cm}def core.\+location.\+Core\+Location.\+m2px (
+\begin{DoxyParamCaption}
+\item[{}]{self, }
+\item[{}]{val}
+\end{DoxyParamCaption}
+)}}\label{classcore_1_1location_1_1_core_location_a81ee18e6f38b910be43b5e16281a036b}
+\begin{DoxyVerb}Convert the specified value in meters to pixels using the
+    configured scale. The scale is given as s, where
+    100 pixels = s meters.
+\end{DoxyVerb}
+ \hypertarget{classcore_1_1location_1_1_core_location_aa37cbc4a001d177869d4d17f91b40e00}{\index{core\+::location\+::\+Core\+Location@{core\+::location\+::\+Core\+Location}!px2m@{px2m}}
+\index{px2m@{px2m}!core\+::location\+::\+Core\+Location@{core\+::location\+::\+Core\+Location}}
+\subsubsection[{px2m}]{\setlength{\rightskip}{0pt plus 5cm}def core.\+location.\+Core\+Location.\+px2m (
+\begin{DoxyParamCaption}
+\item[{}]{self, }
+\item[{}]{val}
+\end{DoxyParamCaption}
+)}}\label{classcore_1_1location_1_1_core_location_aa37cbc4a001d177869d4d17f91b40e00}
+\begin{DoxyVerb}Convert the specified value in pixels to meters using the
+    configured scale. The scale is given as s, where
+    100 pixels = s meters.
+\end{DoxyVerb}
+ \hypertarget{classcore_1_1location_1_1_core_location_a8e4bf5274a9701aa49cea19f22ef3bdf}{\index{core\+::location\+::\+Core\+Location@{core\+::location\+::\+Core\+Location}!reset@{reset}}
+\index{reset@{reset}!core\+::location\+::\+Core\+Location@{core\+::location\+::\+Core\+Location}}
+\subsubsection[{reset}]{\setlength{\rightskip}{0pt plus 5cm}def core.\+location.\+Core\+Location.\+reset (
+\begin{DoxyParamCaption}
+\item[{}]{self}
+\end{DoxyParamCaption}
+)}}\label{classcore_1_1location_1_1_core_location_a8e4bf5274a9701aa49cea19f22ef3bdf}
+\begin{DoxyVerb}Reset to initial state.
+\end{DoxyVerb}
+ \hypertarget{classcore_1_1location_1_1_core_location_ac7ce57734ea6410f1c967ccd8c41cc07}{\index{core\+::location\+::\+Core\+Location@{core\+::location\+::\+Core\+Location}!setrefgeo@{setrefgeo}}
+\index{setrefgeo@{setrefgeo}!core\+::location\+::\+Core\+Location@{core\+::location\+::\+Core\+Location}}
+\subsubsection[{setrefgeo}]{\setlength{\rightskip}{0pt plus 5cm}def core.\+location.\+Core\+Location.\+setrefgeo (
+\begin{DoxyParamCaption}
+\item[{}]{self, }
+\item[{}]{lat, }
+\item[{}]{lon, }
+\item[{}]{alt}
+\end{DoxyParamCaption}
+)}}\label{classcore_1_1location_1_1_core_location_ac7ce57734ea6410f1c967ccd8c41cc07}
+\begin{DoxyVerb}Record the geographical reference point decimal (lat, lon, alt)
+    and convert and store its UTM equivalent for later use.
+\end{DoxyVerb}
+ 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+daemon/core/location.\+py\end{DoxyCompactItemize}

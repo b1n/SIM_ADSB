@@ -1,0 +1,72 @@
+\hypertarget{classcore_1_1emane_1_1commeffect_1_1_emane_comm_effect_model}{\section{core.\+emane.\+commeffect.\+Emane\+Comm\+Effect\+Model Class Reference}
+\label{classcore_1_1emane_1_1commeffect_1_1_emane_comm_effect_model}\index{core.\+emane.\+commeffect.\+Emane\+Comm\+Effect\+Model@{core.\+emane.\+commeffect.\+Emane\+Comm\+Effect\+Model}}
+}
+
+
+Inheritance diagram for core.\+emane.\+commeffect.\+Emane\+Comm\+Effect\+Model\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=236pt]{classcore_1_1emane_1_1commeffect_1_1_emane_comm_effect_model__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for core.\+emane.\+commeffect.\+Emane\+Comm\+Effect\+Model\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=236pt]{classcore_1_1emane_1_1commeffect_1_1_emane_comm_effect_model__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classcore_1_1emane_1_1commeffect_1_1_emane_comm_effect_model_a8ad129d1ffcf5b76a4f1164d35168ef1}{def {\bfseries \+\_\+\+\_\+init\+\_\+\+\_\+}}\label{classcore_1_1emane_1_1commeffect_1_1_emane_comm_effect_model_a8ad129d1ffcf5b76a4f1164d35168ef1}
+
+\item 
+def \hyperlink{classcore_1_1emane_1_1commeffect_1_1_emane_comm_effect_model_adaea2fc7e984b99de37f454a6af6914e}{buildnemxmlfiles}
+\item 
+def \hyperlink{classcore_1_1emane_1_1commeffect_1_1_emane_comm_effect_model_a39c8319a789281018c33bf8a5eeb9e11}{linkconfig}
+\end{DoxyCompactItemize}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classcore_1_1emane_1_1commeffect_1_1_emane_comm_effect_model_adaea2fc7e984b99de37f454a6af6914e}{\index{core\+::emane\+::commeffect\+::\+Emane\+Comm\+Effect\+Model@{core\+::emane\+::commeffect\+::\+Emane\+Comm\+Effect\+Model}!buildnemxmlfiles@{buildnemxmlfiles}}
+\index{buildnemxmlfiles@{buildnemxmlfiles}!core\+::emane\+::commeffect\+::\+Emane\+Comm\+Effect\+Model@{core\+::emane\+::commeffect\+::\+Emane\+Comm\+Effect\+Model}}
+\subsubsection[{buildnemxmlfiles}]{\setlength{\rightskip}{0pt plus 5cm}def core.\+emane.\+commeffect.\+Emane\+Comm\+Effect\+Model.\+buildnemxmlfiles (
+\begin{DoxyParamCaption}
+\item[{}]{self, }
+\item[{}]{e, }
+\item[{}]{ifc}
+\end{DoxyParamCaption}
+)}}\label{classcore_1_1emane_1_1commeffect_1_1_emane_comm_effect_model_adaea2fc7e984b99de37f454a6af6914e}
+\begin{DoxyVerb}Build the necessary nem and commeffect XMLs in the given path.
+    If an individual NEM has a nonstandard config, we need to build
+    that file also. Otherwise the WLAN-wide
+    nXXemane_commeffectnem.xml, nXXemane_commeffectshim.xml are used.
+\end{DoxyVerb}
+ \hypertarget{classcore_1_1emane_1_1commeffect_1_1_emane_comm_effect_model_a39c8319a789281018c33bf8a5eeb9e11}{\index{core\+::emane\+::commeffect\+::\+Emane\+Comm\+Effect\+Model@{core\+::emane\+::commeffect\+::\+Emane\+Comm\+Effect\+Model}!linkconfig@{linkconfig}}
+\index{linkconfig@{linkconfig}!core\+::emane\+::commeffect\+::\+Emane\+Comm\+Effect\+Model@{core\+::emane\+::commeffect\+::\+Emane\+Comm\+Effect\+Model}}
+\subsubsection[{linkconfig}]{\setlength{\rightskip}{0pt plus 5cm}def core.\+emane.\+commeffect.\+Emane\+Comm\+Effect\+Model.\+linkconfig (
+\begin{DoxyParamCaption}
+\item[{}]{self, }
+\item[{}]{netif, }
+\item[{}]{bw = {\ttfamily None}, }
+\item[{}]{delay = {\ttfamily None}, }
+\item[{}]{loss = {\ttfamily None}, }
+\item[{}]{duplicate = {\ttfamily None}, }
+\item[{}]{jitter = {\ttfamily None}, }
+\item[{}]{netif2 = {\ttfamily None}}
+\end{DoxyParamCaption}
+)}}\label{classcore_1_1emane_1_1commeffect_1_1_emane_comm_effect_model_a39c8319a789281018c33bf8a5eeb9e11}
+\begin{DoxyVerb}Generate CommEffect events when a Link Message is received having
+link parameters.
+\end{DoxyVerb}
+ 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+daemon/core/emane/commeffect.\+py\end{DoxyCompactItemize}

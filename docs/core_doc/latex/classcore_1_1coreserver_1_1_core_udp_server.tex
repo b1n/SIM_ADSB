@@ -1,0 +1,84 @@
+\hypertarget{classcore_1_1coreserver_1_1_core_udp_server}{\section{core.\+coreserver.\+Core\+Udp\+Server Class Reference}
+\label{classcore_1_1coreserver_1_1_core_udp_server}\index{core.\+coreserver.\+Core\+Udp\+Server@{core.\+coreserver.\+Core\+Udp\+Server}}
+}
+
+
+Inheritance diagram for core.\+coreserver.\+Core\+Udp\+Server\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=314pt]{classcore_1_1coreserver_1_1_core_udp_server__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for core.\+coreserver.\+Core\+Udp\+Server\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=314pt]{classcore_1_1coreserver_1_1_core_udp_server__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+def \hyperlink{classcore_1_1coreserver_1_1_core_udp_server_af8307d8aae116771a24cc48a8ee1a880}{\+\_\+\+\_\+init\+\_\+\+\_\+}
+\item 
+def \hyperlink{classcore_1_1coreserver_1_1_core_udp_server_a82b33cecdcfabdc2ff84a2d8a43f6123}{start}
+\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classcore_1_1coreserver_1_1_core_udp_server_a1d9e7bfac4a1610774a5ac9dd9e84ffa}{{\bfseries mainserver}}\label{classcore_1_1coreserver_1_1_core_udp_server_a1d9e7bfac4a1610774a5ac9dd9e84ffa}
+
+\end{DoxyCompactItemize}
+\subsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classcore_1_1coreserver_1_1_core_udp_server_af924d00153a903d0d226a85645582061}{{\bfseries daemon\+\_\+threads} = True}\label{classcore_1_1coreserver_1_1_core_udp_server_af924d00153a903d0d226a85645582061}
+
+\item 
+\hypertarget{classcore_1_1coreserver_1_1_core_udp_server_a2a818ee1379dea1e5478bed5cc13906e}{{\bfseries allow\+\_\+reuse\+\_\+address} = True}\label{classcore_1_1coreserver_1_1_core_udp_server_a2a818ee1379dea1e5478bed5cc13906e}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\begin{DoxyVerb}UDP server class, manages sessions and spawns request handlers for
+    incoming connections.
+\end{DoxyVerb}
+ 
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{classcore_1_1coreserver_1_1_core_udp_server_af8307d8aae116771a24cc48a8ee1a880}{\index{core\+::coreserver\+::\+Core\+Udp\+Server@{core\+::coreserver\+::\+Core\+Udp\+Server}!\+\_\+\+\_\+init\+\_\+\+\_\+@{\+\_\+\+\_\+init\+\_\+\+\_\+}}
+\index{\+\_\+\+\_\+init\+\_\+\+\_\+@{\+\_\+\+\_\+init\+\_\+\+\_\+}!core\+::coreserver\+::\+Core\+Udp\+Server@{core\+::coreserver\+::\+Core\+Udp\+Server}}
+\subsubsection[{\+\_\+\+\_\+init\+\_\+\+\_\+}]{\setlength{\rightskip}{0pt plus 5cm}def core.\+coreserver.\+Core\+Udp\+Server.\+\_\+\+\_\+init\+\_\+\+\_\+ (
+\begin{DoxyParamCaption}
+\item[{}]{self, }
+\item[{}]{server\+\_\+address, }
+\item[{}]{Request\+Handler\+Class, }
+\item[{}]{mainserver}
+\end{DoxyParamCaption}
+)}}\label{classcore_1_1coreserver_1_1_core_udp_server_af8307d8aae116771a24cc48a8ee1a880}
+\begin{DoxyVerb}Server class initialization takes configuration data and calls
+    the SocketServer constructor
+\end{DoxyVerb}
+ 
+
+\subsection{Member Function Documentation}
+\hypertarget{classcore_1_1coreserver_1_1_core_udp_server_a82b33cecdcfabdc2ff84a2d8a43f6123}{\index{core\+::coreserver\+::\+Core\+Udp\+Server@{core\+::coreserver\+::\+Core\+Udp\+Server}!start@{start}}
+\index{start@{start}!core\+::coreserver\+::\+Core\+Udp\+Server@{core\+::coreserver\+::\+Core\+Udp\+Server}}
+\subsubsection[{start}]{\setlength{\rightskip}{0pt plus 5cm}def core.\+coreserver.\+Core\+Udp\+Server.\+start (
+\begin{DoxyParamCaption}
+\item[{}]{self}
+\end{DoxyParamCaption}
+)}}\label{classcore_1_1coreserver_1_1_core_udp_server_a82b33cecdcfabdc2ff84a2d8a43f6123}
+\begin{DoxyVerb}Thread target to run concurrently with the TCP server.
+\end{DoxyVerb}
+ 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+daemon/core/coreserver.\+py\end{DoxyCompactItemize}

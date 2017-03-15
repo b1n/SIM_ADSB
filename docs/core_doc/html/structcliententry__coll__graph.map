@@ -1,0 +1,3 @@
+<map id="cliententry" name="cliententry">
+<area shape="rect" id="node3" href="$structvnode__server__t.html" title="{vnode_server_t\n|+ ctrlchnlname\l+ pidfilename\l+ serverfd\l+ fdwatcher\l+ childwatcher\l|+ TAILQ_HEAD()\l+ TAILQ_HEAD()\l}" alt="" coords="123,145,248,296"/>
+</map>

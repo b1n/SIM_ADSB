@@ -1,0 +1,172 @@
+\hypertarget{classcore_1_1coreserver_1_1_core_server}{\section{core.\+coreserver.\+Core\+Server Class Reference}
+\label{classcore_1_1coreserver_1_1_core_server}\index{core.\+coreserver.\+Core\+Server@{core.\+coreserver.\+Core\+Server}}
+}
+
+
+Inheritance diagram for core.\+coreserver.\+Core\+Server\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=246pt]{classcore_1_1coreserver_1_1_core_server__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for core.\+coreserver.\+Core\+Server\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=246pt]{classcore_1_1coreserver_1_1_core_server__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+def \hyperlink{classcore_1_1coreserver_1_1_core_server_aa8c9d48704308b6c074364cfdaaee6b6}{\+\_\+\+\_\+init\+\_\+\+\_\+}
+\item 
+\hypertarget{classcore_1_1coreserver_1_1_core_server_a3c2b9ef9347923d9fe899796363ef72b}{def {\bfseries newserver}}\label{classcore_1_1coreserver_1_1_core_server_a3c2b9ef9347923d9fe899796363ef72b}
+
+\item 
+\hypertarget{classcore_1_1coreserver_1_1_core_server_ab22231532eaf9b7b19367f256f48ab5f}{def {\bfseries delserver}}\label{classcore_1_1coreserver_1_1_core_server_ab22231532eaf9b7b19367f256f48ab5f}
+
+\item 
+\hypertarget{classcore_1_1coreserver_1_1_core_server_ab7d2fe4cb075eb2656b04b6844a507f6}{def {\bfseries shutdown}}\label{classcore_1_1coreserver_1_1_core_server_ab7d2fe4cb075eb2656b04b6844a507f6}
+
+\item 
+def \hyperlink{classcore_1_1coreserver_1_1_core_server_a7092d0f0f37f6612dfc8b2723ca52336}{addsession}
+\item 
+def \hyperlink{classcore_1_1coreserver_1_1_core_server_a68b2b109088a0ae3309c5a99ce5482fd}{delsession}
+\item 
+def \hyperlink{classcore_1_1coreserver_1_1_core_server_a1a808e019b10fd0c4992e8d532161208}{getsessionids}
+\item 
+def \hyperlink{classcore_1_1coreserver_1_1_core_server_a3e6792132dadb5b546bf09fa4324c6ca}{getsession}
+\item 
+def \hyperlink{classcore_1_1coreserver_1_1_core_server_a282e9b79ecf559422291e1b3659b5371}{tosessionmsg}
+\item 
+def \hyperlink{classcore_1_1coreserver_1_1_core_server_abb084314a55fe1f47791932c246e2551}{dumpsessions}
+\item 
+def \hyperlink{classcore_1_1coreserver_1_1_core_server_af1d75e42f059926dbd7409ad14b413b8}{setsessionmaster}
+\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classcore_1_1coreserver_1_1_core_server_a8a8ecf9a146c1138a2b328bbb0b6dfbe}{{\bfseries cfg}}\label{classcore_1_1coreserver_1_1_core_server_a8a8ecf9a146c1138a2b328bbb0b6dfbe}
+
+\end{DoxyCompactItemize}
+\subsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classcore_1_1coreserver_1_1_core_server_ae23a80200fc99145fe54d4e7b92562bb}{{\bfseries daemon\+\_\+threads} = True}\label{classcore_1_1coreserver_1_1_core_server_ae23a80200fc99145fe54d4e7b92562bb}
+
+\item 
+\hypertarget{classcore_1_1coreserver_1_1_core_server_a1026c11d492cfd76f1674f61ad71cc93}{{\bfseries allow\+\_\+reuse\+\_\+address} = True}\label{classcore_1_1coreserver_1_1_core_server_a1026c11d492cfd76f1674f61ad71cc93}
+
+\item 
+\hypertarget{classcore_1_1coreserver_1_1_core_server_a6bab24410faa46fbfb9eff6f81921ce2}{tuple {\bfseries servers} = set()}\label{classcore_1_1coreserver_1_1_core_server_a6bab24410faa46fbfb9eff6f81921ce2}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\begin{DoxyVerb}TCP server class, manages sessions and spawns request handlers for
+    incoming connections.
+\end{DoxyVerb}
+ 
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{classcore_1_1coreserver_1_1_core_server_aa8c9d48704308b6c074364cfdaaee6b6}{\index{core\+::coreserver\+::\+Core\+Server@{core\+::coreserver\+::\+Core\+Server}!\+\_\+\+\_\+init\+\_\+\+\_\+@{\+\_\+\+\_\+init\+\_\+\+\_\+}}
+\index{\+\_\+\+\_\+init\+\_\+\+\_\+@{\+\_\+\+\_\+init\+\_\+\+\_\+}!core\+::coreserver\+::\+Core\+Server@{core\+::coreserver\+::\+Core\+Server}}
+\subsubsection[{\+\_\+\+\_\+init\+\_\+\+\_\+}]{\setlength{\rightskip}{0pt plus 5cm}def core.\+coreserver.\+Core\+Server.\+\_\+\+\_\+init\+\_\+\+\_\+ (
+\begin{DoxyParamCaption}
+\item[{}]{self, }
+\item[{}]{server\+\_\+address, }
+\item[{}]{Request\+Handler\+Class, }
+\item[{}]{cfg = {\ttfamily None}}
+\end{DoxyParamCaption}
+)}}\label{classcore_1_1coreserver_1_1_core_server_aa8c9d48704308b6c074364cfdaaee6b6}
+\begin{DoxyVerb}Server class initialization takes configuration data and calls
+    the SocketServer constructor
+\end{DoxyVerb}
+ 
+
+\subsection{Member Function Documentation}
+\hypertarget{classcore_1_1coreserver_1_1_core_server_a7092d0f0f37f6612dfc8b2723ca52336}{\index{core\+::coreserver\+::\+Core\+Server@{core\+::coreserver\+::\+Core\+Server}!addsession@{addsession}}
+\index{addsession@{addsession}!core\+::coreserver\+::\+Core\+Server@{core\+::coreserver\+::\+Core\+Server}}
+\subsubsection[{addsession}]{\setlength{\rightskip}{0pt plus 5cm}def core.\+coreserver.\+Core\+Server.\+addsession (
+\begin{DoxyParamCaption}
+\item[{}]{self, }
+\item[{}]{session}
+\end{DoxyParamCaption}
+)}}\label{classcore_1_1coreserver_1_1_core_server_a7092d0f0f37f6612dfc8b2723ca52336}
+\begin{DoxyVerb}Add a session to our dictionary of sessions, ensuring a unique
+    session number
+\end{DoxyVerb}
+ \hypertarget{classcore_1_1coreserver_1_1_core_server_a68b2b109088a0ae3309c5a99ce5482fd}{\index{core\+::coreserver\+::\+Core\+Server@{core\+::coreserver\+::\+Core\+Server}!delsession@{delsession}}
+\index{delsession@{delsession}!core\+::coreserver\+::\+Core\+Server@{core\+::coreserver\+::\+Core\+Server}}
+\subsubsection[{delsession}]{\setlength{\rightskip}{0pt plus 5cm}def core.\+coreserver.\+Core\+Server.\+delsession (
+\begin{DoxyParamCaption}
+\item[{}]{self, }
+\item[{}]{session}
+\end{DoxyParamCaption}
+)}}\label{classcore_1_1coreserver_1_1_core_server_a68b2b109088a0ae3309c5a99ce5482fd}
+\begin{DoxyVerb}Remove a session from our dictionary of sessions.
+\end{DoxyVerb}
+ \hypertarget{classcore_1_1coreserver_1_1_core_server_abb084314a55fe1f47791932c246e2551}{\index{core\+::coreserver\+::\+Core\+Server@{core\+::coreserver\+::\+Core\+Server}!dumpsessions@{dumpsessions}}
+\index{dumpsessions@{dumpsessions}!core\+::coreserver\+::\+Core\+Server@{core\+::coreserver\+::\+Core\+Server}}
+\subsubsection[{dumpsessions}]{\setlength{\rightskip}{0pt plus 5cm}def core.\+coreserver.\+Core\+Server.\+dumpsessions (
+\begin{DoxyParamCaption}
+\item[{}]{self}
+\end{DoxyParamCaption}
+)}}\label{classcore_1_1coreserver_1_1_core_server_abb084314a55fe1f47791932c246e2551}
+\begin{DoxyVerb}Debug print all session info.
+\end{DoxyVerb}
+ \hypertarget{classcore_1_1coreserver_1_1_core_server_a3e6792132dadb5b546bf09fa4324c6ca}{\index{core\+::coreserver\+::\+Core\+Server@{core\+::coreserver\+::\+Core\+Server}!getsession@{getsession}}
+\index{getsession@{getsession}!core\+::coreserver\+::\+Core\+Server@{core\+::coreserver\+::\+Core\+Server}}
+\subsubsection[{getsession}]{\setlength{\rightskip}{0pt plus 5cm}def core.\+coreserver.\+Core\+Server.\+getsession (
+\begin{DoxyParamCaption}
+\item[{}]{self, }
+\item[{}]{sessionid = {\ttfamily None}, }
+\item[{}]{useexisting = {\ttfamily True}}
+\end{DoxyParamCaption}
+)}}\label{classcore_1_1coreserver_1_1_core_server_a3e6792132dadb5b546bf09fa4324c6ca}
+\begin{DoxyVerb}Create a new session or retrieve an existing one from our
+    dictionary of sessions. When the sessionid=0 and the useexisting
+    flag is set, return on of the existing sessions.
+\end{DoxyVerb}
+ \hypertarget{classcore_1_1coreserver_1_1_core_server_a1a808e019b10fd0c4992e8d532161208}{\index{core\+::coreserver\+::\+Core\+Server@{core\+::coreserver\+::\+Core\+Server}!getsessionids@{getsessionids}}
+\index{getsessionids@{getsessionids}!core\+::coreserver\+::\+Core\+Server@{core\+::coreserver\+::\+Core\+Server}}
+\subsubsection[{getsessionids}]{\setlength{\rightskip}{0pt plus 5cm}def core.\+coreserver.\+Core\+Server.\+getsessionids (
+\begin{DoxyParamCaption}
+\item[{}]{self}
+\end{DoxyParamCaption}
+)}}\label{classcore_1_1coreserver_1_1_core_server_a1a808e019b10fd0c4992e8d532161208}
+\begin{DoxyVerb}Return a list of active session numbers.
+\end{DoxyVerb}
+ \hypertarget{classcore_1_1coreserver_1_1_core_server_af1d75e42f059926dbd7409ad14b413b8}{\index{core\+::coreserver\+::\+Core\+Server@{core\+::coreserver\+::\+Core\+Server}!setsessionmaster@{setsessionmaster}}
+\index{setsessionmaster@{setsessionmaster}!core\+::coreserver\+::\+Core\+Server@{core\+::coreserver\+::\+Core\+Server}}
+\subsubsection[{setsessionmaster}]{\setlength{\rightskip}{0pt plus 5cm}def core.\+coreserver.\+Core\+Server.\+setsessionmaster (
+\begin{DoxyParamCaption}
+\item[{}]{self, }
+\item[{}]{handler}
+\end{DoxyParamCaption}
+)}}\label{classcore_1_1coreserver_1_1_core_server_af1d75e42f059926dbd7409ad14b413b8}
+\begin{DoxyVerb}Call the setmaster() method for every session. Returns True when
+    a session having the given handler was updated.
+\end{DoxyVerb}
+ \hypertarget{classcore_1_1coreserver_1_1_core_server_a282e9b79ecf559422291e1b3659b5371}{\index{core\+::coreserver\+::\+Core\+Server@{core\+::coreserver\+::\+Core\+Server}!tosessionmsg@{tosessionmsg}}
+\index{tosessionmsg@{tosessionmsg}!core\+::coreserver\+::\+Core\+Server@{core\+::coreserver\+::\+Core\+Server}}
+\subsubsection[{tosessionmsg}]{\setlength{\rightskip}{0pt plus 5cm}def core.\+coreserver.\+Core\+Server.\+tosessionmsg (
+\begin{DoxyParamCaption}
+\item[{}]{self, }
+\item[{}]{flags = {\ttfamily 0}}
+\end{DoxyParamCaption}
+)}}\label{classcore_1_1coreserver_1_1_core_server_a282e9b79ecf559422291e1b3659b5371}
+\begin{DoxyVerb}Build CORE API Sessions message based on current session info.
+\end{DoxyVerb}
+ 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+daemon/core/coreserver.\+py\end{DoxyCompactItemize}

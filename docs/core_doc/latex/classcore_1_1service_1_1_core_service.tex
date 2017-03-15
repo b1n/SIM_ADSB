@@ -1,0 +1,156 @@
+\hypertarget{classcore_1_1service_1_1_core_service}{\section{core.\+service.\+Core\+Service Class Reference}
+\label{classcore_1_1service_1_1_core_service}\index{core.\+service.\+Core\+Service@{core.\+service.\+Core\+Service}}
+}
+
+
+Inheritance diagram for core.\+service.\+Core\+Service\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classcore_1_1service_1_1_core_service__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for core.\+service.\+Core\+Service\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=207pt]{classcore_1_1service_1_1_core_service__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+def \hyperlink{classcore_1_1service_1_1_core_service_a4023927c044788e869dc76d6618af267}{\+\_\+\+\_\+init\+\_\+\+\_\+}
+\item 
+def \hyperlink{classcore_1_1service_1_1_core_service_a1e2b99c6402a165d0ddf75d9cb533b1e}{getconfigfilenames}
+\item 
+def \hyperlink{classcore_1_1service_1_1_core_service_a97b07f847f10d791d6a55840e4cff247}{generateconfig}
+\item 
+def \hyperlink{classcore_1_1service_1_1_core_service_ac5b0ecec44e5985666806dd64dfe5140}{getstartup}
+\item 
+def \hyperlink{classcore_1_1service_1_1_core_service_a645cc4a2e83d659de8554422e16e04bb}{getvalidate}
+\item 
+def \hyperlink{classcore_1_1service_1_1_core_service_a5ed4b3d294be9a9c9e3ff6c17781165c}{tovaluelist}
+\item 
+def \hyperlink{classcore_1_1service_1_1_core_service_a4ae30edbcadcd50b114b6ab1bfa425ac}{fromvaluelist}
+\item 
+\hypertarget{classcore_1_1service_1_1_core_service_aec68542a31e90a94ec7b706d9e17c541}{def {\bfseries setvalue}}\label{classcore_1_1service_1_1_core_service_aec68542a31e90a94ec7b706d9e17c541}
+
+\end{DoxyCompactItemize}
+\subsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classcore_1_1service_1_1_core_service_acb8c8bbfa5906ee8371c5ba6be1f9aa0}{list {\bfseries keys} = \mbox{[}\char`\"{}dirs\char`\"{},\char`\"{}files\char`\"{},\char`\"{}startidx\char`\"{},\char`\"{}cmdup\char`\"{},\char`\"{}cmddown\char`\"{},\char`\"{}cmdval\char`\"{},\char`\"{}meta\char`\"{},\char`\"{}starttime\char`\"{}\mbox{]}}\label{classcore_1_1service_1_1_core_service_acb8c8bbfa5906ee8371c5ba6be1f9aa0}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\begin{DoxyVerb}Parent class used for defining services.
+\end{DoxyVerb}
+ 
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{classcore_1_1service_1_1_core_service_a4023927c044788e869dc76d6618af267}{\index{core\+::service\+::\+Core\+Service@{core\+::service\+::\+Core\+Service}!\+\_\+\+\_\+init\+\_\+\+\_\+@{\+\_\+\+\_\+init\+\_\+\+\_\+}}
+\index{\+\_\+\+\_\+init\+\_\+\+\_\+@{\+\_\+\+\_\+init\+\_\+\+\_\+}!core\+::service\+::\+Core\+Service@{core\+::service\+::\+Core\+Service}}
+\subsubsection[{\+\_\+\+\_\+init\+\_\+\+\_\+}]{\setlength{\rightskip}{0pt plus 5cm}def core.\+service.\+Core\+Service.\+\_\+\+\_\+init\+\_\+\+\_\+ (
+\begin{DoxyParamCaption}
+\item[{}]{self}
+\end{DoxyParamCaption}
+)}}\label{classcore_1_1service_1_1_core_service_a4023927c044788e869dc76d6618af267}
+\begin{DoxyVerb}Services are not necessarily instantiated. Classmethods may be used
+    against their config. Services are instantiated when a custom
+    configuration is used to override their default parameters.
+\end{DoxyVerb}
+ 
+
+\subsection{Member Function Documentation}
+\hypertarget{classcore_1_1service_1_1_core_service_a4ae30edbcadcd50b114b6ab1bfa425ac}{\index{core\+::service\+::\+Core\+Service@{core\+::service\+::\+Core\+Service}!fromvaluelist@{fromvaluelist}}
+\index{fromvaluelist@{fromvaluelist}!core\+::service\+::\+Core\+Service@{core\+::service\+::\+Core\+Service}}
+\subsubsection[{fromvaluelist}]{\setlength{\rightskip}{0pt plus 5cm}def core.\+service.\+Core\+Service.\+fromvaluelist (
+\begin{DoxyParamCaption}
+\item[{}]{self, }
+\item[{}]{values}
+\end{DoxyParamCaption}
+)}}\label{classcore_1_1service_1_1_core_service_a4ae30edbcadcd50b114b6ab1bfa425ac}
+\begin{DoxyVerb}Convert list of values into properties for this instantiated
+    (customized) service.
+\end{DoxyVerb}
+ \hypertarget{classcore_1_1service_1_1_core_service_a97b07f847f10d791d6a55840e4cff247}{\index{core\+::service\+::\+Core\+Service@{core\+::service\+::\+Core\+Service}!generateconfig@{generateconfig}}
+\index{generateconfig@{generateconfig}!core\+::service\+::\+Core\+Service@{core\+::service\+::\+Core\+Service}}
+\subsubsection[{generateconfig}]{\setlength{\rightskip}{0pt plus 5cm}def core.\+service.\+Core\+Service.\+generateconfig (
+\begin{DoxyParamCaption}
+\item[{}]{cls, }
+\item[{}]{node, }
+\item[{}]{filename, }
+\item[{}]{services}
+\end{DoxyParamCaption}
+)}}\label{classcore_1_1service_1_1_core_service_a97b07f847f10d791d6a55840e4cff247}
+\begin{DoxyVerb}Generate configuration file given a node object. The filename is
+    provided to allow for multiple config files. The other services are
+    provided to allow interdependencies (e.g. zebra and OSPF).
+    Return the configuration string to be written to a file or sent 
+    to the GUI for customization.
+\end{DoxyVerb}
+ \hypertarget{classcore_1_1service_1_1_core_service_a1e2b99c6402a165d0ddf75d9cb533b1e}{\index{core\+::service\+::\+Core\+Service@{core\+::service\+::\+Core\+Service}!getconfigfilenames@{getconfigfilenames}}
+\index{getconfigfilenames@{getconfigfilenames}!core\+::service\+::\+Core\+Service@{core\+::service\+::\+Core\+Service}}
+\subsubsection[{getconfigfilenames}]{\setlength{\rightskip}{0pt plus 5cm}def core.\+service.\+Core\+Service.\+getconfigfilenames (
+\begin{DoxyParamCaption}
+\item[{}]{cls, }
+\item[{}]{nodenum, }
+\item[{}]{services}
+\end{DoxyParamCaption}
+)}}\label{classcore_1_1service_1_1_core_service_a1e2b99c6402a165d0ddf75d9cb533b1e}
+\begin{DoxyVerb}Return the tuple of configuration file filenames. This default method
+    returns the cls._configs tuple, but this method may be overriden to
+    provide node-specific filenames that may be based on other services.
+\end{DoxyVerb}
+ \hypertarget{classcore_1_1service_1_1_core_service_ac5b0ecec44e5985666806dd64dfe5140}{\index{core\+::service\+::\+Core\+Service@{core\+::service\+::\+Core\+Service}!getstartup@{getstartup}}
+\index{getstartup@{getstartup}!core\+::service\+::\+Core\+Service@{core\+::service\+::\+Core\+Service}}
+\subsubsection[{getstartup}]{\setlength{\rightskip}{0pt plus 5cm}def core.\+service.\+Core\+Service.\+getstartup (
+\begin{DoxyParamCaption}
+\item[{}]{cls, }
+\item[{}]{node, }
+\item[{}]{services}
+\end{DoxyParamCaption}
+)}}\label{classcore_1_1service_1_1_core_service_ac5b0ecec44e5985666806dd64dfe5140}
+\begin{DoxyVerb}Return the tuple of startup commands. This default method
+    returns the cls._startup tuple, but this method may be
+    overriden to provide node-specific commands that may be
+    based on other services.
+\end{DoxyVerb}
+ \hypertarget{classcore_1_1service_1_1_core_service_a645cc4a2e83d659de8554422e16e04bb}{\index{core\+::service\+::\+Core\+Service@{core\+::service\+::\+Core\+Service}!getvalidate@{getvalidate}}
+\index{getvalidate@{getvalidate}!core\+::service\+::\+Core\+Service@{core\+::service\+::\+Core\+Service}}
+\subsubsection[{getvalidate}]{\setlength{\rightskip}{0pt plus 5cm}def core.\+service.\+Core\+Service.\+getvalidate (
+\begin{DoxyParamCaption}
+\item[{}]{cls, }
+\item[{}]{node, }
+\item[{}]{services}
+\end{DoxyParamCaption}
+)}}\label{classcore_1_1service_1_1_core_service_a645cc4a2e83d659de8554422e16e04bb}
+\begin{DoxyVerb}Return the tuple of validate commands. This default method
+    returns the cls._validate tuple, but this method may be
+    overriden to provide node-specific commands that may be
+    based on other services.
+\end{DoxyVerb}
+ \hypertarget{classcore_1_1service_1_1_core_service_a5ed4b3d294be9a9c9e3ff6c17781165c}{\index{core\+::service\+::\+Core\+Service@{core\+::service\+::\+Core\+Service}!tovaluelist@{tovaluelist}}
+\index{tovaluelist@{tovaluelist}!core\+::service\+::\+Core\+Service@{core\+::service\+::\+Core\+Service}}
+\subsubsection[{tovaluelist}]{\setlength{\rightskip}{0pt plus 5cm}def core.\+service.\+Core\+Service.\+tovaluelist (
+\begin{DoxyParamCaption}
+\item[{}]{cls, }
+\item[{}]{node, }
+\item[{}]{services}
+\end{DoxyParamCaption}
+)}}\label{classcore_1_1service_1_1_core_service_a5ed4b3d294be9a9c9e3ff6c17781165c}
+\begin{DoxyVerb}Convert service properties into a string list of key=value pairs,
+    separated by "|".
+\end{DoxyVerb}
+ 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+daemon/core/service.\+py\end{DoxyCompactItemize}
