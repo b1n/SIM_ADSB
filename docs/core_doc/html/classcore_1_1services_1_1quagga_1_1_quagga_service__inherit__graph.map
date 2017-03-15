@@ -1,0 +1,11 @@
+<map id="core.services.quagga.QuaggaService" name="core.services.quagga.QuaggaService">
+<area shape="rect" id="node4" href="$classcore_1_1services_1_1quagga_1_1_babel.html" title="{core.services.quagga.Babel\n||+ generatequaggaconfig()\l+ generatequaggaifcconfig()\l}" alt="" coords="5,579,188,671"/>
+<area shape="rect" id="node5" href="$classcore_1_1services_1_1quagga_1_1_bgp.html" title="{core.services.quagga.Bgp\n||+ generatequaggaconfig()\l}" alt="" coords="213,587,386,664"/>
+<area shape="rect" id="node6" href="$classcore_1_1services_1_1quagga_1_1_ospfv2.html" title="{core.services.quagga.Ospfv2\n||+ generatequaggaconfig()\l+ generatequaggaifcconfig()\l+ mtucheck()\l+ ptpcheck()\l}" alt="" coords="410,565,602,686"/>
+<area shape="rect" id="node7" href="$classcore_1_1services_1_1quagga_1_1_ospfv3.html" title="{core.services.quagga.Ospfv3\n||+ mtucheck()\l+ generatequaggaconfig()\l+ generatequaggaifcconfig()\l+ minmtu()\l+ ptpcheck()\l}" alt="" coords="626,557,818,693"/>
+<area shape="rect" id="node9" href="$classcore_1_1services_1_1quagga_1_1_rip.html" title="{core.services.quagga.Rip\n||+ generatequaggaconfig()\l}" alt="" coords="842,587,1013,664"/>
+<area shape="rect" id="node10" href="$classcore_1_1services_1_1quagga_1_1_ripng.html" title="{core.services.quagga.Ripng\n||+ generatequaggaconfig()\l}" alt="" coords="1037,587,1221,664"/>
+<area shape="rect" id="node11" href="$classcore_1_1services_1_1quagga_1_1_xpimd.html" title="{core.services.quagga.Xpimd\n||+ generatequaggaconfig()\l+ generatequaggaifcconfig()\l}" alt="" coords="1245,579,1431,671"/>
+<area shape="rect" id="node2" href="$classcore_1_1service_1_1_core_service.html" title="{core.service.CoreService\n|+ keys\l|+ __init__()\l+ getconfigfilenames()\l+ generateconfig()\l+ getstartup()\l+ getvalidate()\l+ tovaluelist()\l+ fromvaluelist()\l+ setvalue()\l}" alt="" coords="637,131,807,311"/>
+<area shape="rect" id="node8" href="$classcore_1_1services_1_1quagga_1_1_ospfv3mdr.html" title="{core.services.quagga.Ospfv3mdr\n||+ generatequaggaifcconfig()\l}" alt="" coords="615,741,829,819"/>
+</map>

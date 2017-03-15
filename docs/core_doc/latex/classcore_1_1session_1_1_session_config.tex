@@ -1,0 +1,77 @@
+\hypertarget{classcore_1_1session_1_1_session_config}{\section{core.\+session.\+Session\+Config Class Reference}
+\label{classcore_1_1session_1_1_session_config}\index{core.\+session.\+Session\+Config@{core.\+session.\+Session\+Config}}
+}
+
+
+Inheritance diagram for core.\+session.\+Session\+Config\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classcore_1_1session_1_1_session_config__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for core.\+session.\+Session\+Config\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classcore_1_1session_1_1_session_config__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classcore_1_1session_1_1_session_config_a400aa0b279fe367aafb5e0569a6df4ff}{def {\bfseries \+\_\+\+\_\+init\+\_\+\+\_\+}}\label{classcore_1_1session_1_1_session_config_a400aa0b279fe367aafb5e0569a6df4ff}
+
+\item 
+\hypertarget{classcore_1_1session_1_1_session_config_ab5692d0d6ff75f674e8ccc37c24e6548}{def {\bfseries reset}}\label{classcore_1_1session_1_1_session_config_ab5692d0d6ff75f674e8ccc37c24e6548}
+
+\item 
+\hypertarget{classcore_1_1session_1_1_session_config_ad63d06536ff560566a9b14ccb7d14b50}{def {\bfseries configure\+\_\+values}}\label{classcore_1_1session_1_1_session_config_ad63d06536ff560566a9b14ccb7d14b50}
+
+\item 
+\hypertarget{classcore_1_1session_1_1_session_config_a4dd817bc42a6a51d996726f9d41ddc58}{def {\bfseries configure\+\_\+request}}\label{classcore_1_1session_1_1_session_config_a4dd817bc42a6a51d996726f9d41ddc58}
+
+\item 
+def \hyperlink{classcore_1_1session_1_1_session_config_a9540ede9462ac0d8a365cd2b49834307}{handledistributed}
+\item 
+def \hyperlink{classcore_1_1session_1_1_session_config_a9fe50c3a7c683b494ec863c89e1cf252}{handledistributedcontrolnet}
+\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classcore_1_1session_1_1_session_config_a9540ede9462ac0d8a365cd2b49834307}{\index{core\+::session\+::\+Session\+Config@{core\+::session\+::\+Session\+Config}!handledistributed@{handledistributed}}
+\index{handledistributed@{handledistributed}!core\+::session\+::\+Session\+Config@{core\+::session\+::\+Session\+Config}}
+\subsubsection[{handledistributed}]{\setlength{\rightskip}{0pt plus 5cm}def core.\+session.\+Session\+Config.\+handledistributed (
+\begin{DoxyParamCaption}
+\item[{}]{self, }
+\item[{}]{msg}
+\end{DoxyParamCaption}
+)}}\label{classcore_1_1session_1_1_session_config_a9540ede9462ac0d8a365cd2b49834307}
+\begin{DoxyVerb}Handle the session options config message as it has reached the
+broker. Options requiring modification for distributed operation should
+be handled here.
+\end{DoxyVerb}
+ \hypertarget{classcore_1_1session_1_1_session_config_a9fe50c3a7c683b494ec863c89e1cf252}{\index{core\+::session\+::\+Session\+Config@{core\+::session\+::\+Session\+Config}!handledistributedcontrolnet@{handledistributedcontrolnet}}
+\index{handledistributedcontrolnet@{handledistributedcontrolnet}!core\+::session\+::\+Session\+Config@{core\+::session\+::\+Session\+Config}}
+\subsubsection[{handledistributedcontrolnet}]{\setlength{\rightskip}{0pt plus 5cm}def core.\+session.\+Session\+Config.\+handledistributedcontrolnet (
+\begin{DoxyParamCaption}
+\item[{}]{self, }
+\item[{}]{msg, }
+\item[{}]{values, }
+\item[{}]{idx}
+\end{DoxyParamCaption}
+)}}\label{classcore_1_1session_1_1_session_config_a9fe50c3a7c683b494ec863c89e1cf252}
+\begin{DoxyVerb}Modify Config Message if multiple control network prefixes are
+defined. Map server names to prefixes and repack the message before
+it is forwarded to slave servers.
+\end{DoxyVerb}
+ 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+daemon/core/session.\+py\end{DoxyCompactItemize}

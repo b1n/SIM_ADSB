@@ -1,0 +1,89 @@
+\hypertarget{classcore_1_1services_1_1quagga_1_1_ospfv3}{\section{core.\+services.\+quagga.\+Ospfv3 Class Reference}
+\label{classcore_1_1services_1_1quagga_1_1_ospfv3}\index{core.\+services.\+quagga.\+Ospfv3@{core.\+services.\+quagga.\+Ospfv3}}
+}
+
+
+Inheritance diagram for core.\+services.\+quagga.\+Ospfv3\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=550pt]{classcore_1_1services_1_1quagga_1_1_ospfv3__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for core.\+services.\+quagga.\+Ospfv3\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=550pt]{classcore_1_1services_1_1quagga_1_1_ospfv3__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+def \hyperlink{classcore_1_1services_1_1quagga_1_1_ospfv3_a4536249dfa4ec38e3ea05c2e2bea9287}{mtucheck}
+\item 
+\hypertarget{classcore_1_1services_1_1quagga_1_1_ospfv3_a31f08d24e8561b95d66f9c35e8706953}{def {\bfseries generatequaggaconfig}}\label{classcore_1_1services_1_1quagga_1_1_ospfv3_a31f08d24e8561b95d66f9c35e8706953}
+
+\item 
+\hypertarget{classcore_1_1services_1_1quagga_1_1_ospfv3_a815847817f11bfab40fa72a10e1a3733}{def {\bfseries generatequaggaifcconfig}}\label{classcore_1_1services_1_1quagga_1_1_ospfv3_a815847817f11bfab40fa72a10e1a3733}
+
+\end{DoxyCompactItemize}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+def \hyperlink{classcore_1_1services_1_1quagga_1_1_ospfv3_ab8322e2daa6143afbff2de1ec8d491c4}{minmtu}
+\item 
+def \hyperlink{classcore_1_1services_1_1quagga_1_1_ospfv3_ad4609e0a37a374ecd9dc2d6caa13f157}{ptpcheck}
+\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Detailed Description}
+\begin{DoxyVerb}The OSPFv3 service provides IPv6 routing for wired networks. It does
+    not build its own configuration file but has hooks for adding to the
+    unified Quagga.conf file.
+\end{DoxyVerb}
+ 
+
+\subsection{Member Function Documentation}
+\hypertarget{classcore_1_1services_1_1quagga_1_1_ospfv3_ab8322e2daa6143afbff2de1ec8d491c4}{\index{core\+::services\+::quagga\+::\+Ospfv3@{core\+::services\+::quagga\+::\+Ospfv3}!minmtu@{minmtu}}
+\index{minmtu@{minmtu}!core\+::services\+::quagga\+::\+Ospfv3@{core\+::services\+::quagga\+::\+Ospfv3}}
+\subsubsection[{minmtu}]{\setlength{\rightskip}{0pt plus 5cm}def core.\+services.\+quagga.\+Ospfv3.\+minmtu (
+\begin{DoxyParamCaption}
+\item[{}]{ifc}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{classcore_1_1services_1_1quagga_1_1_ospfv3_ab8322e2daa6143afbff2de1ec8d491c4}
+\begin{DoxyVerb}Helper to discover the minimum MTU of interfaces linked with the
+given interface.
+\end{DoxyVerb}
+ \hypertarget{classcore_1_1services_1_1quagga_1_1_ospfv3_a4536249dfa4ec38e3ea05c2e2bea9287}{\index{core\+::services\+::quagga\+::\+Ospfv3@{core\+::services\+::quagga\+::\+Ospfv3}!mtucheck@{mtucheck}}
+\index{mtucheck@{mtucheck}!core\+::services\+::quagga\+::\+Ospfv3@{core\+::services\+::quagga\+::\+Ospfv3}}
+\subsubsection[{mtucheck}]{\setlength{\rightskip}{0pt plus 5cm}def core.\+services.\+quagga.\+Ospfv3.\+mtucheck (
+\begin{DoxyParamCaption}
+\item[{}]{cls, }
+\item[{}]{ifc}
+\end{DoxyParamCaption}
+)}}\label{classcore_1_1services_1_1quagga_1_1_ospfv3_a4536249dfa4ec38e3ea05c2e2bea9287}
+\begin{DoxyVerb}Helper to detect MTU mismatch and add the appropriate OSPFv3
+ifmtu command. This is needed when e.g. a node is linked via a
+GreTap device.
+\end{DoxyVerb}
+ \hypertarget{classcore_1_1services_1_1quagga_1_1_ospfv3_ad4609e0a37a374ecd9dc2d6caa13f157}{\index{core\+::services\+::quagga\+::\+Ospfv3@{core\+::services\+::quagga\+::\+Ospfv3}!ptpcheck@{ptpcheck}}
+\index{ptpcheck@{ptpcheck}!core\+::services\+::quagga\+::\+Ospfv3@{core\+::services\+::quagga\+::\+Ospfv3}}
+\subsubsection[{ptpcheck}]{\setlength{\rightskip}{0pt plus 5cm}def core.\+services.\+quagga.\+Ospfv3.\+ptpcheck (
+\begin{DoxyParamCaption}
+\item[{}]{ifc}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{classcore_1_1services_1_1quagga_1_1_ospfv3_ad4609e0a37a374ecd9dc2d6caa13f157}
+\begin{DoxyVerb}Helper to detect whether interface is connected to a notional
+point-to-point link.
+\end{DoxyVerb}
+ 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+daemon/core/services/quagga.\+py\end{DoxyCompactItemize}

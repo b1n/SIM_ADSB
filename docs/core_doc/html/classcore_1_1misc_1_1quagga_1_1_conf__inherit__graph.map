@@ -1,0 +1,5 @@
+<map id="core.misc.quagga.Conf" name="core.misc.quagga.Conf">
+<area shape="rect" id="node3" href="$classcore_1_1misc_1_1quagga_1_1_quagga_conf.html" title="{core.misc.quagga.QuaggaConf\n|+ template\l|+ __init__()\l}" alt="" coords="5,322,208,399"/>
+<area shape="rect" id="node4" href="$classcore_1_1misc_1_1quagga_1_1_quagga_o_s_p_f6.html" title="{core.misc.quagga.QuaggaOSPF6\n|+ template\l|+ __init__()\l}" alt="" coords="233,322,450,399"/>
+<area shape="rect" id="node5" href="$classcore_1_1misc_1_1quagga_1_1_quagga_o_s_p_f6_interface.html" title="{core.misc.quagga.QuaggaOSPF6\lInterface\n|+ netif\l+ instanceid\l+ network\l+ AF_IPV6_ID\l+ AF_IPV4_ID\l+ template\l|+ __init__()\l+ name()\l}" alt="" coords="474,271,691,451"/>
+</map>

@@ -1,0 +1,83 @@
+\hypertarget{classcore_1_1services_1_1bird_1_1_bird}{\section{core.\+services.\+bird.\+Bird Class Reference}
+\label{classcore_1_1services_1_1bird_1_1_bird}\index{core.\+services.\+bird.\+Bird@{core.\+services.\+bird.\+Bird}}
+}
+
+
+Inheritance diagram for core.\+services.\+bird.\+Bird\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=207pt]{classcore_1_1services_1_1bird_1_1_bird__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for core.\+services.\+bird.\+Bird\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=207pt]{classcore_1_1services_1_1bird_1_1_bird__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+def \hyperlink{classcore_1_1services_1_1bird_1_1_bird_a616b0a597c736f30a3e5e3428c8c214c}{generateconfig}
+\item 
+def \hyperlink{classcore_1_1services_1_1bird_1_1_bird_a3b3dcd09d93a0c55dc1402b0a8cd5c2f}{generate\+Bird\+Conf}
+\end{DoxyCompactItemize}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+def \hyperlink{classcore_1_1services_1_1bird_1_1_bird_a7b79dbcd32714b3e99711bf4a7113328}{routerid}
+\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Detailed Description}
+\begin{DoxyVerb}Bird router support
+\end{DoxyVerb}
+ 
+
+\subsection{Member Function Documentation}
+\hypertarget{classcore_1_1services_1_1bird_1_1_bird_a3b3dcd09d93a0c55dc1402b0a8cd5c2f}{\index{core\+::services\+::bird\+::\+Bird@{core\+::services\+::bird\+::\+Bird}!generate\+Bird\+Conf@{generate\+Bird\+Conf}}
+\index{generate\+Bird\+Conf@{generate\+Bird\+Conf}!core\+::services\+::bird\+::\+Bird@{core\+::services\+::bird\+::\+Bird}}
+\subsubsection[{generate\+Bird\+Conf}]{\setlength{\rightskip}{0pt plus 5cm}def core.\+services.\+bird.\+Bird.\+generate\+Bird\+Conf (
+\begin{DoxyParamCaption}
+\item[{}]{cls, }
+\item[{}]{node, }
+\item[{}]{services}
+\end{DoxyParamCaption}
+)}}\label{classcore_1_1services_1_1bird_1_1_bird_a3b3dcd09d93a0c55dc1402b0a8cd5c2f}
+\begin{DoxyVerb}Returns configuration file text. Other services that depend on bird
+   will have generatebirdifcconfig() and generatebirdconfig()
+   hooks that are invoked here.
+\end{DoxyVerb}
+ \hypertarget{classcore_1_1services_1_1bird_1_1_bird_a616b0a597c736f30a3e5e3428c8c214c}{\index{core\+::services\+::bird\+::\+Bird@{core\+::services\+::bird\+::\+Bird}!generateconfig@{generateconfig}}
+\index{generateconfig@{generateconfig}!core\+::services\+::bird\+::\+Bird@{core\+::services\+::bird\+::\+Bird}}
+\subsubsection[{generateconfig}]{\setlength{\rightskip}{0pt plus 5cm}def core.\+services.\+bird.\+Bird.\+generateconfig (
+\begin{DoxyParamCaption}
+\item[{}]{cls, }
+\item[{}]{node, }
+\item[{}]{filename, }
+\item[{}]{services}
+\end{DoxyParamCaption}
+)}}\label{classcore_1_1services_1_1bird_1_1_bird_a616b0a597c736f30a3e5e3428c8c214c}
+\begin{DoxyVerb}Return the bird.conf file contents.
+\end{DoxyVerb}
+ \hypertarget{classcore_1_1services_1_1bird_1_1_bird_a7b79dbcd32714b3e99711bf4a7113328}{\index{core\+::services\+::bird\+::\+Bird@{core\+::services\+::bird\+::\+Bird}!routerid@{routerid}}
+\index{routerid@{routerid}!core\+::services\+::bird\+::\+Bird@{core\+::services\+::bird\+::\+Bird}}
+\subsubsection[{routerid}]{\setlength{\rightskip}{0pt plus 5cm}def core.\+services.\+bird.\+Bird.\+routerid (
+\begin{DoxyParamCaption}
+\item[{}]{node}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{classcore_1_1services_1_1bird_1_1_bird_a7b79dbcd32714b3e99711bf4a7113328}
+\begin{DoxyVerb}Helper to return the first IPv4 address of a node as its router ID.
+\end{DoxyVerb}
+ 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+daemon/core/services/bird.\+py\end{DoxyCompactItemize}

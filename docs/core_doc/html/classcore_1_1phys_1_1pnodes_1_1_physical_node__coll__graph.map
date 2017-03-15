@@ -1,0 +1,4 @@
+<map id="core.phys.pnodes.PhysicalNode" name="core.phys.pnodes.PhysicalNode">
+<area shape="rect" id="node2" href="$classcore_1_1coreobj_1_1_py_core_node.html" title="{core.coreobj.PyCoreNode\n|+ services\l+ type\l+ nodedir\l+ tmpnodedir\l|+ __init__()\l+ nodeid()\l+ addservice()\l+ makenodedir()\l+ rmnodedir()\l+ addnetif()\l+ delnetif()\l+ netif()\l+ attachnet()\l+ detachnet()\l+ setposition()\l+ commonnets()\l}" alt="" coords="25,593,197,876"/>
+<area shape="rect" id="node3" href="$classcore_1_1coreobj_1_1_py_core_obj.html" title="{core.coreobj.PyCoreObj\n|+ session\l+ objid\l+ name\l+ ifindex\l+ canvas\l+ icon\l+ opaque\l+ verbose\l+ position\l+ apitype\l|+ __init__()\l+ startup()\l+ shutdown()\l+ setposition()\l+ getposition()\l+ ifname()\l+ netifs()\l+ numnetif()\l+ getifindex()\l+ newifindex()\l+ tonodemsg()\l+ tolinkmsgs()\l+ info()\l+ warn()\l+ exception()\l}" alt="" coords="30,131,191,545"/>
+</map>

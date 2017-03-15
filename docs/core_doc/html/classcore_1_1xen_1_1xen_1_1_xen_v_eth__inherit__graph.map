@@ -1,0 +1,3 @@
+<map id="core.xen.xen.XenVEth" name="core.xen.xen.XenVEth">
+<area shape="rect" id="node2" href="$classcore_1_1coreobj_1_1_py_core_net_if.html" title="{core.coreobj.PyCoreNetIf\n|+ node\l+ name\l+ mtu\l+ net\l+ addrlist\l+ hwaddr\l+ poshook\l+ transport_type\l+ netindex\l|+ __init__()\l+ startup()\l+ shutdown()\l+ attachnet()\l+ detachnet()\l+ addaddr()\l+ deladdr()\l+ sethwaddr()\l+ getparam()\l+ getparams()\l+ setparam()\l+ swapparams()\l+ setposition()\l}" alt="" coords="5,131,176,501"/>
+</map>

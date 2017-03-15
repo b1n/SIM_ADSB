@@ -1,0 +1,171 @@
+\hypertarget{classcore_1_1coreserver_1_1_base_aux_request_handler}{\section{core.\+coreserver.\+Base\+Aux\+Request\+Handler Class Reference}
+\label{classcore_1_1coreserver_1_1_base_aux_request_handler}\index{core.\+coreserver.\+Base\+Aux\+Request\+Handler@{core.\+coreserver.\+Base\+Aux\+Request\+Handler}}
+}
+
+
+Inheritance diagram for core.\+coreserver.\+Base\+Aux\+Request\+Handler\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=550pt]{classcore_1_1coreserver_1_1_base_aux_request_handler__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for core.\+coreserver.\+Base\+Aux\+Request\+Handler\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=550pt]{classcore_1_1coreserver_1_1_base_aux_request_handler__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classcore_1_1coreserver_1_1_base_aux_request_handler_aa9e8b149d4f2e90604f006413d2ab60c}{def {\bfseries \+\_\+\+\_\+init\+\_\+\+\_\+}}\label{classcore_1_1coreserver_1_1_base_aux_request_handler_aa9e8b149d4f2e90604f006413d2ab60c}
+
+\item 
+def \hyperlink{classcore_1_1coreserver_1_1_base_aux_request_handler_a1d6c5553dcf495a800fa079a8658f114}{setup}
+\item 
+def \hyperlink{classcore_1_1coreserver_1_1_base_aux_request_handler_a3cdfb1427343be111d2eb899058b1815}{handle}
+\item 
+def \hyperlink{classcore_1_1coreserver_1_1_base_aux_request_handler_a7b8791e74aec916780321c8fe204d51d}{finish}
+\item 
+def \hyperlink{classcore_1_1coreserver_1_1_base_aux_request_handler_ab4ff99ecd6286d2e6e21993941020d4c}{recvmsg}
+\item 
+def \hyperlink{classcore_1_1coreserver_1_1_base_aux_request_handler_a630e62f71164ccc3a16edd4a0583f2a4}{dispatchreplies}
+\item 
+def \hyperlink{classcore_1_1coreserver_1_1_base_aux_request_handler_a2d8cfb919685bbc076a3737b0f0c14e7}{sendall}
+\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classcore_1_1coreserver_1_1_base_aux_request_handler_a1dfec85bd6524a544048c5ab769b6a97}{{\bfseries msghandler}}\label{classcore_1_1coreserver_1_1_base_aux_request_handler_a1dfec85bd6524a544048c5ab769b6a97}
+
+\item 
+\hypertarget{classcore_1_1coreserver_1_1_base_aux_request_handler_a35e3510ca160b2d9d79609d74bf07a03}{{\bfseries handlerthreads}}\label{classcore_1_1coreserver_1_1_base_aux_request_handler_a35e3510ca160b2d9d79609d74bf07a03}
+
+\item 
+\hypertarget{classcore_1_1coreserver_1_1_base_aux_request_handler_aadb160941328111cc3af992c1238d2df}{{\bfseries nodestatusreq}}\label{classcore_1_1coreserver_1_1_base_aux_request_handler_aadb160941328111cc3af992c1238d2df}
+
+\item 
+\hypertarget{classcore_1_1coreserver_1_1_base_aux_request_handler_aadc370284a7b37032296cbbdca65888f}{{\bfseries master}}\label{classcore_1_1coreserver_1_1_base_aux_request_handler_aadc370284a7b37032296cbbdca65888f}
+
+\item 
+\hypertarget{classcore_1_1coreserver_1_1_base_aux_request_handler_a4b3e2889de14a30933dc0e18912ed65b}{{\bfseries session}}\label{classcore_1_1coreserver_1_1_base_aux_request_handler_a4b3e2889de14a30933dc0e18912ed65b}
+
+\item 
+\hypertarget{classcore_1_1coreserver_1_1_base_aux_request_handler_afd1d0dc58bc0dd476cbcef57f3cc71fd}{{\bfseries verbose}}\label{classcore_1_1coreserver_1_1_base_aux_request_handler_afd1d0dc58bc0dd476cbcef57f3cc71fd}
+
+\item 
+\hypertarget{classcore_1_1coreserver_1_1_base_aux_request_handler_a38338fa3388a26917348171d8248045b}{{\bfseries debug}}\label{classcore_1_1coreserver_1_1_base_aux_request_handler_a38338fa3388a26917348171d8248045b}
+
+\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Detailed Description}
+\begin{DoxyVerb}This is the superclass for auxiliary handlers in CORE. A concrete auxiliary handler class
+must, at a minimum, define the recvmsg(), sendall(), and dispatchreplies() methods.
+See SockerServer.BaseRequestHandler for parameter details.
+\end{DoxyVerb}
+ 
+
+\subsection{Member Function Documentation}
+\hypertarget{classcore_1_1coreserver_1_1_base_aux_request_handler_a630e62f71164ccc3a16edd4a0583f2a4}{\index{core\+::coreserver\+::\+Base\+Aux\+Request\+Handler@{core\+::coreserver\+::\+Base\+Aux\+Request\+Handler}!dispatchreplies@{dispatchreplies}}
+\index{dispatchreplies@{dispatchreplies}!core\+::coreserver\+::\+Base\+Aux\+Request\+Handler@{core\+::coreserver\+::\+Base\+Aux\+Request\+Handler}}
+\subsubsection[{dispatchreplies}]{\setlength{\rightskip}{0pt plus 5cm}def core.\+coreserver.\+Base\+Aux\+Request\+Handler.\+dispatchreplies (
+\begin{DoxyParamCaption}
+\item[{}]{self, }
+\item[{}]{replies, }
+\item[{}]{msg}
+\end{DoxyParamCaption}
+)}}\label{classcore_1_1coreserver_1_1_base_aux_request_handler_a630e62f71164ccc3a16edd4a0583f2a4}
+\begin{DoxyVerb}Dispatch CORE 'replies' to a previously received message 'msg' from a client.
+Replies passed to this method follow the CORE API. This method allows transformation to
+the form supported by the auxiliary handler and within the context of 'msg'. 
+Add transformation and transmission code here.
+
+EXAMPLE:
+transformed_replies = stateful_transform (replies, msg) # stateful_transform method needs to be defined
+if transformed_replies:
+    for reply in transformed_replies:
+try:
+    self.request.sendall(reply)
+except Exception, e:
+    if self.debug:
+        self.info("-"*60)
+        traceback.print_exc(file=sys.stdout)
+        self.info("-"*60)
+    raise e\end{DoxyVerb}
+ \hypertarget{classcore_1_1coreserver_1_1_base_aux_request_handler_a7b8791e74aec916780321c8fe204d51d}{\index{core\+::coreserver\+::\+Base\+Aux\+Request\+Handler@{core\+::coreserver\+::\+Base\+Aux\+Request\+Handler}!finish@{finish}}
+\index{finish@{finish}!core\+::coreserver\+::\+Base\+Aux\+Request\+Handler@{core\+::coreserver\+::\+Base\+Aux\+Request\+Handler}}
+\subsubsection[{finish}]{\setlength{\rightskip}{0pt plus 5cm}def core.\+coreserver.\+Base\+Aux\+Request\+Handler.\+finish (
+\begin{DoxyParamCaption}
+\item[{}]{self}
+\end{DoxyParamCaption}
+)}}\label{classcore_1_1coreserver_1_1_base_aux_request_handler_a7b8791e74aec916780321c8fe204d51d}
+\begin{DoxyVerb}Disconnect the client
+\end{DoxyVerb}
+ \hypertarget{classcore_1_1coreserver_1_1_base_aux_request_handler_a3cdfb1427343be111d2eb899058b1815}{\index{core\+::coreserver\+::\+Base\+Aux\+Request\+Handler@{core\+::coreserver\+::\+Base\+Aux\+Request\+Handler}!handle@{handle}}
+\index{handle@{handle}!core\+::coreserver\+::\+Base\+Aux\+Request\+Handler@{core\+::coreserver\+::\+Base\+Aux\+Request\+Handler}}
+\subsubsection[{handle}]{\setlength{\rightskip}{0pt plus 5cm}def core.\+coreserver.\+Base\+Aux\+Request\+Handler.\+handle (
+\begin{DoxyParamCaption}
+\item[{}]{self}
+\end{DoxyParamCaption}
+)}}\label{classcore_1_1coreserver_1_1_base_aux_request_handler_a3cdfb1427343be111d2eb899058b1815}
+\begin{DoxyVerb}The handler main loop
+\end{DoxyVerb}
+ \hypertarget{classcore_1_1coreserver_1_1_base_aux_request_handler_ab4ff99ecd6286d2e6e21993941020d4c}{\index{core\+::coreserver\+::\+Base\+Aux\+Request\+Handler@{core\+::coreserver\+::\+Base\+Aux\+Request\+Handler}!recvmsg@{recvmsg}}
+\index{recvmsg@{recvmsg}!core\+::coreserver\+::\+Base\+Aux\+Request\+Handler@{core\+::coreserver\+::\+Base\+Aux\+Request\+Handler}}
+\subsubsection[{recvmsg}]{\setlength{\rightskip}{0pt plus 5cm}def core.\+coreserver.\+Base\+Aux\+Request\+Handler.\+recvmsg (
+\begin{DoxyParamCaption}
+\item[{}]{self}
+\end{DoxyParamCaption}
+)}}\label{classcore_1_1coreserver_1_1_base_aux_request_handler_ab4ff99ecd6286d2e6e21993941020d4c}
+\begin{DoxyVerb}Receive data from the client in the supported format. Parse, transform to CORE API format and 
+return transformed messages.
+
+EXAMPLE:
+return self.handler.request.recv(siz)\end{DoxyVerb}
+ \hypertarget{classcore_1_1coreserver_1_1_base_aux_request_handler_a2d8cfb919685bbc076a3737b0f0c14e7}{\index{core\+::coreserver\+::\+Base\+Aux\+Request\+Handler@{core\+::coreserver\+::\+Base\+Aux\+Request\+Handler}!sendall@{sendall}}
+\index{sendall@{sendall}!core\+::coreserver\+::\+Base\+Aux\+Request\+Handler@{core\+::coreserver\+::\+Base\+Aux\+Request\+Handler}}
+\subsubsection[{sendall}]{\setlength{\rightskip}{0pt plus 5cm}def core.\+coreserver.\+Base\+Aux\+Request\+Handler.\+sendall (
+\begin{DoxyParamCaption}
+\item[{}]{self, }
+\item[{}]{data}
+\end{DoxyParamCaption}
+)}}\label{classcore_1_1coreserver_1_1_base_aux_request_handler_a2d8cfb919685bbc076a3737b0f0c14e7}
+\begin{DoxyVerb}CORE calls this method when data needs to be asynchronously sent to a client. The data is
+in CORE API format. This method allows transformation to the required format supported by this
+handler prior to transmission. 
+
+EXAMPLE:
+msgs = self.transform(data)  # transform method needs to be defined
+if msgs:
+    for msg in msgs:
+try:
+    self.request.sendall(reply)
+except Exception, e:
+    if self.debug:
+        self.info("-"*60)
+        traceback.print_exc(file=sys.stdout)
+        self.info("-"*60)
+    raise e
+\end{DoxyVerb}
+ \hypertarget{classcore_1_1coreserver_1_1_base_aux_request_handler_a1d6c5553dcf495a800fa079a8658f114}{\index{core\+::coreserver\+::\+Base\+Aux\+Request\+Handler@{core\+::coreserver\+::\+Base\+Aux\+Request\+Handler}!setup@{setup}}
+\index{setup@{setup}!core\+::coreserver\+::\+Base\+Aux\+Request\+Handler@{core\+::coreserver\+::\+Base\+Aux\+Request\+Handler}}
+\subsubsection[{setup}]{\setlength{\rightskip}{0pt plus 5cm}def core.\+coreserver.\+Base\+Aux\+Request\+Handler.\+setup (
+\begin{DoxyParamCaption}
+\item[{}]{self}
+\end{DoxyParamCaption}
+)}}\label{classcore_1_1coreserver_1_1_base_aux_request_handler_a1d6c5553dcf495a800fa079a8658f114}
+\begin{DoxyVerb}New client has connected to the auxiliary server.
+\end{DoxyVerb}
+ 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+daemon/core/coreserver.\+py\end{DoxyCompactItemize}

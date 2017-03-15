@@ -1,0 +1,119 @@
+\hypertarget{classcore_1_1coreserver_1_1_core_datagram_request_handler}{\section{core.\+coreserver.\+Core\+Datagram\+Request\+Handler Class Reference}
+\label{classcore_1_1coreserver_1_1_core_datagram_request_handler}\index{core.\+coreserver.\+Core\+Datagram\+Request\+Handler@{core.\+coreserver.\+Core\+Datagram\+Request\+Handler}}
+}
+
+
+Inheritance diagram for core.\+coreserver.\+Core\+Datagram\+Request\+Handler\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=550pt]{classcore_1_1coreserver_1_1_core_datagram_request_handler__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for core.\+coreserver.\+Core\+Datagram\+Request\+Handler\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=550pt]{classcore_1_1coreserver_1_1_core_datagram_request_handler__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classcore_1_1coreserver_1_1_core_datagram_request_handler_ada903989e37455a48f8803c8ea6fa3d1}{def {\bfseries \+\_\+\+\_\+init\+\_\+\+\_\+}}\label{classcore_1_1coreserver_1_1_core_datagram_request_handler_ada903989e37455a48f8803c8ea6fa3d1}
+
+\item 
+def \hyperlink{classcore_1_1coreserver_1_1_core_datagram_request_handler_a55320dcbc4d6dee8ff55774587159b17}{setup}
+\item 
+\hypertarget{classcore_1_1coreserver_1_1_core_datagram_request_handler_a71c6d0fb4a56124dda17e6880229462f}{def {\bfseries handle}}\label{classcore_1_1coreserver_1_1_core_datagram_request_handler_a71c6d0fb4a56124dda17e6880229462f}
+
+\item 
+\hypertarget{classcore_1_1coreserver_1_1_core_datagram_request_handler_a65a46ce91902779c24a69a527a68b882}{def {\bfseries finish}}\label{classcore_1_1coreserver_1_1_core_datagram_request_handler_a65a46ce91902779c24a69a527a68b882}
+
+\item 
+def \hyperlink{classcore_1_1coreserver_1_1_core_datagram_request_handler_ac6b4df13d37dc8da82c9a70c09ebf55e}{recvmsg}
+\item 
+def \hyperlink{classcore_1_1coreserver_1_1_core_datagram_request_handler_a7530dd539fe9917dbb2b1dffc7f8a20d}{queuemsg}
+\item 
+def \hyperlink{classcore_1_1coreserver_1_1_core_datagram_request_handler_aa0fa0bb2ed6e532bf22e5350b70557b1}{sendall}
+\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classcore_1_1coreserver_1_1_core_datagram_request_handler_a3878453b30acefc7c6697537e49b31a5}{{\bfseries msghandler}}\label{classcore_1_1coreserver_1_1_core_datagram_request_handler_a3878453b30acefc7c6697537e49b31a5}
+
+\item 
+\hypertarget{classcore_1_1coreserver_1_1_core_datagram_request_handler_aa79e143f7faf1aef236390e7db5a14ce}{{\bfseries nodestatusreq}}\label{classcore_1_1coreserver_1_1_core_datagram_request_handler_aa79e143f7faf1aef236390e7db5a14ce}
+
+\item 
+\hypertarget{classcore_1_1coreserver_1_1_core_datagram_request_handler_a603af91f186655d572e589138aa52b60}{{\bfseries master}}\label{classcore_1_1coreserver_1_1_core_datagram_request_handler_a603af91f186655d572e589138aa52b60}
+
+\item 
+\hypertarget{classcore_1_1coreserver_1_1_core_datagram_request_handler_aa3b588dc69a537ebab64c5dc96a71282}{{\bfseries session}}\label{classcore_1_1coreserver_1_1_core_datagram_request_handler_aa3b588dc69a537ebab64c5dc96a71282}
+
+\item 
+\hypertarget{classcore_1_1coreserver_1_1_core_datagram_request_handler_a6cd2cb7b22dc0af8adf4810d851e4e64}{{\bfseries verbose}}\label{classcore_1_1coreserver_1_1_core_datagram_request_handler_a6cd2cb7b22dc0af8adf4810d851e4e64}
+
+\item 
+\hypertarget{classcore_1_1coreserver_1_1_core_datagram_request_handler_ae2a0ccd273a2c1fa877e254e6362d0c4}{{\bfseries debug}}\label{classcore_1_1coreserver_1_1_core_datagram_request_handler_ae2a0ccd273a2c1fa877e254e6362d0c4}
+
+\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Detailed Description}
+\begin{DoxyVerb}A child of the CoreRequestHandler class for handling connectionless
+UDP messages. No new session is created; messages are handled immediately or
+sometimes queued on existing session handlers.
+\end{DoxyVerb}
+ 
+
+\subsection{Member Function Documentation}
+\hypertarget{classcore_1_1coreserver_1_1_core_datagram_request_handler_a7530dd539fe9917dbb2b1dffc7f8a20d}{\index{core\+::coreserver\+::\+Core\+Datagram\+Request\+Handler@{core\+::coreserver\+::\+Core\+Datagram\+Request\+Handler}!queuemsg@{queuemsg}}
+\index{queuemsg@{queuemsg}!core\+::coreserver\+::\+Core\+Datagram\+Request\+Handler@{core\+::coreserver\+::\+Core\+Datagram\+Request\+Handler}}
+\subsubsection[{queuemsg}]{\setlength{\rightskip}{0pt plus 5cm}def core.\+coreserver.\+Core\+Datagram\+Request\+Handler.\+queuemsg (
+\begin{DoxyParamCaption}
+\item[{}]{self, }
+\item[{}]{msg}
+\end{DoxyParamCaption}
+)}}\label{classcore_1_1coreserver_1_1_core_datagram_request_handler_a7530dd539fe9917dbb2b1dffc7f8a20d}
+\begin{DoxyVerb}UDP handlers are short-lived and do not have message queues.
+\end{DoxyVerb}
+ \hypertarget{classcore_1_1coreserver_1_1_core_datagram_request_handler_ac6b4df13d37dc8da82c9a70c09ebf55e}{\index{core\+::coreserver\+::\+Core\+Datagram\+Request\+Handler@{core\+::coreserver\+::\+Core\+Datagram\+Request\+Handler}!recvmsg@{recvmsg}}
+\index{recvmsg@{recvmsg}!core\+::coreserver\+::\+Core\+Datagram\+Request\+Handler@{core\+::coreserver\+::\+Core\+Datagram\+Request\+Handler}}
+\subsubsection[{recvmsg}]{\setlength{\rightskip}{0pt plus 5cm}def core.\+coreserver.\+Core\+Datagram\+Request\+Handler.\+recvmsg (
+\begin{DoxyParamCaption}
+\item[{}]{self}
+\end{DoxyParamCaption}
+)}}\label{classcore_1_1coreserver_1_1_core_datagram_request_handler_ac6b4df13d37dc8da82c9a70c09ebf55e}
+\begin{DoxyVerb}Receive data, parse a CoreMessage and queue it onto an existing
+session handler's queue, if available.
+\end{DoxyVerb}
+ \hypertarget{classcore_1_1coreserver_1_1_core_datagram_request_handler_aa0fa0bb2ed6e532bf22e5350b70557b1}{\index{core\+::coreserver\+::\+Core\+Datagram\+Request\+Handler@{core\+::coreserver\+::\+Core\+Datagram\+Request\+Handler}!sendall@{sendall}}
+\index{sendall@{sendall}!core\+::coreserver\+::\+Core\+Datagram\+Request\+Handler@{core\+::coreserver\+::\+Core\+Datagram\+Request\+Handler}}
+\subsubsection[{sendall}]{\setlength{\rightskip}{0pt plus 5cm}def core.\+coreserver.\+Core\+Datagram\+Request\+Handler.\+sendall (
+\begin{DoxyParamCaption}
+\item[{}]{self, }
+\item[{}]{data}
+\end{DoxyParamCaption}
+)}}\label{classcore_1_1coreserver_1_1_core_datagram_request_handler_aa0fa0bb2ed6e532bf22e5350b70557b1}
+\begin{DoxyVerb}Use sendto() on the connectionless UDP socket.
+\end{DoxyVerb}
+ \hypertarget{classcore_1_1coreserver_1_1_core_datagram_request_handler_a55320dcbc4d6dee8ff55774587159b17}{\index{core\+::coreserver\+::\+Core\+Datagram\+Request\+Handler@{core\+::coreserver\+::\+Core\+Datagram\+Request\+Handler}!setup@{setup}}
+\index{setup@{setup}!core\+::coreserver\+::\+Core\+Datagram\+Request\+Handler@{core\+::coreserver\+::\+Core\+Datagram\+Request\+Handler}}
+\subsubsection[{setup}]{\setlength{\rightskip}{0pt plus 5cm}def core.\+coreserver.\+Core\+Datagram\+Request\+Handler.\+setup (
+\begin{DoxyParamCaption}
+\item[{}]{self}
+\end{DoxyParamCaption}
+)}}\label{classcore_1_1coreserver_1_1_core_datagram_request_handler_a55320dcbc4d6dee8ff55774587159b17}
+\begin{DoxyVerb}Client has connected, set up a new connection.
+\end{DoxyVerb}
+ 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+daemon/core/coreserver.\+py\end{DoxyCompactItemize}

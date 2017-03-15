@@ -1,0 +1,12 @@
+<map id="core.api.coreapi.CoreMessage" name="core.api.coreapi.CoreMessage">
+<area shape="rect" id="node3" href="$classcore_1_1api_1_1coreapi_1_1_core_conf_message.html" title="{core.api.coreapi.CoreConf\lMessage\n|+ msgtype\l+ flagmap\l+ tlvcls\l|}" alt="" coords="5,535,180,656"/>
+<area shape="rect" id="node4" href="$classcore_1_1api_1_1coreapi_1_1_core_event_message.html" title="{core.api.coreapi.CoreEvent\lMessage\n|+ msgtype\l+ flagmap\l+ tlvcls\l|}" alt="" coords="204,535,384,656"/>
+<area shape="rect" id="node5" href="$classcore_1_1api_1_1coreapi_1_1_core_exception_message.html" title="{core.api.coreapi.CoreException\lMessage\n|+ msgtype\l+ flagmap\l+ tlvcls\l|}" alt="" coords="408,535,612,656"/>
+<area shape="rect" id="node6" href="$classcore_1_1api_1_1coreapi_1_1_core_exec_message.html" title="{core.api.coreapi.CoreExec\lMessage\n|+ msgtype\l+ flagmap\l+ tlvcls\l|}" alt="" coords="637,535,813,656"/>
+<area shape="rect" id="node7" href="$classcore_1_1api_1_1coreapi_1_1_core_file_message.html" title="{core.api.coreapi.CoreFile\lMessage\n|+ msgtype\l+ flagmap\l+ tlvcls\l|}" alt="" coords="837,535,1004,656"/>
+<area shape="rect" id="node8" href="$classcore_1_1api_1_1coreapi_1_1_core_iface_message.html" title="{core.api.coreapi.CoreIface\lMessage\n|+ msgtype\l+ flagmap\l+ tlvcls\l|}" alt="" coords="1028,535,1203,656"/>
+<area shape="rect" id="node9" href="$classcore_1_1api_1_1coreapi_1_1_core_link_message.html" title="{core.api.coreapi.CoreLink\lMessage\n|+ msgtype\l+ flagmap\l+ tlvcls\l|}" alt="" coords="1227,535,1398,656"/>
+<area shape="rect" id="node10" href="$classcore_1_1api_1_1coreapi_1_1_core_node_message.html" title="{core.api.coreapi.CoreNode\lMessage\n|+ msgtype\l+ flagmap\l+ tlvcls\l|}" alt="" coords="1423,535,1600,656"/>
+<area shape="rect" id="node11" href="$classcore_1_1api_1_1coreapi_1_1_core_reg_message.html" title="{core.api.coreapi.CoreReg\lMessage\n|+ msgtype\l+ flagmap\l+ tlvcls\l|}" alt="" coords="1625,535,1795,656"/>
+<area shape="rect" id="node12" href="$classcore_1_1api_1_1coreapi_1_1_core_session_message.html" title="{core.api.coreapi.CoreSession\lMessage\n|+ msgtype\l+ flagmap\l+ tlvcls\l|}" alt="" coords="1820,535,2013,656"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="core.netns.nodes.HubNode" name="core.netns.nodes.HubNode">
+<area shape="rect" id="node2" href="$classcore_1_1netns_1_1vnet_1_1_lx_br_net.html" title="{core.netns.vnet.LxBrNet\n|+ name\l+ brname\l+ up\l|+ __init__()\l+ startup()\l+ shutdown()\l+ attach()\l+ detach()\l+ linked()\l+ unlink()\l+ link()\l+ linkconfig()\l+ linknet()\l+ getlinknetif()\l+ addrconfig()\l}" alt="" coords="7,795,171,1063"/>
+<area shape="rect" id="node3" href="$classcore_1_1coreobj_1_1_py_core_net.html" title="{core.coreobj.PyCoreNet\n|+ linktype\l|+ __init__()\l+ attach()\l+ detach()\l+ netifparamstolink()\l+ tolinkmsgs()\l}" alt="" coords="5,596,168,732"/>
+<area shape="rect" id="node4" href="$classcore_1_1coreobj_1_1_py_core_obj.html" title="{core.coreobj.PyCoreObj\n|+ session\l+ objid\l+ name\l+ ifindex\l+ canvas\l+ icon\l+ opaque\l+ verbose\l+ position\l+ apitype\l|+ __init__()\l+ startup()\l+ shutdown()\l+ setposition()\l+ getposition()\l+ ifname()\l+ netifs()\l+ numnetif()\l+ getifindex()\l+ newifindex()\l+ tonodemsg()\l+ tolinkmsgs()\l+ info()\l+ warn()\l+ exception()\l}" alt="" coords="6,132,167,547"/>
+</map>

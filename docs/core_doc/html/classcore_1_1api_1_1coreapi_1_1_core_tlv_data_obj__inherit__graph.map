@@ -1,0 +1,6 @@
+<map id="core.api.coreapi.CoreTlvDataObj" name="core.api.coreapi.CoreTlvDataObj">
+<area shape="rect" id="node4" href="$classcore_1_1api_1_1coreapi_1_1_core_tlv_data_i_pv4_addr.html" title="{core.api.coreapi.CoreTlv\lDataIPv4Addr\n|+ datafmt\l+ datatype\l+ padlen\l|+ getvalue()\l+ newobj()\l}" alt="" coords="5,513,169,649"/>
+<area shape="rect" id="node5" href="$classcore_1_1api_1_1coreapi_1_1_core_tlv_data_i_pv6_addr.html" title="{core.api.coreapi.CoreTlv\lDataIPv6Addr\n|+ datafmt\l+ datatype\l+ padlen\l|+ getvalue()\l+ newobj()\l}" alt="" coords="193,513,357,649"/>
+<area shape="rect" id="node6" href="$classcore_1_1api_1_1coreapi_1_1_core_tlv_data_mac_addr.html" title="{core.api.coreapi.CoreTlv\lDataMacAddr\n|+ datafmt\l+ datatype\l+ padlen\l|+ getvalue()\l+ newobj()\l}" alt="" coords="381,513,545,649"/>
+<area shape="rect" id="node2" href="$classcore_1_1api_1_1coreapi_1_1_core_tlv_data.html" title="{core.api.coreapi.CoreTlvData\n|+ datafmt\l+ datatype\l+ padlen\l|+ pack()\l+ unpack()\l+ packstring()\l+ fromstring()\l}" alt="" coords="179,131,371,281"/>
+</map>

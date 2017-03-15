@@ -1,0 +1,3 @@
+<map id="core.coreserver.CoreDatagramRequestHandler" name="core.coreserver.CoreDatagramRequestHandler">
+<area shape="rect" id="node2" href="$classcore_1_1coreserver_1_1_core_request_handler.html" title="{core.coreserver.CoreRequest\lHandler\n|+ done\l+ msghandler\l+ msgq\l+ msgcv\l+ nodestatusreq\l+ handlerthreads\l+ master\l+ verbose\l+ debug\l+ session\l+ maxmsgqueuedtimes\l|+ __init__()\l+ setup()\l+ finish()\l+ info()\l+ warn()\l+ register()\l+ sendall()\l+ recvmsg()\l+ queuemsg()\l+ handlerthread()\land 12 more...\l}" alt="" coords="9,145,203,531"/>
+</map>

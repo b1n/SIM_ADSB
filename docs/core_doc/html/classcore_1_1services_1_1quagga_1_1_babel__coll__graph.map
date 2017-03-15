@@ -1,0 +1,4 @@
+<map id="core.services.quagga.Babel" name="core.services.quagga.Babel">
+<area shape="rect" id="node2" href="$classcore_1_1services_1_1quagga_1_1_quagga_service.html" title="{core.services.quagga.Quagga\lService\n||+ generateconfig()\l+ generatequaggaifcconfig()\l+ generatequaggaconfig()\l+ routerid()\l+ rj45check()\l}" alt="" coords="5,359,200,509"/>
+<area shape="rect" id="node3" href="$classcore_1_1service_1_1_core_service.html" title="{core.service.CoreService\n|+ keys\l|+ __init__()\l+ getconfigfilenames()\l+ generateconfig()\l+ getstartup()\l+ getvalidate()\l+ tovaluelist()\l+ fromvaluelist()\l+ setvalue()\l}" alt="" coords="18,131,187,311"/>
+</map>

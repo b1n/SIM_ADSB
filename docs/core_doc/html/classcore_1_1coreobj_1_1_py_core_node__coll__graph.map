@@ -1,0 +1,3 @@
+<map id="core.coreobj.PyCoreNode" name="core.coreobj.PyCoreNode">
+<area shape="rect" id="node2" href="$classcore_1_1coreobj_1_1_py_core_obj.html" title="{core.coreobj.PyCoreObj\n|+ session\l+ objid\l+ name\l+ ifindex\l+ canvas\l+ icon\l+ opaque\l+ verbose\l+ position\l+ apitype\l|+ __init__()\l+ startup()\l+ shutdown()\l+ setposition()\l+ getposition()\l+ ifname()\l+ netifs()\l+ numnetif()\l+ getifindex()\l+ newifindex()\l+ tonodemsg()\l+ tolinkmsgs()\l+ info()\l+ warn()\l+ exception()\l}" alt="" coords="11,131,172,545"/>
+</map>

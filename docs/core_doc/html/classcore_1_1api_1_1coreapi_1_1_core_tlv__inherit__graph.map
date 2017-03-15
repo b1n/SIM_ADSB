@@ -1,0 +1,12 @@
+<map id="core.api.coreapi.CoreTlv" name="core.api.coreapi.CoreTlv">
+<area shape="rect" id="node3" href="$classcore_1_1api_1_1coreapi_1_1_core_conf_tlv.html" title="{core.api.coreapi.CoreConfTlv\n|+ tlvtypemap\l+ tlvdataclsmap\l|}" alt="" coords="5,432,197,524"/>
+<area shape="rect" id="node4" href="$classcore_1_1api_1_1coreapi_1_1_core_event_tlv.html" title="{core.api.coreapi.CoreEventTlv\n|+ tlvtypemap\l+ tlvdataclsmap\l|}" alt="" coords="222,432,421,524"/>
+<area shape="rect" id="node5" href="$classcore_1_1api_1_1coreapi_1_1_core_exception_tlv.html" title="{core.api.coreapi.CoreExceptionTlv\n|+ tlvtypemap\l+ tlvdataclsmap\l|}" alt="" coords="445,432,667,524"/>
+<area shape="rect" id="node6" href="$classcore_1_1api_1_1coreapi_1_1_core_exec_tlv.html" title="{core.api.coreapi.CoreExecTlv\n|+ tlvtypemap\l+ tlvdataclsmap\l|}" alt="" coords="692,432,887,524"/>
+<area shape="rect" id="node7" href="$classcore_1_1api_1_1coreapi_1_1_core_file_tlv.html" title="{core.api.coreapi.CoreFileTlv\n|+ tlvtypemap\l+ tlvdataclsmap\l|}" alt="" coords="911,432,1097,524"/>
+<area shape="rect" id="node8" href="$classcore_1_1api_1_1coreapi_1_1_core_iface_tlv.html" title="{core.api.coreapi.CoreIfaceTlv\n|+ tlvtypemap\l+ tlvdataclsmap\l|}" alt="" coords="1121,432,1314,524"/>
+<area shape="rect" id="node9" href="$classcore_1_1api_1_1coreapi_1_1_core_link_tlv.html" title="{core.api.coreapi.CoreLinkTlv\n|+ tlvtypemap\l+ tlvdataclsmap\l|}" alt="" coords="1338,432,1526,524"/>
+<area shape="rect" id="node10" href="$classcore_1_1api_1_1coreapi_1_1_core_node_tlv.html" title="{core.api.coreapi.CoreNodeTlv\n|+ tlvtypemap\l+ tlvdataclsmap\l|}" alt="" coords="1551,432,1745,524"/>
+<area shape="rect" id="node11" href="$classcore_1_1api_1_1coreapi_1_1_core_reg_tlv.html" title="{core.api.coreapi.CoreRegTlv\n|+ tlvtypemap\l+ tlvdataclsmap\l|}" alt="" coords="1770,432,1958,524"/>
+<area shape="rect" id="node12" href="$classcore_1_1api_1_1coreapi_1_1_core_session_tlv.html" title="{core.api.coreapi.CoreSessionTlv\n|+ tlvtypemap\l+ tlvdataclsmap\l|}" alt="" coords="1983,432,2193,524"/>
+</map>

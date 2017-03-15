@@ -1,0 +1,9 @@
+<map id="core.misc.xmlwriter1.XmlElement" name="core.misc.xmlwriter1.XmlElement">
+<area shape="rect" id="node3" href="$classcore_1_1misc_1_1xmlwriter1_1_1_member_element.html" title="{core.misc.xmlwriter1.Member\lElement\n||+ __init__()\l}" alt="" coords="113,454,308,546"/>
+<area shape="rect" id="node4" href="$classcore_1_1misc_1_1xmlwriter1_1_1_named_xml_element.html" title="{core.misc.xmlwriter1.Named\lXmlElement\n|+ scenPlan\l+ coreSession\l+ id\l|+ __init__()\l+ addPoint()\l+ createAlias()\l}" alt="" coords="332,425,521,575"/>
+<area shape="rect" id="node9" href="$classcore_1_1misc_1_1xmlwriter1_1_1_scenario_plan.html" title="{core.misc.xmlwriter1.ScenarioPlan\n|+ coreSession\l+ allChannelMembers\l+ lastNetIdx\l|+ __init__()\l+ addNetworks()\l+ addDevices()\l+ addDefaultServices()\l+ addSessionConfiguration()\l}" alt="" coords="545,417,769,583"/>
+<area shape="rect" id="node5" href="$classcore_1_1misc_1_1xmlwriter1_1_1_channel_element.html" title="{core.misc.xmlwriter1.Channel\lElement\n||+ __init__()\l+ addChannelMembers()\l+ addChannelMember()\l}" alt="" coords="5,660,200,781"/>
+<area shape="rect" id="node6" href="$classcore_1_1misc_1_1xmlwriter1_1_1_device_element.html" title="{core.misc.xmlwriter1.Device\lElement\n|+ interfaces\l|+ __init__()\l+ addInterfaces()\l+ addServices()\l}" alt="" coords="225,660,413,781"/>
+<area shape="rect" id="node7" href="$classcore_1_1misc_1_1xmlwriter1_1_1_interface_element.html" title="{core.misc.xmlwriter1.Interface\lElement\n|+ ifcObj\l|+ __init__()\l+ addChannelReference()\l+ addAddresses()\l+ addModels()\l}" alt="" coords="437,653,635,789"/>
+<area shape="rect" id="node8" href="$classcore_1_1misc_1_1xmlwriter1_1_1_network_element.html" title="{core.misc.xmlwriter1.Network\lElement\n|+ scenPlan\l+ endpoints\l+ l2devices\l|+ __init__()\l+ getNetworkName()\l+ addL2Devices()\l+ addNetMembers()\l+ addChannels()\l}" alt="" coords="659,631,855,811"/>
+</map>

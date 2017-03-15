@@ -1,0 +1,222 @@
+\hypertarget{classcore_1_1conf_1_1_configurable_manager}{\section{core.\+conf.\+Configurable\+Manager Class Reference}
+\label{classcore_1_1conf_1_1_configurable_manager}\index{core.\+conf.\+Configurable\+Manager@{core.\+conf.\+Configurable\+Manager}}
+}
+
+
+Inheritance diagram for core.\+conf.\+Configurable\+Manager\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classcore_1_1conf_1_1_configurable_manager__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for core.\+conf.\+Configurable\+Manager\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=235pt]{classcore_1_1conf_1_1_configurable_manager__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classcore_1_1conf_1_1_configurable_manager_a199933aed21d63d5a45963dedde363b8}{def {\bfseries \+\_\+\+\_\+init\+\_\+\+\_\+}}\label{classcore_1_1conf_1_1_configurable_manager_a199933aed21d63d5a45963dedde363b8}
+
+\item 
+def \hyperlink{classcore_1_1conf_1_1_configurable_manager_a323cd80662589456e92446bc00d3f121}{configure}
+\item 
+def \hyperlink{classcore_1_1conf_1_1_configurable_manager_a61f4ce61e2e9071044ad9cdb5b62c5d8}{configure\+\_\+request}
+\item 
+def \hyperlink{classcore_1_1conf_1_1_configurable_manager_a7bf7ec34d9577b402caf567116adadb0}{configure\+\_\+reset}
+\item 
+def \hyperlink{classcore_1_1conf_1_1_configurable_manager_ada87a29998b14563fe9f1b92a9d5cd5f}{configure\+\_\+values}
+\item 
+def \hyperlink{classcore_1_1conf_1_1_configurable_manager_ab1de29d30306eabba9805c8f39f1806c}{configure\+\_\+values\+\_\+keyvalues}
+\item 
+\hypertarget{classcore_1_1conf_1_1_configurable_manager_ab3d219018ffdf814972b79cf613dddc1}{def {\bfseries reset}}\label{classcore_1_1conf_1_1_configurable_manager_ab3d219018ffdf814972b79cf613dddc1}
+
+\item 
+def \hyperlink{classcore_1_1conf_1_1_configurable_manager_a4594891c10805361b6c96e6dfbf742da}{setconfig}
+\item 
+def \hyperlink{classcore_1_1conf_1_1_configurable_manager_a50e76fc0629141783acc1560e8ff8d6b}{getconfig}
+\item 
+def \hyperlink{classcore_1_1conf_1_1_configurable_manager_a38c5d075bc02ba0d9aa5bd9752f11c16}{getallconfigs}
+\item 
+def \hyperlink{classcore_1_1conf_1_1_configurable_manager_a8cc2f85aaad6cc0c9f04469c3554d320}{clearconfig}
+\item 
+def \hyperlink{classcore_1_1conf_1_1_configurable_manager_adb9d5645b6551d5928392cacfe116961}{setconfig\+\_\+keyvalues}
+\item 
+def \hyperlink{classcore_1_1conf_1_1_configurable_manager_aa37e907c84352572c5d080f2b27385d5}{getmodels}
+\item 
+\hypertarget{classcore_1_1conf_1_1_configurable_manager_a914e3d2cd2ca6c4ad0eaa149505bb38f}{def {\bfseries info}}\label{classcore_1_1conf_1_1_configurable_manager_a914e3d2cd2ca6c4ad0eaa149505bb38f}
+
+\item 
+\hypertarget{classcore_1_1conf_1_1_configurable_manager_ad815521e7aa4379a19c5973ce2cc58cb}{def {\bfseries warn}}\label{classcore_1_1conf_1_1_configurable_manager_ad815521e7aa4379a19c5973ce2cc58cb}
+
+\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classcore_1_1conf_1_1_configurable_manager_a2cabf2cc60e378c338c0ea6869e6b341}{{\bfseries session}}\label{classcore_1_1conf_1_1_configurable_manager_a2cabf2cc60e378c338c0ea6869e6b341}
+
+\item 
+\hypertarget{classcore_1_1conf_1_1_configurable_manager_ad43a165b5d90b8a134b4b13453f5fd57}{{\bfseries configs}}\label{classcore_1_1conf_1_1_configurable_manager_ad43a165b5d90b8a134b4b13453f5fd57}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\begin{DoxyVerb}A generic class for managing Configurables. This class can register
+    with a session to receive Config Messages for setting some parameters
+    for itself or for the Configurables that it manages.
+\end{DoxyVerb}
+ 
+
+\subsection{Member Function Documentation}
+\hypertarget{classcore_1_1conf_1_1_configurable_manager_a8cc2f85aaad6cc0c9f04469c3554d320}{\index{core\+::conf\+::\+Configurable\+Manager@{core\+::conf\+::\+Configurable\+Manager}!clearconfig@{clearconfig}}
+\index{clearconfig@{clearconfig}!core\+::conf\+::\+Configurable\+Manager@{core\+::conf\+::\+Configurable\+Manager}}
+\subsubsection[{clearconfig}]{\setlength{\rightskip}{0pt plus 5cm}def core.\+conf.\+Configurable\+Manager.\+clearconfig (
+\begin{DoxyParamCaption}
+\item[{}]{self, }
+\item[{}]{nodenum}
+\end{DoxyParamCaption}
+)}}\label{classcore_1_1conf_1_1_configurable_manager_a8cc2f85aaad6cc0c9f04469c3554d320}
+\begin{DoxyVerb}remove configuration values for the specified node;
+    when nodenum is None, remove all configuration values 
+\end{DoxyVerb}
+ \hypertarget{classcore_1_1conf_1_1_configurable_manager_a323cd80662589456e92446bc00d3f121}{\index{core\+::conf\+::\+Configurable\+Manager@{core\+::conf\+::\+Configurable\+Manager}!configure@{configure}}
+\index{configure@{configure}!core\+::conf\+::\+Configurable\+Manager@{core\+::conf\+::\+Configurable\+Manager}}
+\subsubsection[{configure}]{\setlength{\rightskip}{0pt plus 5cm}def core.\+conf.\+Configurable\+Manager.\+configure (
+\begin{DoxyParamCaption}
+\item[{}]{self, }
+\item[{}]{session, }
+\item[{}]{msg}
+\end{DoxyParamCaption}
+)}}\label{classcore_1_1conf_1_1_configurable_manager_a323cd80662589456e92446bc00d3f121}
+\begin{DoxyVerb}Handle configure messages. The configuration message sent to a
+    ConfigurableManager usually is used to:
+    1. Request a list of Configurables (request flag)
+    2. Reset manager and clear configs (reset flag)
+    3. Send values that configure the manager or one of its 
+       Configurables
+       
+    Returns any reply messages.
+\end{DoxyVerb}
+ \hypertarget{classcore_1_1conf_1_1_configurable_manager_a61f4ce61e2e9071044ad9cdb5b62c5d8}{\index{core\+::conf\+::\+Configurable\+Manager@{core\+::conf\+::\+Configurable\+Manager}!configure\+\_\+request@{configure\+\_\+request}}
+\index{configure\+\_\+request@{configure\+\_\+request}!core\+::conf\+::\+Configurable\+Manager@{core\+::conf\+::\+Configurable\+Manager}}
+\subsubsection[{configure\+\_\+request}]{\setlength{\rightskip}{0pt plus 5cm}def core.\+conf.\+Configurable\+Manager.\+configure\+\_\+request (
+\begin{DoxyParamCaption}
+\item[{}]{self, }
+\item[{}]{msg}
+\end{DoxyParamCaption}
+)}}\label{classcore_1_1conf_1_1_configurable_manager_a61f4ce61e2e9071044ad9cdb5b62c5d8}
+\begin{DoxyVerb}Request configuration data.
+\end{DoxyVerb}
+ \hypertarget{classcore_1_1conf_1_1_configurable_manager_a7bf7ec34d9577b402caf567116adadb0}{\index{core\+::conf\+::\+Configurable\+Manager@{core\+::conf\+::\+Configurable\+Manager}!configure\+\_\+reset@{configure\+\_\+reset}}
+\index{configure\+\_\+reset@{configure\+\_\+reset}!core\+::conf\+::\+Configurable\+Manager@{core\+::conf\+::\+Configurable\+Manager}}
+\subsubsection[{configure\+\_\+reset}]{\setlength{\rightskip}{0pt plus 5cm}def core.\+conf.\+Configurable\+Manager.\+configure\+\_\+reset (
+\begin{DoxyParamCaption}
+\item[{}]{self, }
+\item[{}]{msg}
+\end{DoxyParamCaption}
+)}}\label{classcore_1_1conf_1_1_configurable_manager_a7bf7ec34d9577b402caf567116adadb0}
+\begin{DoxyVerb}By default, resets this manager to clear configs.
+\end{DoxyVerb}
+ \hypertarget{classcore_1_1conf_1_1_configurable_manager_ada87a29998b14563fe9f1b92a9d5cd5f}{\index{core\+::conf\+::\+Configurable\+Manager@{core\+::conf\+::\+Configurable\+Manager}!configure\+\_\+values@{configure\+\_\+values}}
+\index{configure\+\_\+values@{configure\+\_\+values}!core\+::conf\+::\+Configurable\+Manager@{core\+::conf\+::\+Configurable\+Manager}}
+\subsubsection[{configure\+\_\+values}]{\setlength{\rightskip}{0pt plus 5cm}def core.\+conf.\+Configurable\+Manager.\+configure\+\_\+values (
+\begin{DoxyParamCaption}
+\item[{}]{self, }
+\item[{}]{msg, }
+\item[{}]{values}
+\end{DoxyParamCaption}
+)}}\label{classcore_1_1conf_1_1_configurable_manager_ada87a29998b14563fe9f1b92a9d5cd5f}
+\begin{DoxyVerb}Values have been sent to this manager.
+\end{DoxyVerb}
+ \hypertarget{classcore_1_1conf_1_1_configurable_manager_ab1de29d30306eabba9805c8f39f1806c}{\index{core\+::conf\+::\+Configurable\+Manager@{core\+::conf\+::\+Configurable\+Manager}!configure\+\_\+values\+\_\+keyvalues@{configure\+\_\+values\+\_\+keyvalues}}
+\index{configure\+\_\+values\+\_\+keyvalues@{configure\+\_\+values\+\_\+keyvalues}!core\+::conf\+::\+Configurable\+Manager@{core\+::conf\+::\+Configurable\+Manager}}
+\subsubsection[{configure\+\_\+values\+\_\+keyvalues}]{\setlength{\rightskip}{0pt plus 5cm}def core.\+conf.\+Configurable\+Manager.\+configure\+\_\+values\+\_\+keyvalues (
+\begin{DoxyParamCaption}
+\item[{}]{self, }
+\item[{}]{msg, }
+\item[{}]{values, }
+\item[{}]{target, }
+\item[{}]{keys}
+\end{DoxyParamCaption}
+)}}\label{classcore_1_1conf_1_1_configurable_manager_ab1de29d30306eabba9805c8f39f1806c}
+\begin{DoxyVerb}Helper that can be used for configure_values for parsing in
+    'key=value' strings from a values field. The key name must be
+    in the keys list, and target.key=value is set.
+\end{DoxyVerb}
+ \hypertarget{classcore_1_1conf_1_1_configurable_manager_a38c5d075bc02ba0d9aa5bd9752f11c16}{\index{core\+::conf\+::\+Configurable\+Manager@{core\+::conf\+::\+Configurable\+Manager}!getallconfigs@{getallconfigs}}
+\index{getallconfigs@{getallconfigs}!core\+::conf\+::\+Configurable\+Manager@{core\+::conf\+::\+Configurable\+Manager}}
+\subsubsection[{getallconfigs}]{\setlength{\rightskip}{0pt plus 5cm}def core.\+conf.\+Configurable\+Manager.\+getallconfigs (
+\begin{DoxyParamCaption}
+\item[{}]{self, }
+\item[{}]{use\+\_\+clsmap = {\ttfamily True}}
+\end{DoxyParamCaption}
+)}}\label{classcore_1_1conf_1_1_configurable_manager_a38c5d075bc02ba0d9aa5bd9752f11c16}
+\begin{DoxyVerb}Return (nodenum, conftype, values) tuples for all stored configs.
+Used when reconnecting to a session.
+\end{DoxyVerb}
+ \hypertarget{classcore_1_1conf_1_1_configurable_manager_a50e76fc0629141783acc1560e8ff8d6b}{\index{core\+::conf\+::\+Configurable\+Manager@{core\+::conf\+::\+Configurable\+Manager}!getconfig@{getconfig}}
+\index{getconfig@{getconfig}!core\+::conf\+::\+Configurable\+Manager@{core\+::conf\+::\+Configurable\+Manager}}
+\subsubsection[{getconfig}]{\setlength{\rightskip}{0pt plus 5cm}def core.\+conf.\+Configurable\+Manager.\+getconfig (
+\begin{DoxyParamCaption}
+\item[{}]{self, }
+\item[{}]{nodenum, }
+\item[{}]{conftype, }
+\item[{}]{defaultvalues}
+\end{DoxyParamCaption}
+)}}\label{classcore_1_1conf_1_1_configurable_manager_a50e76fc0629141783acc1560e8ff8d6b}
+\begin{DoxyVerb}get configuration values for a node; if the values don't exist in
+    our dictionary then return the default values supplied
+\end{DoxyVerb}
+ \hypertarget{classcore_1_1conf_1_1_configurable_manager_aa37e907c84352572c5d080f2b27385d5}{\index{core\+::conf\+::\+Configurable\+Manager@{core\+::conf\+::\+Configurable\+Manager}!getmodels@{getmodels}}
+\index{getmodels@{getmodels}!core\+::conf\+::\+Configurable\+Manager@{core\+::conf\+::\+Configurable\+Manager}}
+\subsubsection[{getmodels}]{\setlength{\rightskip}{0pt plus 5cm}def core.\+conf.\+Configurable\+Manager.\+getmodels (
+\begin{DoxyParamCaption}
+\item[{}]{self, }
+\item[{}]{n}
+\end{DoxyParamCaption}
+)}}\label{classcore_1_1conf_1_1_configurable_manager_aa37e907c84352572c5d080f2b27385d5}
+\begin{DoxyVerb}Return a list of model classes and values for a net if one has been
+configured. This is invoked when exporting a session to XML.
+This assumes self.configs contains an iterable of (model-names, values)
+and a self._modelclsmapdict exists.
+\end{DoxyVerb}
+ \hypertarget{classcore_1_1conf_1_1_configurable_manager_a4594891c10805361b6c96e6dfbf742da}{\index{core\+::conf\+::\+Configurable\+Manager@{core\+::conf\+::\+Configurable\+Manager}!setconfig@{setconfig}}
+\index{setconfig@{setconfig}!core\+::conf\+::\+Configurable\+Manager@{core\+::conf\+::\+Configurable\+Manager}}
+\subsubsection[{setconfig}]{\setlength{\rightskip}{0pt plus 5cm}def core.\+conf.\+Configurable\+Manager.\+setconfig (
+\begin{DoxyParamCaption}
+\item[{}]{self, }
+\item[{}]{nodenum, }
+\item[{}]{conftype, }
+\item[{}]{values}
+\end{DoxyParamCaption}
+)}}\label{classcore_1_1conf_1_1_configurable_manager_a4594891c10805361b6c96e6dfbf742da}
+\begin{DoxyVerb}add configuration values for a node to a dictionary; values are
+    usually received from a Configuration Message, and may refer to a
+    node for which no object exists yet
+\end{DoxyVerb}
+ \hypertarget{classcore_1_1conf_1_1_configurable_manager_adb9d5645b6551d5928392cacfe116961}{\index{core\+::conf\+::\+Configurable\+Manager@{core\+::conf\+::\+Configurable\+Manager}!setconfig\+\_\+keyvalues@{setconfig\+\_\+keyvalues}}
+\index{setconfig\+\_\+keyvalues@{setconfig\+\_\+keyvalues}!core\+::conf\+::\+Configurable\+Manager@{core\+::conf\+::\+Configurable\+Manager}}
+\subsubsection[{setconfig\+\_\+keyvalues}]{\setlength{\rightskip}{0pt plus 5cm}def core.\+conf.\+Configurable\+Manager.\+setconfig\+\_\+keyvalues (
+\begin{DoxyParamCaption}
+\item[{}]{self, }
+\item[{}]{nodenum, }
+\item[{}]{conftype, }
+\item[{}]{keyvalues}
+\end{DoxyParamCaption}
+)}}\label{classcore_1_1conf_1_1_configurable_manager_adb9d5645b6551d5928392cacfe116961}
+\begin{DoxyVerb}keyvalues list of tuples
+\end{DoxyVerb}
+ 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+daemon/core/conf.\+py\end{DoxyCompactItemize}

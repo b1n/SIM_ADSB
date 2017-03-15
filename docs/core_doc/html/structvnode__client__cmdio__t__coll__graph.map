@@ -1,0 +1,5 @@
+<map id="vnode_client_cmdio_t" name="vnode_client_cmdio_t">
+<area shape="rect" id="node2" href="$structstdio__pty__t.html" title="{stdio_pty_t\n|+ masterfd\l+ slavefd\l|}" alt="" coords="5,13,92,105"/>
+<area shape="rect" id="node3" href="$structstdio__fd__t.html" title="{stdio_fd_t\n|+ infd\l+ outfd\l+ errfd\l|}" alt="" coords="116,5,195,112"/>
+<area shape="rect" id="node4" href="$structstdio__pipe__t.html" title="{stdio_pipe_t\n|+ infd\l+ outfd\l+ errfd\l|}" alt="" coords="219,5,311,112"/>
+</map>

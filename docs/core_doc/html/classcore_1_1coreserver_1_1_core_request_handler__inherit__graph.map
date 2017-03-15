@@ -1,0 +1,4 @@
+<map id="core.coreserver.CoreRequestHandler" name="core.coreserver.CoreRequestHandler">
+<area shape="rect" id="node3" href="$classcore_1_1coreserver_1_1_base_aux_request_handler.html" title="{core.coreserver.BaseAuxRequest\lHandler\n|+ msghandler\l+ handlerthreads\l+ nodestatusreq\l+ master\l+ session\l+ verbose\l+ debug\l|+ __init__()\l+ setup()\l+ handle()\l+ finish()\l+ recvmsg()\l+ dispatchreplies()\l+ sendall()\l}" alt="" coords="5,579,224,847"/>
+<area shape="rect" id="node4" href="$classcore_1_1coreserver_1_1_core_datagram_request_handler.html" title="{core.coreserver.CoreDatagram\lRequestHandler\n|+ msghandler\l+ nodestatusreq\l+ master\l+ session\l+ verbose\l+ debug\l|+ __init__()\l+ setup()\l+ handle()\l+ finish()\l+ recvmsg()\l+ queuemsg()\l+ sendall()\l}" alt="" coords="249,586,450,839"/>
+</map>

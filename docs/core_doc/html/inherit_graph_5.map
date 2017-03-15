@@ -1,0 +1,8 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node2" href="$classcore_1_1emane_1_1bypass_1_1_emane_bypass_model.html" title="core.emane.bypass.EmaneBypass\lModel" alt="" coords="152,5,377,47"/>
+<area shape="rect" id="node3" href="$classcore_1_1emane_1_1commeffect_1_1_emane_comm_effect_model.html" title="core.emane.commeffect.Emane\lCommEffectModel" alt="" coords="161,71,369,112"/>
+<area shape="rect" id="node4" href="$classcore_1_1emane_1_1ieee80211abg_1_1_emane_ieee80211abg_model.html" title="core.emane.ieee80211abg.\lEmaneIeee80211abgModel" alt="" coords="175,136,354,177"/>
+<area shape="rect" id="node5" href="$classcore_1_1emane_1_1rfpipe_1_1_emane_rf_pipe_model.html" title="core.emane.rfpipe.EmaneRf\lPipeModel" alt="" coords="172,201,357,243"/>
+<area shape="rect" id="node6" href="$classcore_1_1emane_1_1tdma_1_1_emane_tdma_model.html" title="core.emane.tdma.EmaneTdma\lModel" alt="" coords="164,267,365,308"/>
+<area shape="rect" id="node7" href="$classcore_1_1emane_1_1universal_1_1_emane_universal_model.html" title="core.emane.universal.Emane\lUniversalModel" alt="" coords="169,332,360,373"/>
+</map>

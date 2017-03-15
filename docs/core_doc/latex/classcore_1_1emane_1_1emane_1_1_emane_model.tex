@@ -1,0 +1,235 @@
+\hypertarget{classcore_1_1emane_1_1emane_1_1_emane_model}{\section{core.\+emane.\+emane.\+Emane\+Model Class Reference}
+\label{classcore_1_1emane_1_1emane_1_1_emane_model}\index{core.\+emane.\+emane.\+Emane\+Model@{core.\+emane.\+emane.\+Emane\+Model}}
+}
+
+
+Inheritance diagram for core.\+emane.\+emane.\+Emane\+Model\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=550pt]{classcore_1_1emane_1_1emane_1_1_emane_model__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for core.\+emane.\+emane.\+Emane\+Model\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=550pt]{classcore_1_1emane_1_1emane_1_1_emane_model__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+def \hyperlink{classcore_1_1emane_1_1emane_1_1_emane_model_a7080d1c32a8bd058c3b7ddc26f79217f}{configure\+\_\+emane}
+\item 
+def \hyperlink{classcore_1_1emane_1_1emane_1_1_emane_model_a4981a087e089f8884179d26f6d08db44}{emane074\+\_\+fixup}
+\item 
+def \hyperlink{classcore_1_1emane_1_1emane_1_1_emane_model_a3173d8501c7ad0692fccb7af466e6b59}{buildnemxmlfiles}
+\item 
+def \hyperlink{classcore_1_1emane_1_1emane_1_1_emane_model_a306de2565f3b0b0ebbf0ea0e6c918eda}{buildplatformxmlnementry}
+\item 
+def \hyperlink{classcore_1_1emane_1_1emane_1_1_emane_model_a081afd65576a68a35d94df59f42090f2}{buildplatformxmltransportentry}
+\item 
+def \hyperlink{classcore_1_1emane_1_1emane_1_1_emane_model_a7bb5a24b5eb8394814771b1f02955310}{basename}
+\item 
+def \hyperlink{classcore_1_1emane_1_1emane_1_1_emane_model_a8e664a518b35fcbe18b60ec1f515c052}{nemxmlname}
+\item 
+def \hyperlink{classcore_1_1emane_1_1emane_1_1_emane_model_afc3ef4f5b5a6abd8fd6d26e0d1d713d3}{shimxmlname}
+\item 
+def \hyperlink{classcore_1_1emane_1_1emane_1_1_emane_model_a192fa6bab37d6d350736ea94555f63aa}{macxmlname}
+\item 
+def \hyperlink{classcore_1_1emane_1_1emane_1_1_emane_model_a9135d46e2b41e51fb670437ffa5d02fc}{phyxmlname}
+\item 
+def \hyperlink{classcore_1_1emane_1_1emane_1_1_emane_model_a43465b2da988a69cefb96b14497d22d9}{update}
+\item 
+def \hyperlink{classcore_1_1emane_1_1emane_1_1_emane_model_a81f0dda8282173d903b095d3c6d6b47d}{linkconfig}
+\end{DoxyCompactItemize}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+def \hyperlink{classcore_1_1emane_1_1emane_1_1_emane_model_aff313ecdbfa92447ed9ee5d37169a8df}{valuestrtoparamlist}
+\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Detailed Description}
+\begin{DoxyVerb}EMANE models inherit from this parent class, which takes care of
+    handling configuration messages based on the _confmatrix list of
+    configurable parameters. Helper functions also live here.
+\end{DoxyVerb}
+ 
+
+\subsection{Member Function Documentation}
+\hypertarget{classcore_1_1emane_1_1emane_1_1_emane_model_a7bb5a24b5eb8394814771b1f02955310}{\index{core\+::emane\+::emane\+::\+Emane\+Model@{core\+::emane\+::emane\+::\+Emane\+Model}!basename@{basename}}
+\index{basename@{basename}!core\+::emane\+::emane\+::\+Emane\+Model@{core\+::emane\+::emane\+::\+Emane\+Model}}
+\subsubsection[{basename}]{\setlength{\rightskip}{0pt plus 5cm}def core.\+emane.\+emane.\+Emane\+Model.\+basename (
+\begin{DoxyParamCaption}
+\item[{}]{self, }
+\item[{}]{ifc = {\ttfamily None}}
+\end{DoxyParamCaption}
+)}}\label{classcore_1_1emane_1_1emane_1_1_emane_model_a7bb5a24b5eb8394814771b1f02955310}
+\begin{DoxyVerb}Return the string that other names are based on.
+    If a specific config is stored for a node's interface, a unique
+    filename is needed; otherwise the name of the EmaneNode is used.
+\end{DoxyVerb}
+ \hypertarget{classcore_1_1emane_1_1emane_1_1_emane_model_a3173d8501c7ad0692fccb7af466e6b59}{\index{core\+::emane\+::emane\+::\+Emane\+Model@{core\+::emane\+::emane\+::\+Emane\+Model}!buildnemxmlfiles@{buildnemxmlfiles}}
+\index{buildnemxmlfiles@{buildnemxmlfiles}!core\+::emane\+::emane\+::\+Emane\+Model@{core\+::emane\+::emane\+::\+Emane\+Model}}
+\subsubsection[{buildnemxmlfiles}]{\setlength{\rightskip}{0pt plus 5cm}def core.\+emane.\+emane.\+Emane\+Model.\+buildnemxmlfiles (
+\begin{DoxyParamCaption}
+\item[{}]{self, }
+\item[{}]{e, }
+\item[{}]{ifc}
+\end{DoxyParamCaption}
+)}}\label{classcore_1_1emane_1_1emane_1_1_emane_model_a3173d8501c7ad0692fccb7af466e6b59}
+\begin{DoxyVerb}Build the necessary nem, mac, and phy XMLs in the given path.
+\end{DoxyVerb}
+ \hypertarget{classcore_1_1emane_1_1emane_1_1_emane_model_a306de2565f3b0b0ebbf0ea0e6c918eda}{\index{core\+::emane\+::emane\+::\+Emane\+Model@{core\+::emane\+::emane\+::\+Emane\+Model}!buildplatformxmlnementry@{buildplatformxmlnementry}}
+\index{buildplatformxmlnementry@{buildplatformxmlnementry}!core\+::emane\+::emane\+::\+Emane\+Model@{core\+::emane\+::emane\+::\+Emane\+Model}}
+\subsubsection[{buildplatformxmlnementry}]{\setlength{\rightskip}{0pt plus 5cm}def core.\+emane.\+emane.\+Emane\+Model.\+buildplatformxmlnementry (
+\begin{DoxyParamCaption}
+\item[{}]{self, }
+\item[{}]{doc, }
+\item[{}]{n, }
+\item[{}]{ifc}
+\end{DoxyParamCaption}
+)}}\label{classcore_1_1emane_1_1emane_1_1_emane_model_a306de2565f3b0b0ebbf0ea0e6c918eda}
+\begin{DoxyVerb}Build the NEM definition that goes into the platform.xml file.
+This returns an XML element that will be added to the <platform/> element.
+This default method supports per-interface config
+  (e.g. <nem definition="n2_0_63emane_rfpipe.xml" id="1"> or per-EmaneNode
+config (e.g. <nem definition="n1emane_rfpipe.xml" id="1">.
+This can be overriden by a model for NEM flexibility; n is the EmaneNode.
+\end{DoxyVerb}
+ \hypertarget{classcore_1_1emane_1_1emane_1_1_emane_model_a081afd65576a68a35d94df59f42090f2}{\index{core\+::emane\+::emane\+::\+Emane\+Model@{core\+::emane\+::emane\+::\+Emane\+Model}!buildplatformxmltransportentry@{buildplatformxmltransportentry}}
+\index{buildplatformxmltransportentry@{buildplatformxmltransportentry}!core\+::emane\+::emane\+::\+Emane\+Model@{core\+::emane\+::emane\+::\+Emane\+Model}}
+\subsubsection[{buildplatformxmltransportentry}]{\setlength{\rightskip}{0pt plus 5cm}def core.\+emane.\+emane.\+Emane\+Model.\+buildplatformxmltransportentry (
+\begin{DoxyParamCaption}
+\item[{}]{self, }
+\item[{}]{doc, }
+\item[{}]{n, }
+\item[{}]{ifc}
+\end{DoxyParamCaption}
+)}}\label{classcore_1_1emane_1_1emane_1_1_emane_model_a081afd65576a68a35d94df59f42090f2}
+\begin{DoxyVerb}Build the transport definition that goes into the platform.xml file.
+This returns an XML element that will added to the nem definition.
+This default method supports raw and virtual transport types, but may be
+overriden by a model to support the e.g. pluggable virtual transport.
+n is the EmaneNode.
+\end{DoxyVerb}
+ \hypertarget{classcore_1_1emane_1_1emane_1_1_emane_model_a7080d1c32a8bd058c3b7ddc26f79217f}{\index{core\+::emane\+::emane\+::\+Emane\+Model@{core\+::emane\+::emane\+::\+Emane\+Model}!configure\+\_\+emane@{configure\+\_\+emane}}
+\index{configure\+\_\+emane@{configure\+\_\+emane}!core\+::emane\+::emane\+::\+Emane\+Model@{core\+::emane\+::emane\+::\+Emane\+Model}}
+\subsubsection[{configure\+\_\+emane}]{\setlength{\rightskip}{0pt plus 5cm}def core.\+emane.\+emane.\+Emane\+Model.\+configure\+\_\+emane (
+\begin{DoxyParamCaption}
+\item[{}]{cls, }
+\item[{}]{session, }
+\item[{}]{msg}
+\end{DoxyParamCaption}
+)}}\label{classcore_1_1emane_1_1emane_1_1_emane_model_a7080d1c32a8bd058c3b7ddc26f79217f}
+\begin{DoxyVerb}Handle configuration messages for setting up a model.
+Pass the Emane object as the manager object.
+\end{DoxyVerb}
+ \hypertarget{classcore_1_1emane_1_1emane_1_1_emane_model_a4981a087e089f8884179d26f6d08db44}{\index{core\+::emane\+::emane\+::\+Emane\+Model@{core\+::emane\+::emane\+::\+Emane\+Model}!emane074\+\_\+fixup@{emane074\+\_\+fixup}}
+\index{emane074\+\_\+fixup@{emane074\+\_\+fixup}!core\+::emane\+::emane\+::\+Emane\+Model@{core\+::emane\+::emane\+::\+Emane\+Model}}
+\subsubsection[{emane074\+\_\+fixup}]{\setlength{\rightskip}{0pt plus 5cm}def core.\+emane.\+emane.\+Emane\+Model.\+emane074\+\_\+fixup (
+\begin{DoxyParamCaption}
+\item[{}]{cls, }
+\item[{}]{value, }
+\item[{}]{div = {\ttfamily 1.0}}
+\end{DoxyParamCaption}
+)}}\label{classcore_1_1emane_1_1emane_1_1_emane_model_a4981a087e089f8884179d26f6d08db44}
+\begin{DoxyVerb}Helper for converting 0.8.1 and newer values to EMANE 0.7.4
+compatible values.
+NOTE: This should be removed when support for 0.7.4 has been
+deprecated.
+\end{DoxyVerb}
+ \hypertarget{classcore_1_1emane_1_1emane_1_1_emane_model_a81f0dda8282173d903b095d3c6d6b47d}{\index{core\+::emane\+::emane\+::\+Emane\+Model@{core\+::emane\+::emane\+::\+Emane\+Model}!linkconfig@{linkconfig}}
+\index{linkconfig@{linkconfig}!core\+::emane\+::emane\+::\+Emane\+Model@{core\+::emane\+::emane\+::\+Emane\+Model}}
+\subsubsection[{linkconfig}]{\setlength{\rightskip}{0pt plus 5cm}def core.\+emane.\+emane.\+Emane\+Model.\+linkconfig (
+\begin{DoxyParamCaption}
+\item[{}]{self, }
+\item[{}]{netif, }
+\item[{}]{bw = {\ttfamily None}, }
+\item[{}]{delay = {\ttfamily None}, }
+\item[{}]{loss = {\ttfamily None}, }
+\item[{}]{duplicate = {\ttfamily None}, }
+\item[{}]{jitter = {\ttfamily None}, }
+\item[{}]{netif2 = {\ttfamily None}}
+\end{DoxyParamCaption}
+)}}\label{classcore_1_1emane_1_1emane_1_1_emane_model_a81f0dda8282173d903b095d3c6d6b47d}
+\begin{DoxyVerb}Invoked when a Link Message is received. Default is unimplemented.
+\end{DoxyVerb}
+ \hypertarget{classcore_1_1emane_1_1emane_1_1_emane_model_a192fa6bab37d6d350736ea94555f63aa}{\index{core\+::emane\+::emane\+::\+Emane\+Model@{core\+::emane\+::emane\+::\+Emane\+Model}!macxmlname@{macxmlname}}
+\index{macxmlname@{macxmlname}!core\+::emane\+::emane\+::\+Emane\+Model@{core\+::emane\+::emane\+::\+Emane\+Model}}
+\subsubsection[{macxmlname}]{\setlength{\rightskip}{0pt plus 5cm}def core.\+emane.\+emane.\+Emane\+Model.\+macxmlname (
+\begin{DoxyParamCaption}
+\item[{}]{self, }
+\item[{}]{ifc = {\ttfamily None}}
+\end{DoxyParamCaption}
+)}}\label{classcore_1_1emane_1_1emane_1_1_emane_model_a192fa6bab37d6d350736ea94555f63aa}
+\begin{DoxyVerb}Return the string name for the MAC XML file, e.g. 'n3rfpipemac.xml'
+\end{DoxyVerb}
+ \hypertarget{classcore_1_1emane_1_1emane_1_1_emane_model_a8e664a518b35fcbe18b60ec1f515c052}{\index{core\+::emane\+::emane\+::\+Emane\+Model@{core\+::emane\+::emane\+::\+Emane\+Model}!nemxmlname@{nemxmlname}}
+\index{nemxmlname@{nemxmlname}!core\+::emane\+::emane\+::\+Emane\+Model@{core\+::emane\+::emane\+::\+Emane\+Model}}
+\subsubsection[{nemxmlname}]{\setlength{\rightskip}{0pt plus 5cm}def core.\+emane.\+emane.\+Emane\+Model.\+nemxmlname (
+\begin{DoxyParamCaption}
+\item[{}]{self, }
+\item[{}]{ifc = {\ttfamily None}}
+\end{DoxyParamCaption}
+)}}\label{classcore_1_1emane_1_1emane_1_1_emane_model_a8e664a518b35fcbe18b60ec1f515c052}
+\begin{DoxyVerb}Return the string name for the NEM XML file, e.g. 'n3rfpipenem.xml'
+\end{DoxyVerb}
+ \hypertarget{classcore_1_1emane_1_1emane_1_1_emane_model_a9135d46e2b41e51fb670437ffa5d02fc}{\index{core\+::emane\+::emane\+::\+Emane\+Model@{core\+::emane\+::emane\+::\+Emane\+Model}!phyxmlname@{phyxmlname}}
+\index{phyxmlname@{phyxmlname}!core\+::emane\+::emane\+::\+Emane\+Model@{core\+::emane\+::emane\+::\+Emane\+Model}}
+\subsubsection[{phyxmlname}]{\setlength{\rightskip}{0pt plus 5cm}def core.\+emane.\+emane.\+Emane\+Model.\+phyxmlname (
+\begin{DoxyParamCaption}
+\item[{}]{self, }
+\item[{}]{ifc = {\ttfamily None}}
+\end{DoxyParamCaption}
+)}}\label{classcore_1_1emane_1_1emane_1_1_emane_model_a9135d46e2b41e51fb670437ffa5d02fc}
+\begin{DoxyVerb}Return the string name for the PHY XML file, e.g. 'n3rfpipephy.xml'
+\end{DoxyVerb}
+ \hypertarget{classcore_1_1emane_1_1emane_1_1_emane_model_afc3ef4f5b5a6abd8fd6d26e0d1d713d3}{\index{core\+::emane\+::emane\+::\+Emane\+Model@{core\+::emane\+::emane\+::\+Emane\+Model}!shimxmlname@{shimxmlname}}
+\index{shimxmlname@{shimxmlname}!core\+::emane\+::emane\+::\+Emane\+Model@{core\+::emane\+::emane\+::\+Emane\+Model}}
+\subsubsection[{shimxmlname}]{\setlength{\rightskip}{0pt plus 5cm}def core.\+emane.\+emane.\+Emane\+Model.\+shimxmlname (
+\begin{DoxyParamCaption}
+\item[{}]{self, }
+\item[{}]{ifc = {\ttfamily None}}
+\end{DoxyParamCaption}
+)}}\label{classcore_1_1emane_1_1emane_1_1_emane_model_afc3ef4f5b5a6abd8fd6d26e0d1d713d3}
+\begin{DoxyVerb}Return the string name for the SHIM XML file, e.g. 'commeffectshim.xml'
+\end{DoxyVerb}
+ \hypertarget{classcore_1_1emane_1_1emane_1_1_emane_model_a43465b2da988a69cefb96b14497d22d9}{\index{core\+::emane\+::emane\+::\+Emane\+Model@{core\+::emane\+::emane\+::\+Emane\+Model}!update@{update}}
+\index{update@{update}!core\+::emane\+::emane\+::\+Emane\+Model@{core\+::emane\+::emane\+::\+Emane\+Model}}
+\subsubsection[{update}]{\setlength{\rightskip}{0pt plus 5cm}def core.\+emane.\+emane.\+Emane\+Model.\+update (
+\begin{DoxyParamCaption}
+\item[{}]{self, }
+\item[{}]{moved, }
+\item[{}]{moved\+\_\+netifs}
+\end{DoxyParamCaption}
+)}}\label{classcore_1_1emane_1_1emane_1_1_emane_model_a43465b2da988a69cefb96b14497d22d9}
+\begin{DoxyVerb}invoked from MobilityModel when nodes are moved; this causes
+    EMANE location events to be generated for the nodes in the moved
+    list, making EmaneModels compatible with Ns2ScriptedMobility
+\end{DoxyVerb}
+ \hypertarget{classcore_1_1emane_1_1emane_1_1_emane_model_aff313ecdbfa92447ed9ee5d37169a8df}{\index{core\+::emane\+::emane\+::\+Emane\+Model@{core\+::emane\+::emane\+::\+Emane\+Model}!valuestrtoparamlist@{valuestrtoparamlist}}
+\index{valuestrtoparamlist@{valuestrtoparamlist}!core\+::emane\+::emane\+::\+Emane\+Model@{core\+::emane\+::emane\+::\+Emane\+Model}}
+\subsubsection[{valuestrtoparamlist}]{\setlength{\rightskip}{0pt plus 5cm}def core.\+emane.\+emane.\+Emane\+Model.\+valuestrtoparamlist (
+\begin{DoxyParamCaption}
+\item[{}]{dom, }
+\item[{}]{name, }
+\item[{}]{value}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{classcore_1_1emane_1_1emane_1_1_emane_model_aff313ecdbfa92447ed9ee5d37169a8df}
+\begin{DoxyVerb}Helper to convert a parameter to a paramlist.
+Returns a an XML paramlist, or None if the value does not expand to
+multiple values.
+\end{DoxyVerb}
+ 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+daemon/core/emane/emane.\+py\end{DoxyCompactItemize}

@@ -1,0 +1,4 @@
+<map id="core.services.utility.IPForwardService" name="core.services.utility.IPForwardService">
+<area shape="rect" id="node2" href="$classcore_1_1services_1_1utility_1_1_util_service.html" title="{core.services.utility.Util\lService\n||+ generateconfig()\l}" alt="" coords="25,359,184,451"/>
+<area shape="rect" id="node3" href="$classcore_1_1service_1_1_core_service.html" title="{core.service.CoreService\n|+ keys\l|+ __init__()\l+ getconfigfilenames()\l+ generateconfig()\l+ getstartup()\l+ getvalidate()\l+ tovaluelist()\l+ fromvaluelist()\l+ setvalue()\l}" alt="" coords="20,131,189,311"/>
+</map>

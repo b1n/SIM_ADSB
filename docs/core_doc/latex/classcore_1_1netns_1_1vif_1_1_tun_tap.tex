@@ -1,0 +1,126 @@
+\hypertarget{classcore_1_1netns_1_1vif_1_1_tun_tap}{\section{core.\+netns.\+vif.\+Tun\+Tap Class Reference}
+\label{classcore_1_1netns_1_1vif_1_1_tun_tap}\index{core.\+netns.\+vif.\+Tun\+Tap@{core.\+netns.\+vif.\+Tun\+Tap}}
+}
+
+
+Inheritance diagram for core.\+netns.\+vif.\+Tun\+Tap\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=550pt]{classcore_1_1netns_1_1vif_1_1_tun_tap__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for core.\+netns.\+vif.\+Tun\+Tap\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=550pt]{classcore_1_1netns_1_1vif_1_1_tun_tap__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classcore_1_1netns_1_1vif_1_1_tun_tap_a0578e736034bff4cf8ca480b92266af6}{def {\bfseries \+\_\+\+\_\+init\+\_\+\+\_\+}}\label{classcore_1_1netns_1_1vif_1_1_tun_tap_a0578e736034bff4cf8ca480b92266af6}
+
+\item 
+\hypertarget{classcore_1_1netns_1_1vif_1_1_tun_tap_a17f0657a5e6351413fc21c1880f71855}{def {\bfseries startup}}\label{classcore_1_1netns_1_1vif_1_1_tun_tap_a17f0657a5e6351413fc21c1880f71855}
+
+\item 
+\hypertarget{classcore_1_1netns_1_1vif_1_1_tun_tap_a7bab72f055c91d6d15063b59329fbdb5}{def {\bfseries shutdown}}\label{classcore_1_1netns_1_1vif_1_1_tun_tap_a7bab72f055c91d6d15063b59329fbdb5}
+
+\item 
+def \hyperlink{classcore_1_1netns_1_1vif_1_1_tun_tap_a17cef67bdd469ecec7ce987dbd1e2fa6}{waitfor}
+\item 
+def \hyperlink{classcore_1_1netns_1_1vif_1_1_tun_tap_a9a23f202552d077449464f0afe4a20eb}{waitfordevicelocal}
+\item 
+def \hyperlink{classcore_1_1netns_1_1vif_1_1_tun_tap_a4c274d40dc5008f43d07f46bbd597c50}{waitfordevicenode}
+\item 
+def \hyperlink{classcore_1_1netns_1_1vif_1_1_tun_tap_a6bc33d400c97bcd37feabd51eee6793c}{install}
+\item 
+def \hyperlink{classcore_1_1netns_1_1vif_1_1_tun_tap_a20ae8c89caa8f5bf79ada256691997df}{setaddrs}
+\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classcore_1_1netns_1_1vif_1_1_tun_tap_a19f47a0a117795017ae4a01e8812e894}{{\bfseries localname}}\label{classcore_1_1netns_1_1vif_1_1_tun_tap_a19f47a0a117795017ae4a01e8812e894}
+
+\item 
+\hypertarget{classcore_1_1netns_1_1vif_1_1_tun_tap_ac87201a170f067655ad7b28262b33c36}{{\bfseries up}}\label{classcore_1_1netns_1_1vif_1_1_tun_tap_ac87201a170f067655ad7b28262b33c36}
+
+\item 
+\hypertarget{classcore_1_1netns_1_1vif_1_1_tun_tap_a3edcb8bf2efa8f8a10cea3540121e374}{{\bfseries transport\+\_\+type}}\label{classcore_1_1netns_1_1vif_1_1_tun_tap_a3edcb8bf2efa8f8a10cea3540121e374}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\begin{DoxyVerb}TUN/TAP virtual device in TAP mode
+\end{DoxyVerb}
+ 
+
+\subsection{Member Function Documentation}
+\hypertarget{classcore_1_1netns_1_1vif_1_1_tun_tap_a6bc33d400c97bcd37feabd51eee6793c}{\index{core\+::netns\+::vif\+::\+Tun\+Tap@{core\+::netns\+::vif\+::\+Tun\+Tap}!install@{install}}
+\index{install@{install}!core\+::netns\+::vif\+::\+Tun\+Tap@{core\+::netns\+::vif\+::\+Tun\+Tap}}
+\subsubsection[{install}]{\setlength{\rightskip}{0pt plus 5cm}def core.\+netns.\+vif.\+Tun\+Tap.\+install (
+\begin{DoxyParamCaption}
+\item[{}]{self}
+\end{DoxyParamCaption}
+)}}\label{classcore_1_1netns_1_1vif_1_1_tun_tap_a6bc33d400c97bcd37feabd51eee6793c}
+\begin{DoxyVerb}Install this TAP into its namespace. This is not done from the
+    startup() method but called at a later time when a userspace
+    program (running on the host) has had a chance to open the socket
+    end of the TAP.
+\end{DoxyVerb}
+ \hypertarget{classcore_1_1netns_1_1vif_1_1_tun_tap_a20ae8c89caa8f5bf79ada256691997df}{\index{core\+::netns\+::vif\+::\+Tun\+Tap@{core\+::netns\+::vif\+::\+Tun\+Tap}!setaddrs@{setaddrs}}
+\index{setaddrs@{setaddrs}!core\+::netns\+::vif\+::\+Tun\+Tap@{core\+::netns\+::vif\+::\+Tun\+Tap}}
+\subsubsection[{setaddrs}]{\setlength{\rightskip}{0pt plus 5cm}def core.\+netns.\+vif.\+Tun\+Tap.\+setaddrs (
+\begin{DoxyParamCaption}
+\item[{}]{self}
+\end{DoxyParamCaption}
+)}}\label{classcore_1_1netns_1_1vif_1_1_tun_tap_a20ae8c89caa8f5bf79ada256691997df}
+\begin{DoxyVerb}Set interface addresses based on self.addrlist.
+\end{DoxyVerb}
+ \hypertarget{classcore_1_1netns_1_1vif_1_1_tun_tap_a17cef67bdd469ecec7ce987dbd1e2fa6}{\index{core\+::netns\+::vif\+::\+Tun\+Tap@{core\+::netns\+::vif\+::\+Tun\+Tap}!waitfor@{waitfor}}
+\index{waitfor@{waitfor}!core\+::netns\+::vif\+::\+Tun\+Tap@{core\+::netns\+::vif\+::\+Tun\+Tap}}
+\subsubsection[{waitfor}]{\setlength{\rightskip}{0pt plus 5cm}def core.\+netns.\+vif.\+Tun\+Tap.\+waitfor (
+\begin{DoxyParamCaption}
+\item[{}]{self, }
+\item[{}]{func, }
+\item[{}]{attempts = {\ttfamily 10}, }
+\item[{}]{maxretrydelay = {\ttfamily 0.25}}
+\end{DoxyParamCaption}
+)}}\label{classcore_1_1netns_1_1vif_1_1_tun_tap_a17cef67bdd469ecec7ce987dbd1e2fa6}
+\begin{DoxyVerb}\
+Wait for func() to return zero with exponential backoff
+\end{DoxyVerb}
+ \hypertarget{classcore_1_1netns_1_1vif_1_1_tun_tap_a9a23f202552d077449464f0afe4a20eb}{\index{core\+::netns\+::vif\+::\+Tun\+Tap@{core\+::netns\+::vif\+::\+Tun\+Tap}!waitfordevicelocal@{waitfordevicelocal}}
+\index{waitfordevicelocal@{waitfordevicelocal}!core\+::netns\+::vif\+::\+Tun\+Tap@{core\+::netns\+::vif\+::\+Tun\+Tap}}
+\subsubsection[{waitfordevicelocal}]{\setlength{\rightskip}{0pt plus 5cm}def core.\+netns.\+vif.\+Tun\+Tap.\+waitfordevicelocal (
+\begin{DoxyParamCaption}
+\item[{}]{self}
+\end{DoxyParamCaption}
+)}}\label{classcore_1_1netns_1_1vif_1_1_tun_tap_a9a23f202552d077449464f0afe4a20eb}
+\begin{DoxyVerb}\
+Check for presence of a local device - tap device may not
+appear right away waits
+\end{DoxyVerb}
+ \hypertarget{classcore_1_1netns_1_1vif_1_1_tun_tap_a4c274d40dc5008f43d07f46bbd597c50}{\index{core\+::netns\+::vif\+::\+Tun\+Tap@{core\+::netns\+::vif\+::\+Tun\+Tap}!waitfordevicenode@{waitfordevicenode}}
+\index{waitfordevicenode@{waitfordevicenode}!core\+::netns\+::vif\+::\+Tun\+Tap@{core\+::netns\+::vif\+::\+Tun\+Tap}}
+\subsubsection[{waitfordevicenode}]{\setlength{\rightskip}{0pt plus 5cm}def core.\+netns.\+vif.\+Tun\+Tap.\+waitfordevicenode (
+\begin{DoxyParamCaption}
+\item[{}]{self}
+\end{DoxyParamCaption}
+)}}\label{classcore_1_1netns_1_1vif_1_1_tun_tap_a4c274d40dc5008f43d07f46bbd597c50}
+\begin{DoxyVerb}\
+Check for presence of a node device - tap device may not
+appear right away waits
+\end{DoxyVerb}
+ 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+daemon/core/netns/vif.\+py\end{DoxyCompactItemize}

@@ -1,0 +1,141 @@
+\hypertarget{classcore_1_1xen_1_1xenconfig_1_1_xen_config_manager}{\section{core.\+xen.\+xenconfig.\+Xen\+Config\+Manager Class Reference}
+\label{classcore_1_1xen_1_1xenconfig_1_1_xen_config_manager}\index{core.\+xen.\+xenconfig.\+Xen\+Config\+Manager@{core.\+xen.\+xenconfig.\+Xen\+Config\+Manager}}
+}
+
+
+Inheritance diagram for core.\+xen.\+xenconfig.\+Xen\+Config\+Manager\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=550pt]{classcore_1_1xen_1_1xenconfig_1_1_xen_config_manager__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for core.\+xen.\+xenconfig.\+Xen\+Config\+Manager\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=550pt]{classcore_1_1xen_1_1xenconfig_1_1_xen_config_manager__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classcore_1_1xen_1_1xenconfig_1_1_xen_config_manager_a0473baee450fef922137ad0cfc338fa3}{def {\bfseries \+\_\+\+\_\+init\+\_\+\+\_\+}}\label{classcore_1_1xen_1_1xenconfig_1_1_xen_config_manager_a0473baee450fef922137ad0cfc338fa3}
+
+\item 
+def \hyperlink{classcore_1_1xen_1_1xenconfig_1_1_xen_config_manager_a46ef1e19bf0385a95ccb1d9525b2245a}{setconfig}
+\item 
+def \hyperlink{classcore_1_1xen_1_1xenconfig_1_1_xen_config_manager_a6fe2717d47ddb4c1292e0d4ba9f8c168}{getconfig}
+\item 
+def \hyperlink{classcore_1_1xen_1_1xenconfig_1_1_xen_config_manager_ae4d8b056c0d497179523a962c556fa04}{clearconfig}
+\item 
+def \hyperlink{classcore_1_1xen_1_1xenconfig_1_1_xen_config_manager_a3a7cce4290b4c260e7599d471a7154c5}{configure}
+\item 
+def \hyperlink{classcore_1_1xen_1_1xenconfig_1_1_xen_config_manager_a115b272d129e3693b2ce26596a604065}{loadconfigfile}
+\item 
+def \hyperlink{classcore_1_1xen_1_1xenconfig_1_1_xen_config_manager_aff0ab925afcb50c244a0f20e736dd967}{getconfigitem}
+\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classcore_1_1xen_1_1xenconfig_1_1_xen_config_manager_a93436adeccf59f3b1b4e1a267247bcf3}{{\bfseries verbose}}\label{classcore_1_1xen_1_1xenconfig_1_1_xen_config_manager_a93436adeccf59f3b1b4e1a267247bcf3}
+
+\item 
+\hypertarget{classcore_1_1xen_1_1xenconfig_1_1_xen_config_manager_ab85a31523cb44b759df43377a7d98db4}{{\bfseries default\+\_\+config}}\label{classcore_1_1xen_1_1xenconfig_1_1_xen_config_manager_ab85a31523cb44b759df43377a7d98db4}
+
+\item 
+\hypertarget{classcore_1_1xen_1_1xenconfig_1_1_xen_config_manager_a083b06e3dc3acd66478b7e6c0e0a1625}{{\bfseries configfile}}\label{classcore_1_1xen_1_1xenconfig_1_1_xen_config_manager_a083b06e3dc3acd66478b7e6c0e0a1625}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\begin{DoxyVerb}Xen controller object. Lives in a Session instance and is used for
+    building Xen profiles.
+\end{DoxyVerb}
+ 
+
+\subsection{Member Function Documentation}
+\hypertarget{classcore_1_1xen_1_1xenconfig_1_1_xen_config_manager_ae4d8b056c0d497179523a962c556fa04}{\index{core\+::xen\+::xenconfig\+::\+Xen\+Config\+Manager@{core\+::xen\+::xenconfig\+::\+Xen\+Config\+Manager}!clearconfig@{clearconfig}}
+\index{clearconfig@{clearconfig}!core\+::xen\+::xenconfig\+::\+Xen\+Config\+Manager@{core\+::xen\+::xenconfig\+::\+Xen\+Config\+Manager}}
+\subsubsection[{clearconfig}]{\setlength{\rightskip}{0pt plus 5cm}def core.\+xen.\+xenconfig.\+Xen\+Config\+Manager.\+clearconfig (
+\begin{DoxyParamCaption}
+\item[{}]{self, }
+\item[{}]{nodenum}
+\end{DoxyParamCaption}
+)}}\label{classcore_1_1xen_1_1xenconfig_1_1_xen_config_manager_ae4d8b056c0d497179523a962c556fa04}
+\begin{DoxyVerb}remove configuration values for a node
+\end{DoxyVerb}
+ \hypertarget{classcore_1_1xen_1_1xenconfig_1_1_xen_config_manager_a3a7cce4290b4c260e7599d471a7154c5}{\index{core\+::xen\+::xenconfig\+::\+Xen\+Config\+Manager@{core\+::xen\+::xenconfig\+::\+Xen\+Config\+Manager}!configure@{configure}}
+\index{configure@{configure}!core\+::xen\+::xenconfig\+::\+Xen\+Config\+Manager@{core\+::xen\+::xenconfig\+::\+Xen\+Config\+Manager}}
+\subsubsection[{configure}]{\setlength{\rightskip}{0pt plus 5cm}def core.\+xen.\+xenconfig.\+Xen\+Config\+Manager.\+configure (
+\begin{DoxyParamCaption}
+\item[{}]{self, }
+\item[{}]{session, }
+\item[{}]{msg}
+\end{DoxyParamCaption}
+)}}\label{classcore_1_1xen_1_1xenconfig_1_1_xen_config_manager_a3a7cce4290b4c260e7599d471a7154c5}
+\begin{DoxyVerb}Handle configuration messages for global Xen config.
+\end{DoxyVerb}
+ \hypertarget{classcore_1_1xen_1_1xenconfig_1_1_xen_config_manager_a6fe2717d47ddb4c1292e0d4ba9f8c168}{\index{core\+::xen\+::xenconfig\+::\+Xen\+Config\+Manager@{core\+::xen\+::xenconfig\+::\+Xen\+Config\+Manager}!getconfig@{getconfig}}
+\index{getconfig@{getconfig}!core\+::xen\+::xenconfig\+::\+Xen\+Config\+Manager@{core\+::xen\+::xenconfig\+::\+Xen\+Config\+Manager}}
+\subsubsection[{getconfig}]{\setlength{\rightskip}{0pt plus 5cm}def core.\+xen.\+xenconfig.\+Xen\+Config\+Manager.\+getconfig (
+\begin{DoxyParamCaption}
+\item[{}]{self, }
+\item[{}]{nodenum, }
+\item[{}]{conftype, }
+\item[{}]{defaultvalues}
+\end{DoxyParamCaption}
+)}}\label{classcore_1_1xen_1_1xenconfig_1_1_xen_config_manager_a6fe2717d47ddb4c1292e0d4ba9f8c168}
+\begin{DoxyVerb}get configuration values for a node; if the values don't exist in
+    our dictionary then return the default values supplied; if conftype
+    is None then we return a match on any conftype.
+\end{DoxyVerb}
+ \hypertarget{classcore_1_1xen_1_1xenconfig_1_1_xen_config_manager_aff0ab925afcb50c244a0f20e736dd967}{\index{core\+::xen\+::xenconfig\+::\+Xen\+Config\+Manager@{core\+::xen\+::xenconfig\+::\+Xen\+Config\+Manager}!getconfigitem@{getconfigitem}}
+\index{getconfigitem@{getconfigitem}!core\+::xen\+::xenconfig\+::\+Xen\+Config\+Manager@{core\+::xen\+::xenconfig\+::\+Xen\+Config\+Manager}}
+\subsubsection[{getconfigitem}]{\setlength{\rightskip}{0pt plus 5cm}def core.\+xen.\+xenconfig.\+Xen\+Config\+Manager.\+getconfigitem (
+\begin{DoxyParamCaption}
+\item[{}]{self, }
+\item[{}]{name, }
+\item[{}]{model = {\ttfamily None}, }
+\item[{}]{node = {\ttfamily None}, }
+\item[{}]{value = {\ttfamily None}}
+\end{DoxyParamCaption}
+)}}\label{classcore_1_1xen_1_1xenconfig_1_1_xen_config_manager_aff0ab925afcb50c244a0f20e736dd967}
+\begin{DoxyVerb}Get a config item of the given name, first looking for node-specific
+    configuration, then model specific, and finally global defaults.
+    If a value is supplied, it will override any stored config.
+\end{DoxyVerb}
+ \hypertarget{classcore_1_1xen_1_1xenconfig_1_1_xen_config_manager_a115b272d129e3693b2ce26596a604065}{\index{core\+::xen\+::xenconfig\+::\+Xen\+Config\+Manager@{core\+::xen\+::xenconfig\+::\+Xen\+Config\+Manager}!loadconfigfile@{loadconfigfile}}
+\index{loadconfigfile@{loadconfigfile}!core\+::xen\+::xenconfig\+::\+Xen\+Config\+Manager@{core\+::xen\+::xenconfig\+::\+Xen\+Config\+Manager}}
+\subsubsection[{loadconfigfile}]{\setlength{\rightskip}{0pt plus 5cm}def core.\+xen.\+xenconfig.\+Xen\+Config\+Manager.\+loadconfigfile (
+\begin{DoxyParamCaption}
+\item[{}]{self, }
+\item[{}]{filename = {\ttfamily None}}
+\end{DoxyParamCaption}
+)}}\label{classcore_1_1xen_1_1xenconfig_1_1_xen_config_manager_a115b272d129e3693b2ce26596a604065}
+\begin{DoxyVerb}Load defaults from the /etc/core/xen.conf file into dict object.
+\end{DoxyVerb}
+ \hypertarget{classcore_1_1xen_1_1xenconfig_1_1_xen_config_manager_a46ef1e19bf0385a95ccb1d9525b2245a}{\index{core\+::xen\+::xenconfig\+::\+Xen\+Config\+Manager@{core\+::xen\+::xenconfig\+::\+Xen\+Config\+Manager}!setconfig@{setconfig}}
+\index{setconfig@{setconfig}!core\+::xen\+::xenconfig\+::\+Xen\+Config\+Manager@{core\+::xen\+::xenconfig\+::\+Xen\+Config\+Manager}}
+\subsubsection[{setconfig}]{\setlength{\rightskip}{0pt plus 5cm}def core.\+xen.\+xenconfig.\+Xen\+Config\+Manager.\+setconfig (
+\begin{DoxyParamCaption}
+\item[{}]{self, }
+\item[{}]{nodenum, }
+\item[{}]{conftype, }
+\item[{}]{values}
+\end{DoxyParamCaption}
+)}}\label{classcore_1_1xen_1_1xenconfig_1_1_xen_config_manager_a46ef1e19bf0385a95ccb1d9525b2245a}
+\begin{DoxyVerb}add configuration values for a node to a dictionary; values are
+    usually received from a Configuration Message, and may refer to a
+    node for which no object exists yet
+\end{DoxyVerb}
+ 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+daemon/core/xen/xenconfig.\+py\end{DoxyCompactItemize}

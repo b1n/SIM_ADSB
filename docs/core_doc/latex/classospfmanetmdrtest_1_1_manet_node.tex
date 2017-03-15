@@ -1,0 +1,82 @@
+\hypertarget{classospfmanetmdrtest_1_1_manet_node}{\section{ospfmanetmdrtest.\+Manet\+Node Class Reference}
+\label{classospfmanetmdrtest_1_1_manet_node}\index{ospfmanetmdrtest.\+Manet\+Node@{ospfmanetmdrtest.\+Manet\+Node}}
+}
+
+
+Inheritance diagram for ospfmanetmdrtest.\+Manet\+Node\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=229pt]{classospfmanetmdrtest_1_1_manet_node__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for ospfmanetmdrtest.\+Manet\+Node\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=266pt]{classospfmanetmdrtest_1_1_manet_node__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classospfmanetmdrtest_1_1_manet_node_adf024ddf66ce834043b1b903b1cf90f2}{def {\bfseries \+\_\+\+\_\+init\+\_\+\+\_\+}}\label{classospfmanetmdrtest_1_1_manet_node_adf024ddf66ce834043b1b903b1cf90f2}
+
+\item 
+\hypertarget{classospfmanetmdrtest_1_1_manet_node_a64ef48afb0f74729656c06925f3923ec}{def {\bfseries qconf}}\label{classospfmanetmdrtest_1_1_manet_node_a64ef48afb0f74729656c06925f3923ec}
+
+\item 
+\hypertarget{classospfmanetmdrtest_1_1_manet_node_a507c62c33e58bf307a8695cdfe2a0c8e}{def {\bfseries config}}\label{classospfmanetmdrtest_1_1_manet_node_a507c62c33e58bf307a8695cdfe2a0c8e}
+
+\item 
+\hypertarget{classospfmanetmdrtest_1_1_manet_node_ab5f3d2da28a096cb5ece35852f18f5da}{def {\bfseries boot}}\label{classospfmanetmdrtest_1_1_manet_node_ab5f3d2da28a096cb5ece35852f18f5da}
+
+\item 
+\hypertarget{classospfmanetmdrtest_1_1_manet_node_a925e025c2647c97032ebfc4909ce0d49}{def {\bfseries bootscript}}\label{classospfmanetmdrtest_1_1_manet_node_a925e025c2647c97032ebfc4909ce0d49}
+
+\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classospfmanetmdrtest_1_1_manet_node_a359c59db09f405cdbcc64d9b5ef5436b}{{\bfseries ipaddr}}\label{classospfmanetmdrtest_1_1_manet_node_a359c59db09f405cdbcc64d9b5ef5436b}
+
+\item 
+\hypertarget{classospfmanetmdrtest_1_1_manet_node_a17db32fd0c394bb83579f77d71212ac6}{{\bfseries routerid}}\label{classospfmanetmdrtest_1_1_manet_node_a17db32fd0c394bb83579f77d71212ac6}
+
+\end{DoxyCompactItemize}
+\subsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+tuple {\bfseries conftemp}
+\item 
+\hypertarget{classospfmanetmdrtest_1_1_manet_node_aff4e7957b3b691bfee463cd28fc8df4c}{string {\bfseries confdir} = \char`\"{}/usr/local/etc/quagga\char`\"{}}\label{classospfmanetmdrtest_1_1_manet_node_aff4e7957b3b691bfee463cd28fc8df4c}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\begin{DoxyVerb}An Lxc namespace node configured for Quagga OSPFv3 MANET MDR
+\end{DoxyVerb}
+ 
+
+\subsection{Member Data Documentation}
+\hypertarget{classospfmanetmdrtest_1_1_manet_node_af3fd22631b3d8ead032634c249c79e37}{\index{ospfmanetmdrtest\+::\+Manet\+Node@{ospfmanetmdrtest\+::\+Manet\+Node}!conftemp@{conftemp}}
+\index{conftemp@{conftemp}!ospfmanetmdrtest\+::\+Manet\+Node@{ospfmanetmdrtest\+::\+Manet\+Node}}
+\subsubsection[{conftemp}]{\setlength{\rightskip}{0pt plus 5cm}tuple ospfmanetmdrtest.\+Manet\+Node.\+conftemp\hspace{0.3cm}{\ttfamily [static]}}}\label{classospfmanetmdrtest_1_1_manet_node_af3fd22631b3d8ead032634c249c79e37}
+{\bfseries Initial value\+:}
+\begin{DoxyCode}
+1 = Template(\textcolor{stringliteral}{"""\(\backslash\)}
+2 \textcolor{stringliteral}{interface eth0  ip address $ipaddr  ipv6 ospf6 instance-id 65  ipv6 ospf6 hello-interval 2  ipv6 ospf6
+       dead-interval 6  ipv6 ospf6 retransmit-interval 5  ipv6 ospf6 network manet-designated-router  ipv6 ospf6
+       diffhellos  ipv6 ospf6 adjacencyconnectivity biconnected  ipv6 ospf6 lsafullness mincostlsa!router ospf6 
+       router-id $routerid  interface eth0 area 0.0.0.0!ip forwarding"""})
+\end{DoxyCode}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+daemon/examples/netns/ospfmanetmdrtest.\+py\end{DoxyCompactItemize}

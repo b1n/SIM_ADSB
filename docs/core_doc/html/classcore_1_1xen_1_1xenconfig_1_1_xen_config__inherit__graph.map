@@ -1,0 +1,4 @@
+<map id="core.xen.xenconfig.XenConfig" name="core.xen.xenconfig.XenConfig">
+<area shape="rect" id="node4" href="$classcore_1_1xen_1_1xenconfig_1_1_xen_default_config.html" title="{core.xen.xenconfig.XenDefault\lConfig\n||}" alt="" coords="5,572,207,664"/>
+<area shape="rect" id="node2" href="$classcore_1_1conf_1_1_configurable.html" title="{core.conf.Configurable\n|+ session\l+ objid\l|+ __init__()\l+ reset()\l+ register()\l+ getdefaultvalues()\l+ getnames()\l+ configure()\l+ toconfmsg()\l+ valueof()\l+ getkeyvaluelist()\l+ booltooffon()\l+ offontobool()\l+ haskeyvalues()\l}" alt="" coords="29,131,183,384"/>
+</map>

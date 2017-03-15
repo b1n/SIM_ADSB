@@ -1,0 +1,11 @@
+<map id="core.bsd.vnet.NetgraphNet" name="core.bsd.vnet.NetgraphNet">
+<area shape="rect" id="node5" href="$classcore_1_1bsd_1_1nodes_1_1_hub_node.html" title="{core.bsd.nodes.HubNode\n|+ ngtype\l+ nghooks\l+ apitype\l+ policy\l|}" alt="" coords="5,1174,176,1295"/>
+<area shape="rect" id="node6" href="$classcore_1_1bsd_1_1nodes_1_1_switch_node.html" title="{core.bsd.nodes.SwitchNode\n|+ ngtype\l+ nghooks\l+ apitype\l+ policy\l|}" alt="" coords="200,1174,387,1295"/>
+<area shape="rect" id="node7" href="$classcore_1_1bsd_1_1nodes_1_1_tunnel_node.html" title="{core.bsd.nodes.TunnelNode\n|+ ngtype\l+ nghooks\l+ apitype\l+ policy\l|}" alt="" coords="411,1174,597,1295"/>
+<area shape="rect" id="node8" href="$classcore_1_1bsd_1_1nodes_1_1_wlan_node.html" title="{core.bsd.nodes.WlanNode\n|+ model\l+ mobility\l+ ngtype\l+ nghooks\l+ apitype\l+ linktype\l+ policy\l|+ __init__()\l+ attach()\l+ setmodel()\l}" alt="" coords="621,1137,797,1332"/>
+<area shape="rect" id="node9" href="$classcore_1_1bsd_1_1vnet_1_1_netgraph_pipe_net.html" title="{core.bsd.vnet.NetgraphPipeNet\n|+ ngtype\l+ nghooks\l|+ __init__()\l+ attach()\l+ attachnet()\l+ gethook()\l+ linkconfig()\l}" alt="" coords="821,1159,1027,1310"/>
+<area shape="rect" id="node2" href="$classcore_1_1coreobj_1_1_py_core_net.html" title="{core.coreobj.PyCoreNet\n|+ linktype\l|+ __init__()\l+ attach()\l+ detach()\l+ netifparamstolink()\l+ tolinkmsgs()\l}" alt="" coords="423,593,585,729"/>
+<area shape="rect" id="node3" href="$classcore_1_1coreobj_1_1_py_core_obj.html" title="{core.coreobj.PyCoreObj\n|+ session\l+ objid\l+ name\l+ ifindex\l+ canvas\l+ icon\l+ opaque\l+ verbose\l+ position\l+ apitype\l|+ __init__()\l+ startup()\l+ shutdown()\l+ setposition()\l+ getposition()\l+ ifname()\l+ netifs()\l+ numnetif()\l+ getifindex()\l+ newifindex()\l+ tonodemsg()\l+ tolinkmsgs()\l+ info()\l+ warn()\l+ exception()\l}" alt="" coords="423,131,585,545"/>
+<area shape="rect" id="node10" href="$classcore_1_1bsd_1_1nodes_1_1_ptp_net.html" title="{core.bsd.nodes.PtpNet\n||+ tonodemsg()\l+ tolinkmsgs()\l}" alt="" coords="751,1402,907,1494"/>
+<area shape="rect" id="node11" href="$classcore_1_1bsd_1_1nodes_1_1_r_j45_node.html" title="{core.bsd.nodes.RJ45Node\n|+ apitype\l+ policy\l|+ __init__()\l+ shutdown()\l+ setpromisc()\l+ attach()\l}" alt="" coords="931,1380,1109,1516"/>
+</map>

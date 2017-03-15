@@ -1,0 +1,82 @@
+\hypertarget{classcore_1_1services_1_1xorp_1_1_xorp_rtrmgr}{\section{core.\+services.\+xorp.\+Xorp\+Rtrmgr Class Reference}
+\label{classcore_1_1services_1_1xorp_1_1_xorp_rtrmgr}\index{core.\+services.\+xorp.\+Xorp\+Rtrmgr@{core.\+services.\+xorp.\+Xorp\+Rtrmgr}}
+}
+
+
+Inheritance diagram for core.\+services.\+xorp.\+Xorp\+Rtrmgr\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=230pt]{classcore_1_1services_1_1xorp_1_1_xorp_rtrmgr__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for core.\+services.\+xorp.\+Xorp\+Rtrmgr\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=230pt]{classcore_1_1services_1_1xorp_1_1_xorp_rtrmgr__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+def \hyperlink{classcore_1_1services_1_1xorp_1_1_xorp_rtrmgr_ae8c6a221f473f6ac628bc936e4fabaff}{generateconfig}
+\end{DoxyCompactItemize}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+def \hyperlink{classcore_1_1services_1_1xorp_1_1_xorp_rtrmgr_aa5b2d8a1109c16130b0ca5d1d8630bc3}{addrstr}
+\item 
+def \hyperlink{classcore_1_1services_1_1xorp_1_1_xorp_rtrmgr_add501cba2ef69467aa5c893fa07dee23}{lladdrstr}
+\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Detailed Description}
+\begin{DoxyVerb}XORP router manager service builds a config.boot file based on other 
+enabled XORP services, and launches necessary daemons upon startup.
+\end{DoxyVerb}
+ 
+
+\subsection{Member Function Documentation}
+\hypertarget{classcore_1_1services_1_1xorp_1_1_xorp_rtrmgr_aa5b2d8a1109c16130b0ca5d1d8630bc3}{\index{core\+::services\+::xorp\+::\+Xorp\+Rtrmgr@{core\+::services\+::xorp\+::\+Xorp\+Rtrmgr}!addrstr@{addrstr}}
+\index{addrstr@{addrstr}!core\+::services\+::xorp\+::\+Xorp\+Rtrmgr@{core\+::services\+::xorp\+::\+Xorp\+Rtrmgr}}
+\subsubsection[{addrstr}]{\setlength{\rightskip}{0pt plus 5cm}def core.\+services.\+xorp.\+Xorp\+Rtrmgr.\+addrstr (
+\begin{DoxyParamCaption}
+\item[{}]{x}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{classcore_1_1services_1_1xorp_1_1_xorp_rtrmgr_aa5b2d8a1109c16130b0ca5d1d8630bc3}
+\begin{DoxyVerb}helper for mapping IP addresses to XORP config statements
+\end{DoxyVerb}
+ \hypertarget{classcore_1_1services_1_1xorp_1_1_xorp_rtrmgr_ae8c6a221f473f6ac628bc936e4fabaff}{\index{core\+::services\+::xorp\+::\+Xorp\+Rtrmgr@{core\+::services\+::xorp\+::\+Xorp\+Rtrmgr}!generateconfig@{generateconfig}}
+\index{generateconfig@{generateconfig}!core\+::services\+::xorp\+::\+Xorp\+Rtrmgr@{core\+::services\+::xorp\+::\+Xorp\+Rtrmgr}}
+\subsubsection[{generateconfig}]{\setlength{\rightskip}{0pt plus 5cm}def core.\+services.\+xorp.\+Xorp\+Rtrmgr.\+generateconfig (
+\begin{DoxyParamCaption}
+\item[{}]{cls, }
+\item[{}]{node, }
+\item[{}]{filename, }
+\item[{}]{services}
+\end{DoxyParamCaption}
+)}}\label{classcore_1_1services_1_1xorp_1_1_xorp_rtrmgr_ae8c6a221f473f6ac628bc936e4fabaff}
+\begin{DoxyVerb}Returns config.boot configuration file text. Other services that 
+depend on this will have generatexorpconfig() hooks that are 
+invoked here. Filename currently ignored.
+\end{DoxyVerb}
+ \hypertarget{classcore_1_1services_1_1xorp_1_1_xorp_rtrmgr_add501cba2ef69467aa5c893fa07dee23}{\index{core\+::services\+::xorp\+::\+Xorp\+Rtrmgr@{core\+::services\+::xorp\+::\+Xorp\+Rtrmgr}!lladdrstr@{lladdrstr}}
+\index{lladdrstr@{lladdrstr}!core\+::services\+::xorp\+::\+Xorp\+Rtrmgr@{core\+::services\+::xorp\+::\+Xorp\+Rtrmgr}}
+\subsubsection[{lladdrstr}]{\setlength{\rightskip}{0pt plus 5cm}def core.\+services.\+xorp.\+Xorp\+Rtrmgr.\+lladdrstr (
+\begin{DoxyParamCaption}
+\item[{}]{ifc}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{classcore_1_1services_1_1xorp_1_1_xorp_rtrmgr_add501cba2ef69467aa5c893fa07dee23}
+\begin{DoxyVerb}helper for adding link-local address entries (required by OSPFv3)
+\end{DoxyVerb}
+ 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+daemon/core/services/xorp.\+py\end{DoxyCompactItemize}

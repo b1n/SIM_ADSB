@@ -1,0 +1,5 @@
+<map id="core.emane.nodes.EmaneNet" name="core.emane.nodes.EmaneNet">
+<area shape="rect" id="node5" href="$classcore_1_1emane_1_1nodes_1_1_emane_node.html" title="{core.emane.nodes.EmaneNode\n|+ verbose\l+ conf\l+ up\l+ nemidmap\l+ model\l+ mobility\l|+ __init__()\l+ linkconfig()\l+ config()\l+ shutdown()\l+ link()\l+ unlink()\l+ setmodel()\l+ setnemid()\l+ getnemid()\l+ getnemnetif()\land 9 more...\l}" alt="" coords="5,932,211,1229"/>
+<area shape="rect" id="node2" href="$classcore_1_1coreobj_1_1_py_core_net.html" title="{core.coreobj.PyCoreNet\n|+ linktype\l|+ __init__()\l+ attach()\l+ detach()\l+ netifparamstolink()\l+ tolinkmsgs()\l}" alt="" coords="27,593,189,729"/>
+<area shape="rect" id="node3" href="$classcore_1_1coreobj_1_1_py_core_obj.html" title="{core.coreobj.PyCoreObj\n|+ session\l+ objid\l+ name\l+ ifindex\l+ canvas\l+ icon\l+ opaque\l+ verbose\l+ position\l+ apitype\l|+ __init__()\l+ startup()\l+ shutdown()\l+ setposition()\l+ getposition()\l+ ifname()\l+ netifs()\l+ numnetif()\l+ getifindex()\l+ newifindex()\l+ tonodemsg()\l+ tolinkmsgs()\l+ info()\l+ warn()\l+ exception()\l}" alt="" coords="27,131,189,545"/>
+</map>

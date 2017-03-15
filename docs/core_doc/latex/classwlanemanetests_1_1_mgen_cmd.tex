@@ -1,0 +1,102 @@
+\hypertarget{classwlanemanetests_1_1_mgen_cmd}{\section{wlanemanetests.\+Mgen\+Cmd Class Reference}
+\label{classwlanemanetests_1_1_mgen_cmd}\index{wlanemanetests.\+Mgen\+Cmd@{wlanemanetests.\+Mgen\+Cmd}}
+}
+
+
+Inheritance diagram for wlanemanetests.\+Mgen\+Cmd\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=550pt]{classwlanemanetests_1_1_mgen_cmd__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for wlanemanetests.\+Mgen\+Cmd\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=550pt]{classwlanemanetests_1_1_mgen_cmd__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classwlanemanetests_1_1_mgen_cmd_a3e08ce229035355398636fd519cc4331}{def {\bfseries \+\_\+\+\_\+init\+\_\+\+\_\+}}\label{classwlanemanetests_1_1_mgen_cmd_a3e08ce229035355398636fd519cc4331}
+
+\item 
+\hypertarget{classwlanemanetests_1_1_mgen_cmd_ad1d9ba29c14b3f144a0d39db1e404b28}{def {\bfseries run}}\label{classwlanemanetests_1_1_mgen_cmd_ad1d9ba29c14b3f144a0d39db1e404b28}
+
+\item 
+def \hyperlink{classwlanemanetests_1_1_mgen_cmd_a94c8bc9e81749530e60439d0b8e09fc9}{cleanup}
+\item 
+def \hyperlink{classwlanemanetests_1_1_mgen_cmd_a1062fbfdddec8943279d706e000e55a5}{parse}
+\end{DoxyCompactItemize}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+def \hyperlink{classwlanemanetests_1_1_mgen_cmd_a97cd2459725a138997d81bd8e9e2c325}{mgenrate}
+\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classwlanemanetests_1_1_mgen_cmd_a40ee74b38b88126d4b1a814f16ed9b07}{{\bfseries addr}}\label{classwlanemanetests_1_1_mgen_cmd_a40ee74b38b88126d4b1a814f16ed9b07}
+
+\item 
+\hypertarget{classwlanemanetests_1_1_mgen_cmd_ac889a1cff7e2c523f226c931b8bc1d5e}{{\bfseries time}}\label{classwlanemanetests_1_1_mgen_cmd_ac889a1cff7e2c523f226c931b8bc1d5e}
+
+\item 
+\hypertarget{classwlanemanetests_1_1_mgen_cmd_a6f885965601c033ba126bda091461c21}{{\bfseries args}}\label{classwlanemanetests_1_1_mgen_cmd_a6f885965601c033ba126bda091461c21}
+
+\item 
+\hypertarget{classwlanemanetests_1_1_mgen_cmd_aac919e7dda28b2dcf1f0aae39f3dbce4}{{\bfseries rate}}\label{classwlanemanetests_1_1_mgen_cmd_aac919e7dda28b2dcf1f0aae39f3dbce4}
+
+\item 
+\hypertarget{classwlanemanetests_1_1_mgen_cmd_af6307bc557d03a7fb5f555a21ed8aef1}{{\bfseries client\+\_\+args}}\label{classwlanemanetests_1_1_mgen_cmd_af6307bc557d03a7fb5f555a21ed8aef1}
+
+\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Detailed Description}
+\begin{DoxyVerb}Run a test traffic flow using an MGEN sender and receiver.
+\end{DoxyVerb}
+ 
+
+\subsection{Member Function Documentation}
+\hypertarget{classwlanemanetests_1_1_mgen_cmd_a94c8bc9e81749530e60439d0b8e09fc9}{\index{wlanemanetests\+::\+Mgen\+Cmd@{wlanemanetests\+::\+Mgen\+Cmd}!cleanup@{cleanup}}
+\index{cleanup@{cleanup}!wlanemanetests\+::\+Mgen\+Cmd@{wlanemanetests\+::\+Mgen\+Cmd}}
+\subsubsection[{cleanup}]{\setlength{\rightskip}{0pt plus 5cm}def wlanemanetests.\+Mgen\+Cmd.\+cleanup (
+\begin{DoxyParamCaption}
+\item[{}]{self}
+\end{DoxyParamCaption}
+)}}\label{classwlanemanetests_1_1_mgen_cmd_a94c8bc9e81749530e60439d0b8e09fc9}
+\begin{DoxyVerb}Close the Popen channels.\end{DoxyVerb}
+ \hypertarget{classwlanemanetests_1_1_mgen_cmd_a97cd2459725a138997d81bd8e9e2c325}{\index{wlanemanetests\+::\+Mgen\+Cmd@{wlanemanetests\+::\+Mgen\+Cmd}!mgenrate@{mgenrate}}
+\index{mgenrate@{mgenrate}!wlanemanetests\+::\+Mgen\+Cmd@{wlanemanetests\+::\+Mgen\+Cmd}}
+\subsubsection[{mgenrate}]{\setlength{\rightskip}{0pt plus 5cm}def wlanemanetests.\+Mgen\+Cmd.\+mgenrate (
+\begin{DoxyParamCaption}
+\item[{}]{kbps}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{classwlanemanetests_1_1_mgen_cmd_a97cd2459725a138997d81bd8e9e2c325}
+\begin{DoxyVerb}Return a MGEN periodic rate string for the given kilobits-per-sec.
+    Assume 1500 byte MTU, 20-byte IP + 8-byte UDP headers, leaving
+    1472 bytes for data.
+\end{DoxyVerb}
+ \hypertarget{classwlanemanetests_1_1_mgen_cmd_a1062fbfdddec8943279d706e000e55a5}{\index{wlanemanetests\+::\+Mgen\+Cmd@{wlanemanetests\+::\+Mgen\+Cmd}!parse@{parse}}
+\index{parse@{parse}!wlanemanetests\+::\+Mgen\+Cmd@{wlanemanetests\+::\+Mgen\+Cmd}}
+\subsubsection[{parse}]{\setlength{\rightskip}{0pt plus 5cm}def wlanemanetests.\+Mgen\+Cmd.\+parse (
+\begin{DoxyParamCaption}
+\item[{}]{self}
+\end{DoxyParamCaption}
+)}}\label{classwlanemanetests_1_1_mgen_cmd_a1062fbfdddec8943279d706e000e55a5}
+\begin{DoxyVerb}Check MGEN receiver's log file for packet sequence numbers, and
+    return the percentage of lost packets.
+\end{DoxyVerb}
+ 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+daemon/examples/netns/wlanemanetests.\+py\end{DoxyCompactItemize}
